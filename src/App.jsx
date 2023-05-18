@@ -6,14 +6,17 @@ import Blog from './pages/blog';
 import Contact from './pages/contact';
 import Members from './pages/members';
 import Register from './pages/register';
+import Footer from './components/Footer';
+// import Header from './components/Header';
 
 function App() {
 
   return (
     <>
       <BrowserRouter>
+        {/* <Header /> */}
         <Routes>
-          <Route path="/" element={ <Home /> } />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
@@ -21,6 +24,7 @@ function App() {
           <Route path="/register" element={<Register />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </>
   )
 }
