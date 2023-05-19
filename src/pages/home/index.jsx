@@ -28,7 +28,12 @@ const Home = () => {
                 <div className="w-1/2">
                     <img src={people} alt="" />
                 </div>
-           </div>
+            </div>
+        </div>
+
+        <div className={`bg-hero bg-no-repeat bg-center bg-cover h-[513px] font-montserrat font-[700] text-center flex justify-center items-center pt-30 px-[270px] text-white flex-col`}>
+            <h1 className='text-[30px]'>We champion policies, drive collaboration, innovation, employability and entrepreneurship through hubs.</h1>
+            <button className="px-5 py-2 border-white border-2 text-white mt-16 ml-16 font-[700]">Become a Partner</button>
         </div>
     </div>);
 }
