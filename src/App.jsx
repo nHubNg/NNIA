@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 function App() {
 
   return (
-    <>
+    <div className='bg-background'>
       <BrowserRouter>
         {/* <Header /> */}
         <Routes>
@@ -25,7 +25,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Footer />
-    </>
+    </div>
   )
 }
 

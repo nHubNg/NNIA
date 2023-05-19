@@ -27,7 +27,7 @@ const Footer = () => {
                     <p className='opacity-75 pt-[15px]'>123 Main Street off the unknown <br /> houses, Jos, Nigeria</p>
                 </div>
                 <div className='w-[310px] h-[240px] bg-footerBackground pt-[30px] px-[25px] text-white text-[14px]'>
-                    <p className='opacity-75'>Subscribe to Our Email</p>
+                    <p className='opacity-75'>Subscribe to Our Email List</p>
                     <div className='flex items-center py-[20px]'>
                         <input type='email' placeholder='Email Address' className='h-[44px] rounded-l-[6px] px-3 w-[185px] outline-none text-black' />
                         <div className='bg-twitterBlue h-[44px] flex justify-center items-center px-[14px] rounded-r-[6px]'><img src={path} alt='' /></div>
