@@ -47,7 +47,7 @@ const Home = () => {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget tortor ac elit condimentum iaculis. Maecenas sit amet nisl et felis posuere vestibulum. Sed tincidunt elit sed ipsum commodo convallis. Curabitur rutrum, massa sed feugiat pharetra, augue dolor fringilla mi, vel efficitur odio ligula nec ex. Nullam quis urna ligula. Integer non nunc felis. Praesent quis elit vel leo consequat consequat. Mauris interdum malesuada leo vel consectetur. Curabitur sodales, libero nec scelerisque varius, odio dui eleifend odio, nec commodo purus nisi nec nunc. Mauris at mauris in enim tristique aliquet.
                     </p>
 
-                    <button className="px-5 py-2 border-twitterBlue border-2 text-twitterBlue mt-16 ml-16 font-[700]
+                    <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue mt-16 ml-16 font-[700] rounded
                     ">See More</button>
                 </div>
                 <div className="w-1/2">
@@ -68,8 +68,8 @@ const Home = () => {
                         delay: 2000,
                         disableOnInteraction: false,
                     }}
-                    // pagination={{ clickable: true }}
-                    // scrollbar={{ draggable: true }}
+                // pagination={{ clickable: true }}
+                // scrollbar={{ draggable: true }}
                 >
                     <SwiperSlide>
                         <div className="flex justify-center items-center flex-col bg-white h-[280px] rounded gap-10">
@@ -107,24 +107,24 @@ const Home = () => {
 
         <div className={`bg-hero bg-no-repeat bg-center bg-cover h-[513px] font-montserrat font-[700] text-center flex justify-center items-center pt-30 mb-16 px-[270px] text-white flex-col`}>
             <h1 className='text-[30px]'>We champion policies, drive collaboration, innovation, employability and entrepreneurship through hubs.</h1>
-            <button className="px-5 py-2 border-white border-2 text-white mt-16 ml-16 font-[700]">Become a Partner</button>
+            <button className="px-5 py-2 rounded border-white border-[1px] text-white mt-16 ml-16 font-[700]">Become a Partner</button>
         </div>
 
 
-        <div className="h-[750px] bg-twitterBlue p-10 flex">
+        <div className="h-[750px] bg-twitterBlue p-8 flex gap-16">
             <div className="w-1/2">
-                <p className="text-[30px] font-[700] text-center flex justify-center items-center">Meet our community</p>
-                <div>
-                    <div className="text-center flex justify-center items-center pt-30 px-32 text-white text-[50px]"><p>We are a <span className="font-[700]">459 Member</span> Hubs in 100 Cities & still growing!</p></div>
+                <p className="text-[30px] font-[700] flex justify-center text-white h-[10%] text-start">Meet our community</p>
+                <div className="flex justify-center items-center flex-col border-white border-[1px] rounded h-[90%]">
+                    <div className="text-center flex justify-center items-center pt-30 px-28 text-white text-[50px]"><p>We are a <span className="font-[700]">459 Member</span> Hubs in 100 Cities & still growing!</p></div>
                     <div>
-                        <button className="px-5 py-2 border-white border-2 text-white mt-16 ml-16 font-[700]">Become a Partner</button>
+                        <button className="mt-5 px-5 py-2 border-white border-[1px] text-white font-[700] rounded">See Our Members</button>
                     </div>
                 </div>
-             </div>
+            </div>
 
-                <div className="w-1/2">
-                   <img src={person} alt="" />
-                </div>
+            <div className="w-1/2">
+                <img src={person} alt="" />
+            </div>
 
         </div>
     </div>);
