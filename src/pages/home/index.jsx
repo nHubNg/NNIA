@@ -12,6 +12,7 @@ import innovation from '../../assets/innovation.png'
 import technology from '../../assets/technology.png'
 import enterpreneur from '../../assets/enterpreneur.png'
 import education from '../../assets/education.png'
+import woman from '../../assets/woman.png'
 
 import Specialty from "./component/specialty";
 
@@ -150,6 +151,22 @@ const Home = () => {
 
             <div className="flex justify-center items-center">
                 <p className="font-[700] text-[28px] border-b-[5px] border-twitterBlue">OUR AREA <br /> OF SPECIALTY</p>
+            </div>
+        </div>
+
+        <div className="flex justify-between px-10 gap-20 pb-20">
+            <div className="w-1/2"> 
+                <h1 className="text-[26px] border-b-[5px] border-twitterBlue mb-28 w-fit">Our <span className="font-[700]">Capacity <br /> Building</span> Programme</h1>
+
+                <div>
+                    <p className="text-[18px]">The AfriLabs Capacity Building Programme (ACBP) is a 36 months intensive capacity building for hubs across Africa. This programme is funded by the Digital Africa Seed Fund through the French Development Agencys support.</p>
+
+                    <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue mt-16 ml-16 font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group
+                    ">See More <img src={pathh} alt="" className="hidden group-hover:block" /></button>
+                </div>
+            </div>
+            <div className="w-1/2 ml-20 mr-20">
+                <img src={woman} alt="" />
             </div>
         </div>
     </div>);
