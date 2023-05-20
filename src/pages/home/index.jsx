@@ -8,6 +8,12 @@ import hackerspace from '../../assets/hackerspace.png'
 import startup from '../../assets/startup.png'
 import path from '../../assets/path.svg'
 import pathh from '../../assets/Path.png'
+import innovation from '../../assets/innovation.png'
+import technology from '../../assets/technology.png'
+import enterpreneur from '../../assets/enterpreneur.png'
+import education from '../../assets/education.png'
+
+import Specialty from "./component/specialty";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -127,7 +133,24 @@ const Home = () => {
             <div className="w-1/2">
                 <img src={person} alt="" />
             </div>
+        </div>
 
+        <div className="flex justify-between px-10 py-[150px]">
+            <div className="flex gap-24">
+                <div className="flex flex-col gap-10">
+                    <Specialty text='Innovation' image={innovation} textColor='white' backgroundColor='twitterBlue' />
+                    <Specialty text='Education' image={education} textColor='twitterBlue' backgroundColor='white' />
+                </div>
+
+                <div className="flex flex-col gap-10">
+                    <Specialty text='Enterpreneur' image={enterpreneur} textColor='twitterBlue' backgroundColor='white' />
+                    <Specialty text='Technology' image={technology} textColor='white' backgroundColor='twitterBlue' />
+                </div>
+            </div>
+
+            <div className="flex justify-center items-center">
+                <p className="font-[700] text-[28px] border-b-[5px] border-twitterBlue">OUR AREA <br /> OF SPECIALTY</p>
+            </div>
         </div>
     </div>);
 }
