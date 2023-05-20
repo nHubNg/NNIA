@@ -5,6 +5,7 @@ import About from './pages/about';
 import Blog from './pages/blog';
 import Contact from './pages/contact';
 import Members from './pages/members';
+import JoinUs from './pages/joinUs';
 import Register from './pages/register';
 import Footer from './components/Footer';
 // import Header from './components/Header';
@@ -22,6 +23,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/members" element={<Members />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/joinUs" element={<JoinUs />} />
+
         </Routes>
       </BrowserRouter>
       <Footer />
