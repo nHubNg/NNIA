@@ -6,6 +6,8 @@ import accelerator from '../../assets/accelerator.png'
 import makerspace from '../../assets/makerspace.png'
 import hackerspace from '../../assets/hackerspace.png'
 import startup from '../../assets/startup.png'
+import path from '../../assets/path.svg'
+import pathh from '../../assets/Path.png'
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -47,8 +49,8 @@ const Home = () => {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget tortor ac elit condimentum iaculis. Maecenas sit amet nisl et felis posuere vestibulum. Sed tincidunt elit sed ipsum commodo convallis. Curabitur rutrum, massa sed feugiat pharetra, augue dolor fringilla mi, vel efficitur odio ligula nec ex. Nullam quis urna ligula. Integer non nunc felis. Praesent quis elit vel leo consequat consequat. Mauris interdum malesuada leo vel consectetur. Curabitur sodales, libero nec scelerisque varius, odio dui eleifend odio, nec commodo purus nisi nec nunc. Mauris at mauris in enim tristique aliquet.
                     </p>
 
-                    <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue mt-16 ml-16 font-[700] rounded
-                    ">See More</button>
+                    <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue mt-16 ml-16 font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group
+                    ">See More <img src={pathh} alt="" className="hidden group-hover:block" /></button>
                 </div>
                 <div className="w-1/2">
                     <img src={people} alt="" />
@@ -72,31 +74,31 @@ const Home = () => {
                 // scrollbar={{ draggable: true }}
                 >
                     <SwiperSlide>
-                        <div className="flex justify-center items-center flex-col bg-white h-[280px] rounded gap-10">
+                        <div className="flex justify-center items-center flex-col bg-white h-[280px] rounded-[10px] gap-10">
                             <img src={incubator} alt="" />
                             <p className="font-[700] text-[22px] text-twitterBlue">Incubators</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="flex justify-center items-center flex-col bg-white h-[280px] rounded gap-10">
+                        <div className="flex justify-center items-center flex-col bg-white h-[280px] rounded-[10px] gap-10">
                             <img src={accelerator} alt="" />
                             <p className="font-[700] text-[22px] text-twitterBlue">Accelerators</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="flex justify-center items-center flex-col bg-white h-[280px] rounded gap-10">
+                        <div className="flex justify-center items-center flex-col bg-white h-[280px] rounded-[10px] gap-10">
                             <img src={startup} alt="" />
                             <p className="font-[700] text-[22px] text-twitterBlue">Startups</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="flex justify-center items-center flex-col bg-white h-[280px] rounded gap-10">
+                        <div className="flex justify-center items-center flex-col bg-white h-[280px] rounded-[10px] gap-10">
                             <img src={makerspace} alt="" />
                             <p className="font-[700] text-[22px] text-twitterBlue">Marker Space</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="flex justify-center items-center flex-col bg-white h-[280px] rounded gap-10">
+                        <div className="flex justify-center items-center flex-col bg-white h-[280px] rounded-[10px] gap-10">
                             <img src={hackerspace} alt="" />
                             <p className="font-[700] text-[22px] text-twitterBlue">Hacker Space</p>
                         </div>
@@ -107,7 +109,7 @@ const Home = () => {
 
         <div className={`bg-hero bg-no-repeat bg-center bg-cover h-[513px] font-montserrat font-[700] text-center flex justify-center items-center pt-30 mb-16 px-[270px] text-white flex-col`}>
             <h1 className='text-[30px]'>We champion policies, drive collaboration, innovation, employability and entrepreneurship through hubs.</h1>
-            <button className="px-5 py-2 rounded border-white border-[1px] text-white mt-16 ml-16 font-[700]">Become a Partner</button>
+            <button className="px-5 py-2 rounded border-white border-[1px] text-white mt-16 ml-16 font-[700] hover:bg-twitterBlue hover:text-white flex items-center gap-3 group hover:border-twitterBlue">Become a Partner <img src={pathh} alt="" className="hidden group-hover:block" /></button>
         </div>
 
 
@@ -117,7 +119,7 @@ const Home = () => {
                 <div className="flex justify-center items-center flex-col border-white border-[1px] rounded h-[90%]">
                     <div className="text-center flex justify-center items-center pt-30 px-28 text-white text-[50px]"><p>We are a <span className="font-[700]">459 Member</span> Hubs in 100 Cities & still growing!</p></div>
                     <div>
-                        <button className="mt-5 px-5 py-2 border-white border-[1px] text-white font-[700] rounded">See Our Members</button>
+                        <button className="mt-5 px-5 py-2 border-white border-[1px] text-white font-[700] rounded hover:text-twitterBlue flex items-center gap-3 group hover:bg-white">See Our Members <img src={path} alt="" className="hidden group-hover:block text-twitterBlue fill-twitterBlue" /></button>
                     </div>
                 </div>
             </div>

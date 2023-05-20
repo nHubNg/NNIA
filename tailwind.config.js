@@ -13,9 +13,13 @@ export default {
       },
       backgroundImage: {
         hero: "url('/src/assets/bg.png')",
-      }
+      },
+    },
+    variants: {
+      extend: {
+        display: ["group-hover"],
+      },
     },
   },
   plugins: [],
 };
-
