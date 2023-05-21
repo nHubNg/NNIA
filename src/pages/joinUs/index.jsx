@@ -61,7 +61,7 @@ const JoinUs = () => {
 
           <form
             action=""
-            className="mt-[80px] mx-auto space-y-6 max-w-[850px] h-[800px] bg-white pt-[48px] pl-6"
+            className="mt-[80px] mx-auto pb-[10rem] space-y-6 max-w-[850px] bg-white pt-[48px] pl-6"
           >
             <Input
               asterisk={<span className="text-formAsterisk">*</span>}
@@ -108,10 +108,11 @@ const JoinUs = () => {
 
             <Input text="Website" type="text" name="Website" />
 
-            <div className="w-[94%] flex justify-between items-center gap-[1.4rem]">
+            <div className="w-[94%] flex justify-between items-center gap-[1.4rem] mb-[22rem]">
               <label htmlFor="" for="input" className=" w-[35ch]">
                 Self-description <br />
-                (Select all that apply)*
+                (Select all that apply)
+                <span className="text-formAsterisk">*</span>
               </label>
               <div className="mt-2">
                 <Checkbox text="Incubator" id="Incubator" name="Incubator" />
@@ -138,12 +139,17 @@ const JoinUs = () => {
                 <Checkbox text="Living Lab" id="Living-Lab" name="Living-Lab" />
                 <Checkbox text="Fab Lab" id="Fab-Lab" name="Fab-Lab" />
                 <Checkbox text="Data Lab" id="Data-Lab" name="Data-Lab" />
-                <Checkbox text="Other" id="Other" name="Other" />
-                <input type="text" />
+                <br />
+                <br />
+                <Checkbox text="Others" id="Others" name="Others" />
+                <input
+                  className="pl-2 border-b-[1px] border-gray-500 focus:outline-none"
+                  type="text"
+                />
               </div>
             </div>
 
-            <button className="ml-[7rem] mt-[21em] py-3 px-12 font-bold text-twitterBlue border-2 border-twitterBlue">
+            <button className="translate-y-8 ml-[7rem] py-3 px-12 rounded-md font-bold text-twitterBlue border-2 border-twitterBlue">
               Next
             </button>
           </form>
