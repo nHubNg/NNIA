@@ -1,12 +1,18 @@
-const Benefit = ({ img, alt, text }) => {
+import chairs from "../../../assets/chairs.jpg";
+
+const Benefit = ({ img, alt, text, pB, flexRow }) => {
   return (
     <>
-      <div className="w-[92%] mx-auto">
+      <div
+        className={`w-[95%] mx-auto flex flex-row-${flexRow} gap-[9rem] pt-[12rem] pb-${pB}`}
+      >
         <img src={img} alt={alt} />
 
-        <div>
-          <h3>{text}</h3>
-          <ul>
+        <div className="-translate-y-[4rem]">
+          <h3 className="text-twitterBlue text-[30px] font-[700] mx-[5rem]">
+            {text}
+          </h3>
+          <ul className="mt-[5rem] px-[4rem] list-disc marker:text-[13px] marker:text-gray-500 leading-10">
             <li>Access to all AfriLabs programmes and interventions.</li>
             <li>Unrestricted access to AfriPass.</li>
             <li>Unlimited access to training resources from our workshops.</li>

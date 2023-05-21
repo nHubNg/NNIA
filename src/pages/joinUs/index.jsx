@@ -1,5 +1,7 @@
 import Header from "../../components/Header";
 import Benefit from "./components/Benefit";
+import chairsPic from "../../assets/chairs.jpg";
+// import techGirl from "../../assets/techGirl.jpg";
 
 const JoinUs = () => {
   return (
@@ -23,7 +25,14 @@ const JoinUs = () => {
           </dd>
         </dl>
 
+        <Benefit
+          img={chairsPic}
+          alt="Cropped chairs"
+          text="Members’ Benefit"
+          pb="0"
+        />
         <Benefit />
+        {/* img={chairsPic} */}
       </main>
     </div>
   );
