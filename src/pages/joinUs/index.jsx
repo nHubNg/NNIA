@@ -1,5 +1,8 @@
 import Header from "../../components/Header";
 import Benefit from "./components/Benefit";
+import Input from "./components/Input";
+import Inputs from "./components/Inputs";
+import Checkbox from "./components/Checkbox";
 import chairsPic from "../../assets/chairs.jpg";
 import techGirl from "../../assets/tech-lady.jpg";
 
@@ -58,65 +61,91 @@ const JoinUs = () => {
 
           <form
             action=""
-            className="mt-[80px] max-w-[828px] h-[750px] bg-white mx-auto"
+            className="mt-[80px] mx-auto space-y-6 max-w-[850px] h-[800px] bg-white pt-[48px] pl-6"
           >
-            {/* INPUT NAME */}
-            <div>
-              <label htmlFor="">Name of Hub *</label>
-              <input type="text" />
-            </div>
+            <Input
+              asterisk={<span className="text-formAsterisk">*</span>}
+              text="Name of Hub "
+              type="text"
+              name="Hub Name"
+            />
 
-            {/* INPUT EMAIL */}
-            <div>
-              <label htmlFor="">Name of Hub *</label>
-              <input type="text" />
-            </div>
+            <Input
+              asterisk={<span className="text-formAsterisk">*</span>}
+              text="Email Address "
+              type="text"
+              name="Email Address"
+            />
 
-            {/* INPUT NUMBER */}
-            <div>
-              <label htmlFor="">Name of Hub *</label>
-              <input type="text" />
-            </div>
+            <Input
+              asterisk={<span className="text-formAsterisk">*</span>}
+              text="Phone Number "
+              type="number"
+              name="Phone Number"
+            />
 
-            {/* INPUT ADDRESS*/}
-            <div>
-              <label htmlFor="">Name of Hub *</label>
+            <Inputs
+              type="text"
+              text="Address "
+              asterisk={<span className="text-formAsterisk">*</span>}
+              $name="Address"
+              palceholder1="City"
+              palceholder2="State"
+              palceholder3="Country"
+              palceholder4="Physical Location"
+            />
 
-              <div>
-                <input type="" />
-                <input type="" />
-                <input type="" />
-                <input type="" />
-              </div>
-            </div>
+            <Inputs
+              type="text"
+              text="Handles "
+              asterisk={<span className="text-formAsterisk">*</span>}
+              $name="Social Handles"
+              palceholder1="Facebook"
+              palceholder2="Instagram"
+              palceholder3="Twitter"
+              palceholder4="LinkedIn"
+            />
 
-            {/* INPUT HANDLES*/}
-            <div>
-              <label htmlFor="">Name of Hub *</label>
+            <Input text="Website" type="text" name="Website" />
 
-              <div>
-                <input type="" />
-                <input type="" />
-                <input type="" />
-                <input type="" />
-              </div>
-            </div>
-
-            {/* INPUT WEBSITE */}
-            <div>
-              <label htmlFor="">Website</label>
-              <input type="text" />
-            </div>
-
-            {/* INPUT ABOUT */}
-            <div>
-              <label htmlFor="">
-                Self-description (Select all that apply)*
+            <div className="w-[94%] flex justify-between items-center gap-[1.4rem]">
+              <label htmlFor="" for="input" className=" w-[35ch]">
+                Self-description <br />
+                (Select all that apply)*
               </label>
-              <div></div>
+              <div className="mt-2">
+                <Checkbox text="Incubator" id="Incubator" name="Incubator" />
+                <Checkbox
+                  text="Accelerator"
+                  id="Accelerator"
+                  name="Accelerator"
+                />
+                <Checkbox
+                  text="Co-creation Space"
+                  id="Co-creation"
+                  name="Co-creation"
+                />
+                <Checkbox
+                  text="Co-working Space"
+                  id="Co-working-Space"
+                  name="Co-working-Space"
+                />
+                <Checkbox
+                  text="Innovation Centre"
+                  id="Innovation"
+                  name="Innovation-Centre"
+                />
+                <Checkbox text="Living Lab" id="Living-Lab" name="Living-Lab" />
+                <Checkbox text="Fab Lab" id="Fab-Lab" name="Fab-Lab" />
+                <Checkbox text="Data Lab" id="Data-Lab" name="Data-Lab" />
+                <Checkbox text="Other" id="Other" name="Other" />
+                <input type="text" />
+              </div>
             </div>
 
-            <button>Next</button>
+            <button className="ml-[7rem] mt-[21em] py-3 px-12 font-bold text-twitterBlue border-2 border-twitterBlue">
+              Next
+            </button>
           </form>
         </section>
       </main>
