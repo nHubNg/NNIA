@@ -1,9 +1,10 @@
 import Header from "../../components/Header";
 import Benefit from "./components/Benefit";
 import chairsPic from "../../assets/chairs.jpg";
-// import techGirl from "../../assets/techGirl.jpg";
+import techGirl from "../../assets/tech-lady.jpg";
 
 const JoinUs = () => {
+  const paddingBtm = 12;
   return (
     <div className="font-montserrat bg-background">
       <Header img={"hero"} />
@@ -25,14 +26,14 @@ const JoinUs = () => {
           </dd>
         </dl>
 
+        <Benefit img={chairsPic} alt="Cropped chairs" text="Members’ Benefit" />
         <Benefit
-          img={chairsPic}
-          alt="Cropped chairs"
-          text="Members’ Benefit"
-          pb="0"
+          img={techGirl}
+          alt="Tech girl"
+          text="Membership Criteria"
+          paddingB="mb-[12rem]"
+          flexRow="reverse"
         />
-        <Benefit />
-        {/* img={chairsPic} */}
       </main>
     </div>
   );
