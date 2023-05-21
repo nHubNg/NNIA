@@ -3,13 +3,13 @@ import chairs from "../../../assets/chairs.jpg";
 const Benefit = ({ img, alt, text, paddingB, flexRow }) => {
   return (
     <>
-      <div
-        className={`w-[95%] mx-auto flex items-center flex-row-${flexRow} gap-[9rem] pt-[12rem] ${paddingB}`}
+      <section
+        className={`w-[92%] mx-auto flex items-center ${flexRow} gap-[9rem] pt-[12rem] ${paddingB}`}
       >
         <img src={img} alt={alt} />
 
-        <div className="-translate-y-[4rem]">
-          <h3 className="text-twitterBlue text-[30px] font-[700] mx-[5rem]">
+        <article className="-translate-y-[4rem]">
+          <h3 className="text-twitterBlue text-[35px] font-[700] mx-[5rem]">
             {text}
           </h3>
           <ul className="mt-[5rem] px-[4rem] list-disc marker:text-[13px] marker:text-gray-500 space-y-5">
@@ -32,8 +32,8 @@ const Benefit = ({ img, alt, text, paddingB, flexRow }) => {
             </li>
             <li>Access to other community members across Africa.</li>
           </ul>
-        </div>
-      </div>
+        </article>
+      </section>
     </>
   );
 };
