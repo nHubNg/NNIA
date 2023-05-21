@@ -12,8 +12,9 @@ import innovation from '../../assets/innovation.png'
 import technology from '../../assets/technology.png'
 import enterpreneur from '../../assets/enterpreneur.png'
 import education from '../../assets/education.png'
-
-import Specialty from "./component/specialty";
+import woman from '../../assets/woman.png'
+import bg from '../../assets/bg.png'
+import articleImg from "../../assets/article-img-1.png";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -33,6 +34,11 @@ import "swiper/css/autoplay";
 import { Scrollbar, A11y, Autoplay } from "swiper";
 import { Navigation } from "swiper";
 import { Pagination } from "swiper";
+
+import Testimonial from "./component/testimonial";
+import Specialty from "./component/specialty";
+import Article from "./component/article";
+
 
 const Home = () => {
     return (<div className="font-montserrat bg-background">
@@ -151,6 +157,85 @@ const Home = () => {
             <div className="flex justify-center items-center">
                 <p className="font-[700] text-[28px] border-b-[5px] border-twitterBlue">OUR AREA <br /> OF SPECIALTY</p>
             </div>
+        </div>
+
+        <div className="flex justify-between px-10 gap-20 pb-20">
+            <div className="w-1/2">
+                <h1 className="text-[26px] border-b-[5px] border-twitterBlue mb-28 w-fit">Our <span className="font-[700]">Capacity <br /> Building</span> Programme</h1>
+
+                <div>
+                    <p className="text-[18px]">The AfriLabs Capacity Building Programme (ACBP) is a 36 months intensive capacity building for hubs across Africa. This programme is funded by the Digital Africa Seed Fund through the French Development Agencys support.</p>
+
+                    <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue mt-16 ml-16 font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group
+                    ">See More <img src={pathh} alt="" className="hidden group-hover:block" /></button>
+                </div>
+            </div>
+            <div className="w-1/2 ml-20 mr-20">
+                <img src={woman} alt="" />
+            </div>
+        </div>
+
+        <div className="mb-20 flex justify-center items-center flex-col mx-16">
+            <h1 className="font-[700] text-twitterBlue text-[30px] mb-8">Members Say</h1>
+
+            <div className="flex gap-14">
+                <Testimonial img={bg} name='nHub Jos' description='Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria' />
+                <Testimonial img={bg} name='aHub Jos' description='Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria' />
+                <Testimonial img={bg} name='meHub Jos' description='Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria' />
+            </div>
+        </div>
+
+        <div className="px-10 mb-28">
+            <h1 className="font-[700] text-twitterBlue text-[30px] mb-8">Our Latest Article</h1>
+
+            <div className="flex justify-center flex-wrap gap-14">
+                <Article
+                    heading={"Five ways to Understand Blockchain"}
+                    description={
+                        "Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria"
+                    }
+                    image={articleImg}
+                />
+                <Article
+                    heading={"Five ways to Understand Blockchain"}
+                    description={
+                        "Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria"
+                    }
+                    image={articleImg}
+                />
+                <Article
+                    heading={"Five ways to Understand Blockchain"}
+                    description={
+                        "Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria"
+                    }
+                    image={articleImg}
+                />
+                <Article
+                    heading={"Five ways to Understand Blockchain"}
+                    description={
+                        "Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria"
+                    }
+                    image={articleImg}
+                />
+                <Article
+                    heading={"Five ways to Understand Blockchain"}
+                    description={
+                        "Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria"
+                    }
+                    image={articleImg}
+                />
+                <Article
+                    heading={"Five ways to Understand Blockchain"}
+                    description={
+                        "Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria"
+                    }
+                    image={articleImg}
+                />
+
+                <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group
+                    ">See More <img src={pathh} alt="" className="hidden group-hover:block" /></button>
+            </div>
+
         </div>
     </div>);
 }
