@@ -8,6 +8,8 @@ export default {
         footerBackground: "#1E1E1E",
         background: " #ECECEC",
         formAsterisk: "#DB0B17",
+        formBg: "#F2F0F0",
+        formBorder: "#020202"
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],

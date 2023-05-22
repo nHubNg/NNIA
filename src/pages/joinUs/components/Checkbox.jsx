@@ -1,7 +1,7 @@
 const Checkbox = ({ text, id, $name }) => {
   return (
     <>
-      <label for={id} className="mr-[2px] ml-[3px] first:ml-0">
+      <label htmlFor={id} className="mr-[2px] ml-[3px] first:ml-0">
         {text}
       </label>
       <input

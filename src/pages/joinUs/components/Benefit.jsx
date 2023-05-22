@@ -1,4 +1,4 @@
-import chairs from "../../../assets/chairs.jpg";
+// import chairs from "../../../assets/chairs.jpg";
 
 const Benefit = ({ img, alt, text, paddingB, flexRow }) => {
   return (

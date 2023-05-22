@@ -53,7 +53,7 @@ const Header = ({ description, img }) => {
                         <div className='flex items-center gap-5'><p>Membership Area</p> <img src={arrow} alt="" /></div>
                         {showMembers ? (<div className='absolute top-[115px] bg-black pl-2 pr-10 py-3 rounded border-t'>
                             <p className='pb-4'><Link to='/members'>See Our Members</Link></p>
-                            <p><Link to='/register'>Become a Member</Link></p>
+                            <p><Link to='/joinUs'>Become a Member</Link></p>
                         </div>) : ''}
                     </div>
                     </li>

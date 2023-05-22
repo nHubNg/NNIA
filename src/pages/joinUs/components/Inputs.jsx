@@ -11,7 +11,7 @@ const Inputs = ({
   return (
     <>
       <div className="w-[80%] flex justify-between">
-        <label htmlFor="" for="input" className="mt-2">
+        <label htmlFor="input" className="mt-2">
           {text}
           {asterisk}
         </label>

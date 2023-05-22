@@ -2,7 +2,7 @@ const Input = ({ type, text, asterisk, $name }) => {
   return (
     <>
       <div className="w-[80%] flex items-center justify-between">
-        <label htmlFor="" for="input">
+        <label htmlFor="input">
           {text}
           {asterisk}
         </label>

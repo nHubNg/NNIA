@@ -5,9 +5,10 @@ import Inputs from "./components/Inputs";
 import Checkbox from "./components/Checkbox";
 import chairsPic from "../../assets/chairs.jpg";
 import techGirl from "../../assets/tech-lady.jpg";
+import pathh from '../../assets/Path.png'
 
 const JoinUs = () => {
-  const paddingBtm = 12;
+  // const paddingBtm = 12;
   return (
     <div className="font-montserrat bg-background">
       <Header img={"hero"} />
@@ -109,7 +110,7 @@ const JoinUs = () => {
             <Input text="Website" type="text" name="Website" />
 
             <div className="w-[94%] flex justify-between items-center gap-[1.4rem] mb-[22rem]">
-              <label htmlFor="" for="input" className=" w-[35ch]">
+              <label htmlFor="input" className=" w-[35ch]">
                 Self-description <br />
                 (Select all that apply)
                 <span className="text-formAsterisk">*</span>
@@ -149,9 +150,7 @@ const JoinUs = () => {
               </div>
             </div>
 
-            <button className="translate-y-8 ml-[7rem] py-3 px-12 rounded-md font-bold text-twitterBlue border-2 border-twitterBlue">
-              Next
-            </button>
+            <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue mt-16 ml-16 font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group">Next <img src={pathh} alt="" className="hidden group-hover:block" /></button>
           </form>
         </section>
       </main>
