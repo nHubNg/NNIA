@@ -7,6 +7,7 @@ export default {
         twitterBlue: "#1A8CD8",
         footerBackground: "#1E1E1E",
         background: " #ECECEC",
+        formAsterisk: "#DB0B17",
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
