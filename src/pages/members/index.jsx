@@ -1,7 +1,6 @@
 import Header from "../../components/Header";
 import Card from "./components/Card";
 import Image from "../../assets/nHub-logo.png";
-import rightArrow from "../../assets/Path.svg";
 
 const Members = () => {
   return (
@@ -18,7 +17,7 @@ const Members = () => {
         </section>
 
         <section className="py-[200px]">
-          <div className="w-[80%] mx-auto grid grid-cols-3 gap-[4rem] justify-items-center content-center">
+          <div className="w-[80%] mx-auto grid grid-cols-3 gap-[4rem] ">
             <Card img={Image} />
             <Card img={Image} />
             <Card img={Image} />
