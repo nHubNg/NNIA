@@ -10,7 +10,6 @@ const Blog = () => {
 
       <div className="font-montserrat bg-background grid items-center justify-center mb-36">
 
-        {/* added excess margin-bottom for the text div below */}
         <div className=" text-center mb-20">
           <h1 className="font-[700] text-twitterBlue text-[30px] mt-[48px] mb-[25px]">
             Our Latest Articles
