@@ -10,6 +10,13 @@ import service3 from "../../assets/service3.png";
 import service4 from "../../assets/service4.png"
 import BoardMembers from "./component/board";
 import bashir from "../../assets/bashir.png";
+import pam from "../../assets/pam.png";
+import musa from "../../assets/musa.png";
+import silas from "../../assets/silas.png";
+import precious from "../../assets/precious.png";
+import miriam from "../../assets/miriam.png";
+import samaila from "../../assets/samaila.png";
+import pamDung from "../../assets/pamDung.png";
 
 
 const About = () => {
@@ -69,7 +76,7 @@ const About = () => {
           <h2 className="font-[700] text-[30px] text-twitterBlue text-center mt-[75px] mb-[35px]">
             Our Member Hubs
           </h2>
-          <div className="grid grid-cols-3 gap-[20px] justify-center items-center">
+          <div className="grid grid-cols-3 gap-[20px] place-items-center">
             <HubCard
               hubLogo={nhub}
               point1={"Startups"}
@@ -139,15 +146,73 @@ const About = () => {
               memberName={"Bashir Shaidu"}
               memberPosition={"Director"}
               department={"General"}
-              twitterPage={""}
+              twitterPage={"https://google.com"}
+              facebookPage={"https://google.com"}
+              linkedinPage={"https://google.com"}
             />
-            <BoardMembers />
-            <BoardMembers />
-            <BoardMembers />
-            <BoardMembers />
-            <BoardMembers />
-            <BoardMembers />
-            <BoardMembers />
+            <BoardMembers 
+              memberImage={pam}
+              memberName={"Pam Musa"}
+              memberPosition={"Director"}
+              department={"Finance"}
+              twitterPage={"https://google.com"}
+              facebookPage={"https://google.com"}
+              linkedinPage={"https://google.com"}
+            />
+            <BoardMembers 
+              memberImage={musa}
+              memberName={"Musa Bala"}
+              memberPosition={"Director"}
+              department={"Partnership"}
+              twitterPage={"https://google.com"}
+              facebookPage={"https://google.com"}
+              linkedinPage={"https://google.com"}
+            />
+            <BoardMembers 
+              memberImage={silas}
+              memberName={"Silas Okeke"}
+              memberPosition={"Director"}
+              department={"Marketing"}
+              twitterPage={"https://google.com"}
+              facebookPage={"https://google.com"}
+              linkedinPage={"https://google.com"}
+            />
+            <BoardMembers 
+              memberImage={precious}
+              memberName={"Precious Ade"}
+              memberPosition={"Secretary"}
+              department={"General"}
+              twitterPage={"https://google.com"}
+              facebookPage={"https://google.com"}
+              linkedinPage={"https://google.com"}
+            />
+            <BoardMembers 
+              memberImage={miriam}
+              memberName={"Miriam Chris"}
+              memberPosition={"Director"}
+              department={"Media"}
+              twitterPage={"https://google.com"}
+              facebookPage={"https://google.com"}
+              linkedinPage={"https://google.com"}
+            />
+            <BoardMembers 
+              memberImage={samaila}
+              memberName={"Samaila Isa"}
+              memberPosition={"Director"}
+              department={"Ecosystem"}
+              twitterPage={"https://google.com"}
+              facebookPage={"https://google.com"}
+              linkedinPage={"https://google.com"}
+            />
+            <BoardMembers 
+              memberImage={pamDung}
+              memberName={"Pam Dung Badung"}
+              memberPosition={"Director"}
+              department={"Corporate"}
+              twitterPage={"https://google.com"}
+              facebookPage={"https://google.com"}
+              linkedinPage={"https://google.com"}
+            />
           </div>
         </div>
       </div>
