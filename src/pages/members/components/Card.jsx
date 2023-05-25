@@ -1,4 +1,4 @@
-import rightArrow from "../../../assets/Path.svg";
+import rightArrow from "../../../assets/path.svg";
 
 const Card = ({ img }) => {
   return (
