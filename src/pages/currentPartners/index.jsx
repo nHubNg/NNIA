@@ -8,7 +8,7 @@ const CurrentPartners = () => {
     <div className="font-montserrat bg-background">
       <Header img={"hero"} />
       <h1 className="sr-only">Current Partners Page</h1>
-      <main className="pt-[71px] pb-[434px]">
+      <main className="pt-[71px] pb-[134px]">
         <section className="w-[92%] mx-auto">
           <h2 className="punchLine text-twitterBlue">
             See Our Current Partners
@@ -25,10 +25,10 @@ const CurrentPartners = () => {
             pathh={pathh}
             head={"Ecotech partners NIA to boast deep tech"}
             text1={
-              "The AfriLabs Capacity Building Programme (ACBP) is a 36 months intensive capacity building for hubs across Africa. This programme is funded by the Digital Africa Seed Fund through the French Development Agency’s support."
+              "The AfriLabs Capacity Building Programme (ACBP) is a 36 months intensive capacity building for hubs across Africa. This programme is funded by the Digital Africa Seed Fund through the French Development Agency&apos;s support."
             }
             text2={
-              "The AfriLabs Capacity Building Programme (ACBP) is a 36 months intensive capacity building for hubs across Africa. This programme is funded by the Digital Africa Seed Fund through the French Development Agency’s support."
+              "The AfriLabs Capacity Building Programme (ACBP) is a 36 months intensive capacity building for hubs across Africa. This programme is funded by the Digital Africa Seed Fund through the French Development Agency&apos;s support."
             }
           />
           <PartnersCaption
@@ -37,10 +37,10 @@ const CurrentPartners = () => {
             pathh={pathh}
             head={"Ecotech partners NIA to boast deep tech"}
             text1={
-              "The AfriLabs Capacity Building Programme (ACBP) is a 36 months intensive capacity building for hubs across Africa. This programme is funded by the Digital Africa Seed Fund through the French Development Agency’s support."
+              "The AfriLabs Capacity Building Programme (ACBP) is a 36 months intensive capacity building for hubs across Africa. This programme is funded by the Digital Africa Seed Fund through the French Development Agency&apos;s support."
             }
             text2={
-              "The AfriLabs Capacity Building Programme (ACBP) is a 36 months intensive capacity building for hubs across Africa. This programme is funded by the Digital Africa Seed Fund through the French Development Agency’s support."
+              "The AfriLabs Capacity Building Programme (ACBP) is a 36 months intensive capacity building for hubs across Africa. This programme is funded by the Digital Africa Seed Fund through the French Development Agency&aposs support."
             }
           />
           <PartnersCaption
@@ -48,10 +48,10 @@ const CurrentPartners = () => {
             pathh={pathh}
             head={"Ecotech partners NIA to boast deep tech"}
             text1={
-              "The AfriLabs Capacity Building Programme (ACBP) is a 36 months intensive capacity building for hubs across Africa. This programme is funded by the Digital Africa Seed Fund through the French Development Agency’s support."
+              "The AfriLabs Capacity Building Programme (ACBP) is a 36 months intensive capacity building for hubs across Africa. This programme is funded by the Digital Africa Seed Fund through the French Development Agency&apos;s support."
             }
             text2={
-              "The AfriLabs Capacity Building Programme (ACBP) is a 36 months intensive capacity building for hubs across Africa. This programme is funded by the Digital Africa Seed Fund through the French Development Agency’s support."
+              "The AfriLabs Capacity Building Programme (ACBP) is a 36 months intensive capacity building for hubs across Africa. This programme is funded by the Digital Africa Seed Fund through the French Development Agency&aposs support."
             }
           />
         </section>

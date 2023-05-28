@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const PartnersCaption = ({ img, alt, head, text1, text2, flexDir, pathh }) => {
   return (
     <>
@@ -13,10 +15,10 @@ const PartnersCaption = ({ img, alt, head, text1, text2, flexDir, pathh }) => {
             <dl>{text2}</dl>
           </dl>
           {/* <button className="">Read More</button> */}
-          <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue mt-[36px] font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group">
+          <Link to='/partnerDetails'><button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue mt-[36px] font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group">
             Read More{" "}
             <img src={pathh} alt="" className="hidden group-hover:block" />
-          </button>
+          </button></Link>
         </article>
       </section>
     </>

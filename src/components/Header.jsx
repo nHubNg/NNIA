@@ -70,7 +70,7 @@ const Header = ({ description, img }) => {
                         <div>
                             <div className='flex items-center gap-5'><p>Partner with Us</p> <img src={arrow} alt="" /></div>
                             {showPartners ? (<div className='absolute top-[115px] bg-black pl-2 pr-10 py-3 rounded border-t'>
-                                <p className='pb-4'>See Our Partners</p>
+                                <Link to='/currentPartners'><p className='pb-4'>See Our Partners</p></Link>
                                 <p>Become a Partner</p>
                             </div>) : ''}
                         </div>
