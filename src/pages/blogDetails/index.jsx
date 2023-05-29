@@ -11,6 +11,10 @@ const BlogDetails = () => {
           author={"Desmond Fon Gwom"}
           publishDate={"May 20, 2023"}
           publishTime={"10:29am"}
+          facebookPage={"https://www.facebook.com"}
+          twitterPage={"https://www.twitter.com"}
+          instagramPage={"https://www.instagram.com"}
+          linkedinPage={"https://www.linkedin.com"}
         />
       </div>
     );
