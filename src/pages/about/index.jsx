@@ -66,6 +66,7 @@ const About = () => {
               money.
             </p>
           </div>
+          
           {/* image div */}
           <div className="w-1/2 ">
             <img src={airplane} alt="" className="w-full" />
