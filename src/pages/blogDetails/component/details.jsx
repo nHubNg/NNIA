@@ -9,7 +9,7 @@ import clock from "../../../assets/clock.svg";
 
 const Details = ({heading, content, image, author, publishDate, publishTime, facebookPage, linkedinPage, twitterPage, instagramPage}) => {
     return (
-      <div className="mx-[30px] my-[60px]">
+      <div className="mx-[30px] mt-[60px]">
         <h1 className="font-[700] text-twitterBlue text-[30px] mt-[48px] mb-[15px]">
           {heading}
         </h1>
