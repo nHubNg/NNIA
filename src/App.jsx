@@ -11,6 +11,7 @@ import Register from "./pages/register";
 import Footer from "./components/Footer";
 import PartnerDetails from "./pages/partnerDetails"; 
 import BlogDetails from "./pages/blogDetails";
+import Partner from './pages/partner';
 // import Header from './components/Header';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path="/joinUs" element={<JoinUs />} />
           <Route path="/currentPartners" element={<CurrentPartners />} />
           <Route path="/partnerDetails" element={<PartnerDetails />} />
+          <Route path="/partner" element={<Partner />} />
         </Routes>
       </BrowserRouter>
       <Footer />
