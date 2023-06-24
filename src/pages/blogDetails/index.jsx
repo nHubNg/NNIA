@@ -62,10 +62,7 @@ const BlogDetails = () => {
           </h2>
 
           {/* recommended articles */}
-          <div
-            className="grid gap-[60px] grid-cols-3  place-items-center
-          "
-          >
+          <div  className="grid gap-[60px] grid-cols-3  place-items-center">
             <Article
               heading={"Five ways to Understand Blockchain"}
               description={
