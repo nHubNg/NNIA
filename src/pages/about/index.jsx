@@ -17,6 +17,10 @@ import precious from "../../assets/precious.png";
 import miriam from "../../assets/miriam.png";
 import samaila from "../../assets/samaila.png";
 import pamDung from "../../assets/pamDung.png";
+import theodore from "../../assets/theodore.png";
+import nnamdi from "../../assets/nnamdi.png";
+import khamis from "../../assets/khamis.png";
+import joey from "../../assets/joey.png";
 
 
 const About = () => {
@@ -28,7 +32,7 @@ const About = () => {
         {/* heading container */}
         <div className=" text-center mb-20">
           <h1 className="font-[700] text-twitterBlue text-[30px] mt-[48px] mb-[25px]">
-            Meet the [name] Community
+            Meet the NIA Community
           </h1>
 
           <p className=" mx-[140px]">
@@ -66,7 +70,7 @@ const About = () => {
               money.
             </p>
           </div>
-          
+
           {/* image div */}
           <div className="w-1/2 ">
             <img src={airplane} alt="" className="w-full" />
@@ -143,73 +147,81 @@ const About = () => {
 
           <div className="grid grid-cols-4 gap-[45px]">
             <BoardMembers
-              memberImage={bashir}
-              memberName={"Bashir Shaidu"}
-              memberPosition={"Director"}
-              department={"General"}
+              memberImage={theodore}
+              memberName={"Theodore Longji"}
+              memberPosition={"Chairman"}
+              department={"CEO"}
+              memberOrganisation={"nHub"}
+              twitterPage={"https://twitter.com"}
+              facebookPage={"https://facebook.com"}
+              linkedinPage={"https://linkedin.com"}
+            />
+            <BoardMembers
+              memberImage={nnamdi}
+              memberName={"Nnamdi Ibe"}
+              memberPosition={"Secretary"}
+              // department={""}
+              // memberOrganisation={"nHub"}
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
             />
-            <BoardMembers 
-              memberImage={pam}
-              memberName={"Pam Musa"}
-              memberPosition={"Director"}
-              department={"Finance"}
+            <BoardMembers
+              memberImage={khamis}
+              memberName={"Khamis Malami,"}
+              memberPosition={"Coordinator"}
+              department={"CEO"}
+              memberOrganisation={"meHub"}
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
             />
-            <BoardMembers 
-              memberImage={musa}
-              memberName={"Musa Bala"}
-              memberPosition={"Director"}
-              department={"Partnership"}
+            <BoardMembers
+              memberImage={joey}
+              memberName={"Joey Shekwonuzhibo"}
+              memberPosition={"Coordinator"}
+              department={"Media"}
+              memberOrganisation={"nHub"}
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
             />
-            <BoardMembers 
-              memberImage={silas}
-              memberName={"Silas Okeke"}
-              memberPosition={"Director"}
-              department={"Marketing"}
-              twitterPage={"https://google.com"}
-              facebookPage={"https://google.com"}
-              linkedinPage={"https://google.com"}
-            />
-            <BoardMembers 
+            <BoardMembers
               memberImage={precious}
               memberName={"Precious Ade"}
               memberPosition={"Secretary"}
               department={"General"}
+              memberOrganisation={"nHub"}
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
             />
-            <BoardMembers 
+            <BoardMembers
               memberImage={miriam}
               memberName={"Miriam Chris"}
               memberPosition={"Director"}
               department={"Media"}
+              memberOrganisation={"nHub"}
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
             />
-            <BoardMembers 
+            <BoardMembers
               memberImage={samaila}
               memberName={"Samaila Isa"}
               memberPosition={"Director"}
               department={"Ecosystem"}
+              memberOrganisation={"nHub"}
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
             />
-            <BoardMembers 
+            <BoardMembers
               memberImage={pamDung}
               memberName={"Pam Dung Badung"}
               memberPosition={"Director"}
               department={"Corporate"}
+              memberOrganisation={"nHub"}
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
