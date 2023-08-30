@@ -1,7 +1,7 @@
 import Header from "../../components/Header";
 import PartnersCaption from "./components/PartnerCaption";
 import Image from "../../assets/smiling african girl.jpg";
-import pathh from "../../assets/path.png";
+import pathh from "../../assets/Path.png";
 
 const CurrentPartners = () => {
   return (
