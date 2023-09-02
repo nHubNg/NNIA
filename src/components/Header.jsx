@@ -101,7 +101,7 @@ const Header = ({ description, img }) => {
                   {showPrograms ? (
                     <div className="absolute top-[115px] bg-black pl-2 pr-10 py-3 rounded border-t">
                       <p className="pb-4">Programmes</p>
-                      <p>Events</p>
+                      <p><Link to="/events">Events</Link></p>
                     </div>
                   ) : (
                     ""
@@ -171,7 +171,7 @@ const Header = ({ description, img }) => {
                   {showPrograms ? (
                     <div className="absolute top-[115px] bg-black pl-2 pr-10 py-3 rounded border-t">
                       <p className="pb-4">Programmes</p>
-                      <p>Events</p>
+                      <p><Link to="/events">Events</Link></p>
                     </div>
                   ) : (
                     ""
