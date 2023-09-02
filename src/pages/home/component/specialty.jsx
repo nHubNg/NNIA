@@ -2,7 +2,7 @@
 
 const Specialty = ({text, textColor, backgroundColor, image}) => {
     return ( <>
-        <div className={`w-[370px] h-[230px] bg-${backgroundColor} flex justify-center items-center flex-col gap-5`}>
+        <div className={` w-[90%] md:w-[370px] h-[230px] bg-${backgroundColor} flex justify-center items-center flex-col gap-5`}>
             <img src={image} alt="" />
             <p className={`font-[700] text-[30px] text-${textColor}`}>{text}</p>
         </div>

@@ -9,7 +9,8 @@ export default {
         background: " #ECECEC",
         formAsterisk: "#DB0B17",
         formBg: "#F2F0F0",
-        formBorder: "#020202"
+        formBorder: "#020202",
+        navBlue : "#1A8CD8",
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
