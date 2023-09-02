@@ -42,9 +42,9 @@ import { useEffect, useState } from "react";
 
 const Home = () => {
   const [revPerPage, setRevPerPage] = useState(false);
-  const handleSwiper = () => {
-    setRevPerPage(!revPerPage);
-  };
+  // const handleSwiper = () => {
+  //   setRevPerPage(!revPerPage);
+  // };
 
   useEffect(() => {
     const handleResize = () => {

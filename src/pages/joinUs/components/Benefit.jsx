@@ -4,7 +4,7 @@ const Benefit = ({ img, alt, text, paddingB, flexRow }) => {
   return (
     <>
       <section
-        className={`w-[92%] mx-auto flex items-center ${flexRow} gap-[9rem] pt-[12rem] ${paddingB}`}
+        className={`w-[92%] mx-auto flex items-center ${flexRow} gap-[20px] pt-[12rem] ${paddingB}`}
       >
         <img src={img} alt={alt} />
 

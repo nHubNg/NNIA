@@ -1,14 +1,11 @@
 import Header from "../../components/Header";
 import Benefit from "./components/Benefit";
-import Input from "./components/Input";
-import Inputs from "./components/Inputs";
-import Checkbox from "./components/Checkbox";
 import chairsPic from "../../assets/chairs.jpg";
 import techGirl from "../../assets/tech-lady.jpg";
-import pathh from '../../assets/Path.png'
+import path from "../../assets/path.svg";
+
 
 const JoinUs = () => {
-  // const paddingBtm = 12;
   return (
     <div className="font-montserrat bg-background">
       <Header img={"hero"} />
@@ -41,7 +38,7 @@ const JoinUs = () => {
           flexRow="flex-row-reverse"
         />
 
-        <section className="bg-twitterBlue h-[210px] text-white flex justify-center gap-8 flex-col">
+        <section className="bg-twitterBlue text-white flex justify-center gap-8 flex-col py-5">
           <h2 className="punchLine">
             If your Hubs meets these criteria, Apply now{" "}
           </h2>
@@ -49,110 +46,19 @@ const JoinUs = () => {
             Please note that the admission process would take about 1-2 months
             and we would guide and keep you updated every step of the way.
           </p>
+
+          <div className='flex justify-center items-center'>
+            <button className="mt-5 px-5 py-2 border-white border-[1px] text-white font-[700] rounded hover:text-twitterBlue flex items-center gap-3 group hover:bg-white">
+              Apply Here
+              <img
+                src={path}
+                alt=""
+                className="hidden group-hover:block text-twitterBlue fill-twitterBlue"
+              />
+            </button>
+          </div>
         </section>
 
-        <section className="w-[92%] pt-[39px] pb-[172px] mx-auto">
-          <h3 className="font-[700] text-center">
-            We are Excited you want join us. Please fill the form below
-          </h3>
-          <p className="mt-[50px]">
-            All Fields marked{" "}
-            <span className="font-[700] text-formAsterisk">*</span> are required
-          </p>
-
-          <form
-            action=""
-            className="mt-[80px] mx-auto pb-[10rem] space-y-6 max-w-[850px] bg-white pt-[48px] pl-6"
-          >
-            <Input
-              asterisk={<span className="text-formAsterisk">*</span>}
-              text="Name of Hub "
-              type="text"
-              name="Hub Name"
-            />
-
-            <Input
-              asterisk={<span className="text-formAsterisk">*</span>}
-              text="Email Address "
-              type="text"
-              name="Email Address"
-            />
-
-            <Input
-              asterisk={<span className="text-formAsterisk">*</span>}
-              text="Phone Number "
-              type="number"
-              name="Phone Number"
-            />
-
-            <Inputs
-              type="text"
-              text="Address "
-              asterisk={<span className="text-formAsterisk">*</span>}
-              $name="Address"
-              palceholder1="City"
-              palceholder2="State"
-              palceholder3="Country"
-              palceholder4="Physical Location"
-            />
-
-            <Inputs
-              type="text"
-              text="Handles "
-              asterisk={<span className="text-formAsterisk">*</span>}
-              $name="Social Handles"
-              palceholder1="Facebook"
-              palceholder2="Instagram"
-              palceholder3="Twitter"
-              palceholder4="LinkedIn"
-            />
-
-            <Input text="Website" type="text" name="Website" />
-
-            <div className="w-[94%] flex justify-between items-center gap-[1.4rem] mb-[22rem]">
-              <label htmlFor="input" className=" w-[35ch]">
-                Self-description <br />
-                (Select all that apply)
-                <span className="text-formAsterisk">*</span>
-              </label>
-              <div className="mt-2">
-                <Checkbox text="Incubator" id="Incubator" name="Incubator" />
-                <Checkbox
-                  text="Accelerator"
-                  id="Accelerator"
-                  name="Accelerator"
-                />
-                <Checkbox
-                  text="Co-creation Space"
-                  id="Co-creation"
-                  name="Co-creation"
-                />
-                <Checkbox
-                  text="Co-working Space"
-                  id="Co-working-Space"
-                  name="Co-working-Space"
-                />
-                <Checkbox
-                  text="Innovation Centre"
-                  id="Innovation"
-                  name="Innovation-Centre"
-                />
-                <Checkbox text="Living Lab" id="Living-Lab" name="Living-Lab" />
-                <Checkbox text="Fab Lab" id="Fab-Lab" name="Fab-Lab" />
-                <Checkbox text="Data Lab" id="Data-Lab" name="Data-Lab" />
-                <br />
-                <br />
-                <Checkbox text="Others" id="Others" name="Others" />
-                <input
-                  className="pl-2 border-b-[1px] border-gray-500 focus:outline-none"
-                  type="text"
-                />
-              </div>
-            </div>
-
-            <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue mt-16 ml-16 font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group">Next <img src={pathh} alt="" className="hidden group-hover:block" /></button>
-          </form>
-        </section>
       </main>
     </div>
   );
