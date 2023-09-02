@@ -17,17 +17,17 @@ const Partner = () => {
                     Why Partner with Us?
                 </h1>
 
-                <p className=" mx-[140px]">
+                <p className="mx-[30px] md:mx-[90px] lg:mx-[140px]">
                     By partnering with us, you get access to our network of over 100 Innovation Hubs across Nigeria that are focused on creating opportunities for individuals and startups in the tech industry to widen their horizons gain access to markets and resources that would otherwise be out of their reach, all for the growth and advancement of the Nigerian economy.
                 </p>
             </div>
 
-            <div className=" text-center mb-20 mx-[150px]">
+            <div className=" text-center mb-20 mx-[30px] md:mx-[90px]  lg:mx-[150px]">
                 <h1 className="font-[700] text-twitterBlue text-[30px] mt-[48px] mb-[25px]">
                     How you can Partner with us
                 </h1>
 
-                <ul className='flex flex-col justify-start items-start gap-3 list-disc'>
+                <ul className='flex flex-col  items-start  list-disc'>
                     <li>Sponsor a Hub &#8211; Region-specific, Vertical-specific, Program-specific</li>
                     <li>Sponsor a Program &#8211; Women, Youth & PLWD Engagement || Circular Economy || COVID Response</li>
                     <li>Sponsor a Project &#8211; CollaHubvate || Development Challenges for Universities || WomenInnovate</li>
