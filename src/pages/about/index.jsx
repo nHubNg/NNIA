@@ -81,7 +81,7 @@ const About = () => {
           <h2 className="font-[700] text-[30px] text-twitterBlue text-center mt-[75px] mb-[35px]">
             Our Member Hubs
           </h2>
-          <div className="grid md:grid-cols-3 gap-[20px] place-items-center">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-[20px] md:place-items-center">
             <HubCard
               hubLogo={nhub}
               point1={"Startups"}
@@ -115,12 +115,12 @@ const About = () => {
           </button>
         </div>
 
-        <div className="w-full grid place-items-center">
+        <div className="w-full hidden md:grid place-items-center">
           <h2 className="font-[700] text-[30px] text-twitterBlue text-center mt-[130px] mb-[35px]">
             We Serve in many ways
           </h2>
 
-          <div className="grid grid-cols-4 gap-[35px]">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-[35px]">
             <Services
               serviceImage={service1}
               serviceName={"Engaging Stakeholders"}
@@ -145,7 +145,7 @@ const About = () => {
             Meet the Board
           </h2>
 
-          <div className="grid grid-cols-4 gap-[45px]">
+          <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-[45px]">
             <BoardMembers
               memberImage={theodore}
               memberName={"Theodore Longji"}
