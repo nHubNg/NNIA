@@ -9,10 +9,10 @@ import service2 from "../../assets/service2.png";
 import service3 from "../../assets/service3.png";
 import service4 from "../../assets/service4.png"
 import BoardMembers from "./component/board";
-import bashir from "../../assets/bashir.png";
-import pam from "../../assets/pam.png";
-import musa from "../../assets/musa.png";
-import silas from "../../assets/silas.png";
+// import bashir from "../../assets/bashir.png";
+// import pam from "../../assets/pam.png";
+// import musa from "../../assets/musa.png";
+// import silas from "../../assets/silas.png";
 import precious from "../../assets/precious.png";
 import miriam from "../../assets/miriam.png";
 import samaila from "../../assets/samaila.png";
@@ -28,24 +28,24 @@ const About = () => {
     <div className="w-[100%] overflow-x-hidden bg-background">
       <Header img={"hero"} />
 
-      <div className="font-montserrat bg-background grid items-center justify-center mx-[24px] mb-36">
+      <div className="font-montserrat bg-background items-center justify-center mx-[24px] mb-36">
         {/* heading container */}
         <div className=" text-center mb-20">
           <h1 className="font-[700] text-twitterBlue text-[30px] mt-[48px] mb-[25px]">
             Meet the NIA Community
           </h1>
 
-          <p className="mx-[60px]  md:mx-[140px]">
+          <p className="md:mx-[140px]">
           Network on a mission to create an environment in which all players in the Jos startup ecosystem can work together in harmony and cooperation, with the ultimate goal of supporting and accelerating the growth of startups. 
           </p>
-          <p className="mx-[60px] md:mx-[140px]">
+          <p className="md:mx-[140px]">
           Through collaboration and mutual support, we believe that we can create a thriving startup ecosystem that benefits everyone involved, from entrepreneurs and investors to service providers and government agencies. By fostering a culture of collaboration and open communication, we hope to create a vibrant and dynamic community that attracts talent and investment, and helps to position Jos as a hub for innovation and entrepreneurship
           </p>
         </div>
 
-        <div className="flex  flex-col-reverse lg:flex-row w-full">
+        <div className="flex flex-col-reverse lg:flex-row w-full h-full">
           {/* startups div */}
-          <div className="bg-twitterBlue text-[#FFFFFF] lg:w-1/2 p-[30px] flex flex-col gap-[80px]">
+          <div className="bg-twitterBlue text-[#FFFFFF] lg:w-1/2 p-[30px] flex flex-col gap-[50px]">
             <h2 className=" text-center font-[700] text-[30px]">
               What are Startups?
             </h2>
@@ -72,16 +72,16 @@ const About = () => {
           </div>
 
           {/* image div */}
-          <div className="lg:w-1/2 ">
+          <div className="w-full lg:w-1/2 h-full">
             <img src={airplane} alt="" className="w-full" />
           </div>
         </div>
 
-        <div className="grid place-items-center">
-          <h2 className="font-[700] text-[30px] text-twitterBlue text-center mt-[75px] mb-[35px]">
+        <div className="place-items-center">
+          <h2 className="font-[700] text-[30px] text-twitterBlue text-center mt-[75px] mb-[35px] mx-5">
             Our Member Hubs
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-[20px] md:place-items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[20px] place-items-center">
             <HubCard
               hubLogo={nhub}
               point1={"Startups"}

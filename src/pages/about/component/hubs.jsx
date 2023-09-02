@@ -2,7 +2,7 @@
 
 const HubCard = ({hubLogo, point1, point2, point3, hubList, description, conclusion}) => {
     return (
-      <div className="mx-[75px] h-[530px] w-[400px] border-2 bg-white p-[20px] rounded-[5px] grid place-items-center">
+      <div className="mx-[75px] h-[530px] w-[350px] lg:w-[400px] border-2 bg-white p-[20px] rounded-[5px] grid place-items-center">
 
         <img src={hubLogo} alt="" className="w-[70px] mb-[15px]" />
         

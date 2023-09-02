@@ -12,6 +12,7 @@ const Header = ({ description, img }) => {
   const [showMembers, setShowMembers] = useState(false);
   const [showPrograms, setShowPrograms] = useState(false);
   const [showPartners, setShowPartners] = useState(false);
+  const [showNav, setShowNav] = useState(false)
 
   const showMemberMenu = () => {
     setShowMembers(!showMembers);
@@ -22,6 +23,9 @@ const Header = ({ description, img }) => {
   const showPartnersMenu = () => {
     setShowPartners(!showPartners);
   };
+  const handleShowNav = () => {
+    setShowNav(!showNav)
+  }
 
   return (
     <>
@@ -56,7 +60,7 @@ const Header = ({ description, img }) => {
 
       <div>
         <div className=" bg-navBlue  lg:bg-black h-[58px]  flex justify-between items-center text-white">
-          <div className="flex justify-center items-center w-full lg:hidden">
+          <div className="flex justify-center items-center w-full lg:hidden" onClick={handleShowNav}>
             <img src={hamburger} className="" alt="" />
           </div>
           <div className="flex justify-center lg:w-full">
@@ -128,6 +132,76 @@ const Header = ({ description, img }) => {
               </li>
             </ul>
           </div>
+
+          {showNav && (<div className="flex justify-center lg:w-full absolute bg-navBlue top-28 left-[21%] px-3 py-5">
+            <ul className="flex flex-col justify-center items-center gap-2 text-[14px] lg:pr-10 ">
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/about">About</Link>
+              </li>
+              <li>
+                <Link to="/blog">Blog</Link>
+              </li>
+              <li onClick={showMemberMenu} className="cursor-pointer">
+                <div>
+                  <div className="flex items-center gap-5">
+                    <p>Membership Area</p> <img src={arrow} alt="" />
+                  </div>
+                  {showMembers ? (
+                    <div className="absolute top-[115px] bg-black pl-2 pr-10 py-3 rounded border-t">
+                      <p className="pb-4">
+                        <Link to="/members">See Our Members</Link>
+                      </p>
+                      <p>
+                        <Link to="/joinUs">Become a Member</Link>
+                      </p>
+                    </div>
+                  ) : (
+                    ""
+                  )}
+                </div>
+              </li>
+              <li onClick={showProgramsMenu} className="cursor-pointer">
+                <div>
+                  <div className="flex items-center gap-5">
+                    <p>Programmes and Events</p> <img src={arrow} alt="" />
+                  </div>
+                  {showPrograms ? (
+                    <div className="absolute top-[115px] bg-black pl-2 pr-10 py-3 rounded border-t">
+                      <p className="pb-4">Programmes</p>
+                      <p>Events</p>
+                    </div>
+                  ) : (
+                    ""
+                  )}
+                </div>
+              </li>
+              <li onClick={showPartnersMenu} className="cursor-pointer">
+                <div>
+                  <div className="flex items-center gap-5">
+                    <p>Partner with Us</p> <img src={arrow} alt="" />
+                  </div>
+                  {showPartners ? (
+                    <div className="absolute top-[115px] bg-black pl-2 pr-10 py-3 rounded border-t">
+                      <Link to="/currentPartners">
+                        <p className="pb-4">See Our Partners</p>
+                      </Link>
+                      <Link to="/partner">
+                        <p>Become a Partner</p>
+                      </Link>
+                    </div>
+                  ) : (
+                    ""
+                  )}
+                </div>
+              </li>
+              <li>
+                <Link to="/contact">Contact</Link>
+              </li>
+            </ul>
+          </div>)}
         </div>
       </div>
       <div
