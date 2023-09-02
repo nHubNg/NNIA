@@ -1,4 +1,4 @@
-import logo from "../assets/Group 3585.png";
+import logo from "../assets/Group 3586.svg";
 import insta from "../assets/Instagram.png";
 import twitter from "../assets/Twitter.png";
 import facebook from "../assets/Facebook.png";

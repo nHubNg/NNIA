@@ -281,9 +281,9 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex justify-between px-10 md:gap-20 md:pb-20">
+      <div className="flex justify-between px-10 py-8 md:gap-16 md:pb-20 lg:px-20">
         <div className="md:w-1/2">
-          <h1 className=" text-[23px] md:text-[26px] lg:text-[34px] md:border-b-[5px] md:w-fit text-center md:border-twitterBlue  mb-6 md:mb-28 md:text-left">
+          <h1 className=" text-[23px] md:text-[26px] lg:text-[34px] md:border-b-[5px] md:w-fit text-center md:border-twitterBlue  mb-6  md:text-left">
             Our{" "}
             <span className="font-[700]">
               Capacity <br /> Building

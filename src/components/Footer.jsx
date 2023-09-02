@@ -1,5 +1,5 @@
 import path from '../assets/Path.png'
-import logo from '../assets/Group 3585w.png'
+import logo from '../assets/Group 3586.svg'
 import insta from '../assets/Instagramw.png'
 import facebook from '../assets/Facebookw.png'
 import twitter from '../assets/Twitterw.png'
