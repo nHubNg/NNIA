@@ -35,17 +35,17 @@ const About = () => {
             Meet the NIA Community
           </h1>
 
-          <p className=" mx-[140px]">
-            By providing financial mentorship, networking opportunities, and
-            capacity-building resources, AfriLabs continues to pursue its
-            mission of building a more reliable community around the rapidly
-            emerging innovation hubs across Africa.
+          <p className="  md:mx-[140px]">
+          Network on a mission to create an environment in which all players in the Jos startup ecosystem can work together in harmony and cooperation, with the ultimate goal of supporting and accelerating the growth of startups. 
+          </p>
+          <p className="md:mx-[140px]">
+          Through collaboration and mutual support, we believe that we can create a thriving startup ecosystem that benefits everyone involved, from entrepreneurs and investors to service providers and government agencies. By fostering a culture of collaboration and open communication, we hope to create a vibrant and dynamic community that attracts talent and investment, and helps to position Jos as a hub for innovation and entrepreneurship
           </p>
         </div>
 
-        <div className="flex w-full">
+        <div className="flex  flex-col-reverse lg:flex-row w-full">
           {/* startups div */}
-          <div className="bg-twitterBlue text-[#FFFFFF] w-1/2 p-[30px] flex flex-col gap-[80px]">
+          <div className="bg-twitterBlue text-[#FFFFFF] lg:w-1/2 p-[30px] flex flex-col gap-[80px]">
             <h2 className=" text-center font-[700] text-[30px]">
               What are Startups?
             </h2>
@@ -72,7 +72,7 @@ const About = () => {
           </div>
 
           {/* image div */}
-          <div className="w-1/2 ">
+          <div className="lg:w-1/2 ">
             <img src={airplane} alt="" className="w-full" />
           </div>
         </div>
@@ -81,7 +81,7 @@ const About = () => {
           <h2 className="font-[700] text-[30px] text-twitterBlue text-center mt-[75px] mb-[35px]">
             Our Member Hubs
           </h2>
-          <div className="grid grid-cols-3 gap-[20px] place-items-center">
+          <div className="grid md:grid-cols-3 gap-[20px] place-items-center">
             <HubCard
               hubLogo={nhub}
               point1={"Startups"}
