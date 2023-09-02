@@ -10,17 +10,18 @@ const CurrentPartners = () => {
       <h1 className="sr-only">Current Partners Page</h1>
       <main className="pt-[71px] pb-[134px]">
         <section className="w-[92%] mx-auto">
-          <h2 className="punchLine text-twitterBlue">
+          <h2 className="punchLine text-[30px] text-twitterBlue">
             See Our Current Partners
           </h2>
           <p className="mt-[45px] text-center">
-            We partner eith the best in the industry to bring you the best in
+            We partner with the best in the industry to bring you the best in
             tech
           </p>
         </section>
 
         <section className="w-[85%] mx-auto space-y-[10rem]">
           <PartnersCaption
+            flexDir={"md:flex-row"}
             img={Image}
             pathh={pathh}
             head={"Ecotech partners NIA to boast deep tech"}
@@ -32,7 +33,7 @@ const CurrentPartners = () => {
             }
           />
           <PartnersCaption
-            flexDir={"flex-row-reverse"}
+            flexDir={"md:flex-row-reverse"}
             img={Image}
             pathh={pathh}
             head={"Ecotech partners NIA to boast deep tech"}
@@ -44,6 +45,7 @@ const CurrentPartners = () => {
             }
           />
           <PartnersCaption
+            flexDir={"md:flex-row"}
             img={Image}
             pathh={pathh}
             head={"Ecotech partners NIA to boast deep tech"}

@@ -4,9 +4,9 @@ const PartnersCaption = ({ img, alt, head, text1, text2, flexDir, pathh }) => {
   return (
     <>
       <section
-        className={`flex ${flexDir} justify-between gap-[41px] mx-auto mt-[90px]`}
+        className={`flex  ${flexDir} flex-col justify-between gap-[41px] mx-auto mt-[90px]`}
       >
-        <img className="w-[48%]" src={img} alt={alt} />
+        <img className="md:w-[48%]" src={img} alt={alt} />
 
         <article className="max-w-[55ch]">
           <dl className="space-y-[25px]">

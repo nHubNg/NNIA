@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 .punchLine {
-  @apply text-[40px] font-[700] text-center;
+  @apply md:text-[40px] font-[700] text-center;
 }
 .formStyle {
   @apply text-sm border-[1px] border-gray-700 rounded-lg px-3 focus:outline-none;
