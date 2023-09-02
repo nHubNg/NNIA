@@ -8,7 +8,7 @@ const Card = ({ img }) => {
           <img src={img} alt="" />
         </div>
 
-        <div className="absolute top-0 left-0 right-0  text-center bg-twitterBlue text-white px-[23px] py-[23px] translate-y-[120%] group-hover:translate-y-[0%] transition duration-500 ease-linear">
+        <div className="absolute top-0 left-0 right-0 lg:text-[13px] text-[12px] text-center bg-twitterBlue text-white px-[23px] py-[23px] translate-y-[120%] group-hover:translate-y-[0%] transition duration-500 ease-linear">
           <p className="mb-4">
             nHub Nigeria is a non-profit organization that was founded in 2013
             to promote the growth of the technology ecosystem in Nigeria. The

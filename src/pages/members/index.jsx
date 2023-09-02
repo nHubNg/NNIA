@@ -17,7 +17,7 @@ const Members = () => {
         </section>
 
         <section className="py-[200px]">
-          <div className="w-[80%] mx-auto grid grid-cols-3 gap-[4rem] ">
+          <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[4rem] ">
             <Card img={Image} />
             <Card img={Image} />
             <Card img={Image} />
