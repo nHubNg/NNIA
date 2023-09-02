@@ -22,7 +22,7 @@ const Blog = () => {
         </div>
 
         {/* container for articles */}
-        <div className="grid gap-[60px] md:grid-cols-2 lg:grid-cols-3 ">
+        <div className="grid gap-[60px] md:grid-cols-2 lg:grid-cols-3 place-items-center">
           <Article
             heading={"Five ways to Understand Blockchain"}
             description={
