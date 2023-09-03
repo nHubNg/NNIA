@@ -10,13 +10,14 @@ export default {
         formAsterisk: "#DB0B17",
         formBg: "#F2F0F0",
         formBorder: "#020202",
-        navBlue : "#1A8CD8",
+        navBlue: "#1A8CD8",
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
       },
       backgroundImage: {
         hero: "url('/src/assets/bg.png')",
+        header: "url('/src/assets/bgg.png')",
       },
     },
     variants: {
