@@ -6,7 +6,7 @@ import Header from "../../components/Header";
 const Blog = () => {
   return (
     <>
-      <Header img={"big"} />
+      <Header img={"[url('/src/assets/blog.png')]"}  />
 
       <div className="font-montserrat bg-background grid items-center justify-center mb-36">
 

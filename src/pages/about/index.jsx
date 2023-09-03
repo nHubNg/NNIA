@@ -26,7 +26,7 @@ import joey from "../../assets/joey.png";
 const About = () => {
   return (
     <div className="w-[100%] overflow-x-hidden bg-background">
-      <Header img={"about"} />
+      <Header img={"[url('/src/assets/about.png')]"} />
 
       <div className="font-montserrat bg-background items-center justify-center mx-[24px] mb-36">
         {/* heading container */}
@@ -109,10 +109,12 @@ const About = () => {
             <HubCard />
           </div>
 
-          <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue mt-[35px] font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group">
-            See all Members
-            <img src={pathh} alt="" className="hidden group-hover:block" />
-          </button>
+          <div className="flex justify-center items-center">
+            <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue mt-[35px] font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group">
+              See all Members
+              <img src={pathh} alt="" className="hidden group-hover:block" />
+            </button>
+          </div>
         </div>
 
         <div className="w-full hidden md:grid place-items-center">
