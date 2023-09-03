@@ -17,8 +17,8 @@ export default {
       },
       backgroundImage: {
         hero: "url('/src/assets/bgg.png')",
-        blog: "url('/src/assets/blog.png')",
-        about: "url('../public/assets/about.png')",
+        big: "url('/src/assets/blog.png')",
+        about: "url('/src/assets/about.png')",
         events: "url('/src/assets/events.png')",
         members: "url('/src/assets/members.png')",
         partner: "url('/src/assets/partner.png')",
