@@ -16,8 +16,12 @@ export default {
         montserrat: ["Montserrat", "sans-serif"],
       },
       backgroundImage: {
-        hero: "url('/src/assets/bg.png')",
-        header: "url('/src/assets/bgg.png')",
+        hero: "url('/src/assets/bgg.png')",
+        blog: "url('/src/assets/blog.png')",
+        about: "url('../public/assets/about.png')",
+        events: "url('/src/assets/events.png')",
+        members: "url('/src/assets/members.png')",
+        partner: "url('/src/assets/partner.png')",
       },
     },
     variants: {
