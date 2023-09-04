@@ -11,7 +11,7 @@ const Partner = () => {
 
     return (<>
         <div className="font-montserrat bg-background">
-            <Header img={'hero'} />
+            <Header back={'partner'} />
             <div className=" text-center ">
                 <h1 className="font-[700] text-twitterBlue text-[30px] mt-[48px] mb-[25px]">
                     Why Partner with Us?

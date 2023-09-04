@@ -26,7 +26,7 @@ import joey from "../../assets/joey.png";
 const About = () => {
   return (
     <div className="w-[100%] overflow-x-hidden bg-background">
-      <Header img={"[url('/src/assets/about.png')]"} />
+      <Header back={'aboutt'} />
 
       <div className="font-montserrat bg-background items-center justify-center mx-[24px] mb-36">
         {/* heading container */}

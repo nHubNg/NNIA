@@ -3,7 +3,7 @@ import Header from "../../components/Header";
 const Events = () => {
     return (
       <>
-        <Header img={"hero"} />
+        <Header back={'eventt'} />
 
         <div className="text-center px-10">
           <h1 className=" font-[700] text-twitterBlue text-[30px] mt-[48px] mb-[25px]">

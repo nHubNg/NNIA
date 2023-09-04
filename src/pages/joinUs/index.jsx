@@ -8,7 +8,7 @@ import path from "../../assets/path.svg";
 const JoinUs = () => {
   return (
     <div className="font-montserrat bg-background">
-      <Header img={"hero"} />
+      <Header back={'partner'} />
       <h1 className="sr-only">Join Us Page</h1>
       <main className="pt-[30px] lg:pt-[71px]">
         <section className="w-[92%] mx-auto">

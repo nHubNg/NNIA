@@ -8,7 +8,7 @@ import hamburger from "../assets/icon -menu.svg";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-const Header = ({ description, img }) => {
+const Header = ({ description, img, back }) => {
   const [showMembers, setShowMembers] = useState(false);
   const [showPrograms, setShowPrograms] = useState(false);
   const [showPartners, setShowPartners] = useState(false);
@@ -100,7 +100,7 @@ const Header = ({ description, img }) => {
                   </div>
                   {showPrograms ? (
                     <div className="absolute top-[115px] bg-black pl-2 pr-10 py-3 rounded border-t">
-                      <p className="pb-4">Programmes</p>
+                      {/* <p className="pb-4">Programmes</p> */}
                       <p><Link to="/events">Events</Link></p>
                     </div>
                   ) : (
@@ -205,7 +205,7 @@ const Header = ({ description, img }) => {
         </div>
       </div>
       <div
-        className={`bg-${img} bg-no-repeat bg-center bg-cover h-72 md:h-[513px] font-montserrat font-[700] text-center flex justify-center items-center md:pt-30 md:px-32 text-white`}
+        className={`bg-${img} ${back} bg-no-repeat bg-center bg-cover h-72 md:h-[513px] font-montserrat font-[700] text-center flex justify-center items-center md:pt-30 md:px-32 text-white`}
       >
         <h1 className="text-[25px] md:text-[50px]">{description}</h1>
       </div>

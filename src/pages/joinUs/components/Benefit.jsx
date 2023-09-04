@@ -4,7 +4,7 @@ const Benefit = ({ img, alt, text, paddingB, flexRow }) => {
   return (
     <>
       <section
-        className={`w-[92%] mx-auto flex items-center ${flexRow} flex-col gap-[20px] pt-[60px] lg:pt-[12rem] pb-10 ${paddingB}`}
+        className={`w-[92%] mx-auto flex items-center lg:${flexRow} flex-col lg:flex-row gap-[20px] pt-[60px] lg:pt-[12rem] pb-10 ${paddingB}`}
       >
       <h3 className="text-twitterBlue text-[25px] font-[700] text-center lg:hidden">
         {text}

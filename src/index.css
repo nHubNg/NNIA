@@ -12,3 +12,23 @@
 .formGroup {
   @apply w-[100%] h-[40px];
 }
+
+.blogg{
+  background-image: url('../src/assets/blog.png');
+}
+
+.aboutt{
+  background-image: url('../src/assets/about.png');
+}
+
+.eventt{
+  background-image: url('../src/assets/events.png');
+}
+
+.memberss{
+  background-image: url('../src/assets/members.png');
+}
+
+.partner{
+  background-image: url('../src/assets/partner.png');
+}
