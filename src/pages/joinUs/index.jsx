@@ -48,14 +48,16 @@ const JoinUs = () => {
           </p>
 
           <div className='flex justify-center items-center'>
-            <button className="lg:mt-5 px-5 py-2 border-white border-[1px] text-white font-[700] rounded hover:text-twitterBlue flex items-center gap-3 group hover:bg-white">
-              Apply Here
-              <img
-                src={path}
-                alt=""
-                className="hidden group-hover:block text-twitterBlue fill-twitterBlue"
-              />
-            </button>
+            <a href="https://forms.gle/mGLJAwewU4ahiDPGA" target="_blank" rel='noreferrer'>
+              <button className="lg:mt-5 px-5 py-2 border-white border-[1px] text-white font-[700] rounded hover:text-twitterBlue flex items-center gap-3 group hover:bg-white">
+                Apply Here
+                <img
+                  src={path}
+                  alt=""
+                  className="hidden group-hover:block text-twitterBlue fill-twitterBlue"
+                />
+              </button>
+            </a>
           </div>
         </section>
 

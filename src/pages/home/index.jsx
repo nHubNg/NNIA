@@ -15,6 +15,7 @@ import education from "../../assets/education.png";
 import woman from "../../assets/woman.png";
 import bg from "../../assets/bg.png";
 import articleImg from "../../assets/article-img-1.png";
+import { Link } from "react-router-dom";
 
 
 // Import Swiper React components
@@ -117,13 +118,15 @@ const Home = () => {
             </p>
 
             <div className=" mx-auto my-5">
-              <button
-                className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue md:mt-16 md:ml-16 font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group
-                        "
-              >
-                See More{" "}
-                <img src={pathh} alt="" className="hidden group-hover:block" />
-              </button>
+              <Link to='/about'>
+                <button
+                  className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue md:mt-16 md:ml-16 font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group
+                          "
+                >
+                  See More{" "}
+                  <img src={pathh} alt="" className="hidden group-hover:block" />
+                </button>
+              </Link>
             </div>
           </div>
           <div className="hidden md:flex md:w-1/2 justify-center">
@@ -201,18 +204,20 @@ const Home = () => {
       <div
         className={`bg-hero bg-no-repeat bg-center bg-cover h-72 md:h-[513px] font-montserrat font-[700] text-center flex justify-center items-center md:pt-30 md:mb-16 md:px-[270px] text-white flex-col`}
       >
-        <h1 className=" text-[23px] md:text-[30px]">
+        <h1 className=" text-[23px] md:text-[30px] px-5">
           We champion policies, drive collaboration, innovation, employability
           and entrepreneurship through hubs.
         </h1>
-        <button className="px-5 py-2 rounded border-white border-[1px] text-white mt:mt-6 md:mt-16 md:ml-16 font-[700] hover:bg-twitterBlue hover:text-white flex items-center gap-3 group hover:border-twitterBlue">
-          Become a Partner{" "}
-          <img src={pathh} alt="" className="hidden group-hover:block" />
-        </button>
+        <Link to='/partner'>
+          <button className="px-5 py-2 rounded border-white border-[1px] text-white mt:mt-6 md:mt-16 md:ml-16 font-[700] hover:bg-twitterBlue hover:text-white flex items-center gap-3 group hover:border-twitterBlue">
+            Become a Partner{" "}
+            <img src={pathh} alt="" className="hidden group-hover:block" />
+          </button>
+        </Link>
       </div>
 
-      <div className="md:h-[750px] bg-twitterBlue md:p-8 flex gap-16 py-8 ">
-        <div className="md:w-1/2 ">
+      <div className=" bg-twitterBlue md:p-8 flex gap-16 py-8 ">
+        <div className="md:w-1/2 md:py-7">
           <p className="text-[28px] font-[700] flex justify-center text-white h-[10%] text-center md:text-start mb-5">
             Meet our community
           </p>
@@ -224,14 +229,16 @@ const Home = () => {
               </p>
             </div>
             <div>
-              <button className="mt-5 px-5 py-2 border-white border-[1px] text-white font-[700] rounded hover:text-twitterBlue flex items-center gap-3 group hover:bg-white">
-                See Our Members{" "}
-                <img
-                  src={path}
-                  alt=""
-                  className="hidden group-hover:block text-twitterBlue fill-twitterBlue"
-                />
-              </button>
+              <Link to='/members'>
+                <button className="mt-5 px-5 py-2 border-white border-[1px] text-white font-[700] rounded hover:text-twitterBlue flex items-center gap-3 group hover:bg-white">
+                  See Our Members{" "}
+                  <img
+                    src={path}
+                    alt=""
+                    className="hidden group-hover:block text-twitterBlue fill-twitterBlue"
+                  />
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -293,20 +300,19 @@ const Home = () => {
 
           <div>
             <p className="text-[18px] text-center md:text-left">
-              The AfriLabs Capacity Building Programme (ACBP) is a 36 months
-              intensive capacity building for hubs across Africa. This programme
-              is funded by the Digital Africa Seed Fund through the French
-              Development Agencys support.
+              Capacity building is an essential component in the growth and sustainability of any organization. It involves the development of skills, knowledge, and systems that enable organizations to achieve their goals effectively. As a network of innovation hubs, we provide capacity building as a service to support the growth of startups, small and medium enterprises, and other organizations in the ecosystem. 
             </p>
 
             <div className="flex justify-center items-center my-5">
-              <button
-                className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue md:mt-16 md:ml-16  font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group
-                        "
-              >
-                See More{" "}
-                <img src={pathh} alt="" className="hidden group-hover:block" />
-              </button>
+              <Link to='/events'>
+                <button
+                  className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue md:mt-16 md:ml-16  font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group
+                          "
+                >
+                  See More{" "}
+                  <img src={pathh} alt="" className="hidden group-hover:block" />
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -367,7 +373,7 @@ const Home = () => {
               }
               image={articleImg}
             />
-            <Article
+            {/* <Article
               heading={"Five ways to Understand Blockchain"}
               description={
                 "Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria"
@@ -387,17 +393,19 @@ const Home = () => {
                 "Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria"
               }
               image={articleImg}
-            />
+            /> */}
           </div>
 
           <div className="flex justify-center  mt-6">
-            <button
-              className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group
-                        "
-            >
-              See More{" "}
-              <img src={pathh} alt="" className="hidden group-hover:block" />
-            </button>
+            <Link to='/blog'>
+              <button
+                className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group
+                          "
+              >
+                See More{" "}
+                <img src={pathh} alt="" className="hidden group-hover:block" />
+              </button>
+            </Link>
           </div>
         </div>
       </div>

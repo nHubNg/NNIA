@@ -21,6 +21,7 @@ import theodore from "../../assets/theodore.png";
 import nnamdi from "../../assets/nnamdi.png";
 import khamis from "../../assets/khamis.png";
 import joey from "../../assets/joey.png";
+import { Link } from "react-router-dom";
 
 
 const About = () => {
@@ -102,18 +103,58 @@ const About = () => {
                 "nHub Nigeria is committed to building a strong and vibrant tech ecosystem in Nigeria, and it is working to create a more conducive environment for tech startups and businesses to thrive."
               }
             />
-            <HubCard />
-            <HubCard />
+            <HubCard
+              hubLogo={nhub}
+              point1={"Startups"}
+              point2={"Innovation"}
+              point3={"Community"}
+              description={
+                " nHub Nigeria is a non-profit organization that was founded in 2013 to promote the growth of the technology ecosystem in Nigeria. The hub is located in Jos, Plateau State, and it provides a variety of services to its members, including:"
+              }
+              hubList={
+                <ul className=" mx-[20px]">
+                  <li className=" list-disc">coworking space</li>
+                  <li className=" list-disc">mentorship</li>
+                  <li className=" list-disc">funding and resources</li>
+                  <li className=" list-disc">advocacy</li>
+                </ul>
+              }
+              conclusion={
+                "nHub Nigeria is committed to building a strong and vibrant tech ecosystem in Nigeria, and it is working to create a more conducive environment for tech startups and businesses to thrive."
+              }
+            />
+            <HubCard
+              hubLogo={nhub}
+              point1={"Startups"}
+              point2={"Innovation"}
+              point3={"Community"}
+              description={
+                " nHub Nigeria is a non-profit organization that was founded in 2013 to promote the growth of the technology ecosystem in Nigeria. The hub is located in Jos, Plateau State, and it provides a variety of services to its members, including:"
+              }
+              hubList={
+                <ul className=" mx-[20px]">
+                  <li className=" list-disc">coworking space</li>
+                  <li className=" list-disc">mentorship</li>
+                  <li className=" list-disc">funding and resources</li>
+                  <li className=" list-disc">advocacy</li>
+                </ul>
+              }
+              conclusion={
+                "nHub Nigeria is committed to building a strong and vibrant tech ecosystem in Nigeria, and it is working to create a more conducive environment for tech startups and businesses to thrive."
+              }
+            />
             <HubCard />
             <HubCard />
             <HubCard />
           </div>
 
           <div className="flex justify-center items-center">
-            <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue mt-[35px] font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group">
-              See all Members
-              <img src={pathh} alt="" className="hidden group-hover:block" />
-            </button>
+            <Link to='/members'>
+              <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue mt-[35px] font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group">
+                See all Members
+                <img src={pathh} alt="" className="hidden group-hover:block" />
+              </button>
+            </Link>
           </div>
         </div>
 

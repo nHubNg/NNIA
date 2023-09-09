@@ -1,6 +1,7 @@
 import Header from "../../components/Header";
 import pathh from '../../assets/Path.png'
 import { useState } from 'react';
+import { Link } from "react-router-dom";
 
 const Partner = () => {
     const [show, setShow] = useState(false)
@@ -18,7 +19,7 @@ const Partner = () => {
                 </h1>
 
                 <p className="mx-[30px] md:mx-[90px] lg:mx-[140px]">
-                    By partnering with us, you get access to our network of over 100 Innovation Hubs across Nigeria that are focused on creating opportunities for individuals and startups in the tech industry to widen their horizons gain access to markets and resources that would otherwise be out of their reach, all for the growth and advancement of the Nigerian economy.
+                    By joining forces with us, you unlock the gateway to our extensive network of  cutting-edge technology Innovation Hubs in Jos, Plateau State, Nigeria. These hubs serve as the ultimate catalysts for entrepreneurs and startups in the tech industry, propelling them towards boundless possibilities. We provide unparalleled opportunities to tap into markets and resources that would otherwise remain elusive, empowering you to transcend limitations and drive Plateau State and ultimately the Nigerian economy to new heights of prosperity and progress.
                 </p>
             </div>
 
@@ -27,15 +28,7 @@ const Partner = () => {
                     How you can Partner with us
                 </h1>
 
-                <ul className='flex flex-col  items-start  list-disc'>
-                    <li>Sponsor a Hub &#8211; Region-specific, Vertical-specific, Program-specific</li>
-                    <li>Sponsor a Program &#8211; Women, Youth & PLWD Engagement || Circular Economy || COVID Response</li>
-                    <li>Sponsor a Project &#8211; CollaHubvate || Development Challenges for Universities || WomenInnovate</li>
-                    <li>Sponsor tech- and innovation-based Research</li>
-                    <li>Sponsor our advocacy &#8211; Create a more enabling environment for Nigerian Hubs & startups</li>
-                    <li>Facilitate a linkage &#8211; Cooperate, other ESO support Organizations, Academia</li>
-                    <li>Support our Secretariat &#8211; Operational and overhead costs</li>
-                </ul>
+                <p className='text-left'>You can sponsor our thought-provoking programs and events; technology innovation & market research; help provide an enabling environment for hubs and startups on the Plateau; help facilitate linkages with corporate and ESO support organizations; support our operational and overhead costs.</p>
 
 
                 <form className="flex items-end gap-5">
@@ -47,8 +40,10 @@ const Partner = () => {
                 </form>
             </div>
             <div className="flex justify-center items-center mb-20">
-                <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group
-                    ">See Partners<img src={pathh} alt="" className="hidden group-hover:block" /></button>
+                <Link to='currentPartners'>
+                    <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group
+                        ">See Partners<img src={pathh} alt="" className="hidden group-hover:block" /></button>
+                </Link>
             </div>
         </div>
     </>);

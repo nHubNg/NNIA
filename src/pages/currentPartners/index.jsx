@@ -2,6 +2,7 @@ import Header from "../../components/Header";
 import PartnersCaption from "./components/PartnerCaption";
 import Image from "../../assets/smiling african girl.jpg";
 import pathh from "../../assets/Path.png";
+import { Link } from "react-router-dom";
 
 const CurrentPartners = () => {
   return (
@@ -58,10 +59,12 @@ const CurrentPartners = () => {
           />
         </section>
 
-        <button className="px-5 py-2 mt-[218px] mx-auto border-twitterBlue border-[1px] text-twitterBlue font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group">
-          Partner with Us
-          <img src={pathh} alt="" className="hidden group-hover:block" />
-        </button>
+        <Link to='/partner'>
+          <button className="px-5 py-2 mt-[218px] mx-auto border-twitterBlue border-[1px] text-twitterBlue font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group">
+            Partner with Us
+            <img src={pathh} alt="" className="hidden group-hover:block" />
+          </button>
+        </Link>
       </main>
     </div>
   );
