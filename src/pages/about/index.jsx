@@ -21,6 +21,8 @@ import theodore from "../../assets/theodore.png";
 import nnamdi from "../../assets/nnamdi.png";
 import khamis from "../../assets/khamis.png";
 import joey from "../../assets/joey.png";
+import axia from "../../assets/axia-logo.svg";
+import mainstream from "../../assets/mainstream.jpeg";
 import { Link } from "react-router-dom";
 
 
@@ -33,7 +35,7 @@ const About = () => {
         {/* heading container */}
         <div className=" text-center mb-20">
           <h1 className="font-[700] text-twitterBlue text-[30px] mt-[48px] mb-[25px]">
-            Meet the NIA Community
+            Meet the NNIA Community
           </h1>
 
           <p className="md:mx-[140px]">
@@ -82,7 +84,7 @@ const About = () => {
           <h2 className="font-[700] text-[30px] text-twitterBlue text-center mt-[75px] mb-[35px] mx-5">
             Our Member Hubs
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[20px] place-items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[20px] place-items-center px-8">
             <HubCard
               hubLogo={nhub}
               point1={"Startups"}
@@ -104,48 +106,27 @@ const About = () => {
               }
             />
             <HubCard
-              hubLogo={nhub}
+              hubLogo={axia}
               point1={"Startups"}
               point2={"Innovation"}
               point3={"Community"}
               description={
-                " nHub Nigeria is a non-profit organization that was founded in 2013 to promote the growth of the technology ecosystem in Nigeria. The hub is located in Jos, Plateau State, and it provides a variety of services to its members, including:"
+                "Axia Hub is a value and solution driven technology and innovation hub that aids individuals, businesses, organizations, systems and governments, become knowledgeable, valuable, productive & efficient, by the creation, application and use of cutting edge innovative tools, products, services, initiatives and processes aimed at improving the society, in Africa and beyond."
               }
-              hubList={
-                <ul className=" mx-[20px]">
-                  <li className=" list-disc">coworking space</li>
-                  <li className=" list-disc">mentorship</li>
-                  <li className=" list-disc">funding and resources</li>
-                  <li className=" list-disc">advocacy</li>
-                </ul>
-              }
-              conclusion={
-                "nHub Nigeria is committed to building a strong and vibrant tech ecosystem in Nigeria, and it is working to create a more conducive environment for tech startups and businesses to thrive."
-              }
+
             />
             <HubCard
-              hubLogo={nhub}
+              hubLogo={mainstream}
               point1={"Startups"}
               point2={"Innovation"}
               point3={"Community"}
               description={
-                " nHub Nigeria is a non-profit organization that was founded in 2013 to promote the growth of the technology ecosystem in Nigeria. The hub is located in Jos, Plateau State, and it provides a variety of services to its members, including:"
+                "We are a modern space, an idea la that encourages creativity,self development, growth and high end skill acquisition. We nurture minds to brilliance, we mentor young minds to understand the formidability of passion, consistency and diligence"
               }
-              hubList={
-                <ul className=" mx-[20px]">
-                  <li className=" list-disc">coworking space</li>
-                  <li className=" list-disc">mentorship</li>
-                  <li className=" list-disc">funding and resources</li>
-                  <li className=" list-disc">advocacy</li>
-                </ul>
-              }
-              conclusion={
-                "nHub Nigeria is committed to building a strong and vibrant tech ecosystem in Nigeria, and it is working to create a more conducive environment for tech startups and businesses to thrive."
-              }
+              
             />
             <HubCard />
-            <HubCard />
-            <HubCard />
+
           </div>
 
           <div className="flex justify-center items-center">

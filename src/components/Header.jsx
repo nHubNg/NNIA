@@ -1,4 +1,4 @@
-import logo from "../assets/Group 3586.svg";
+import logo from "../assets/nnia logo.png";
 import insta from "../assets/Instagram.png";
 import twitter from "../assets/Twitter.png";
 import facebook from "../assets/Facebook.png";
@@ -66,26 +66,26 @@ const Header = ({ description, img, back }) => {
           <div className="flex justify-center lg:w-full">
             <ul className="hidden lg:flex justify-center items-center gap-12 text-[14px] lg:pr-10">
               <li>
-                <Link to="/">Home</Link>
+                <Link className='hover:text-twitterBlue' to="/">Home</Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link className='hover:text-twitterBlue' to="/about">About</Link>
               </li>
               <li>
-                <Link to="/blog">Blog</Link>
+                <Link className='hover:text-twitterBlue' to="/blog">Blog</Link>
               </li>
               <li onClick={showMemberMenu} className="cursor-pointer">
                 <div>
                   <div className="flex items-center gap-5">
-                    <p>Membership Area</p> <img src={arrow} alt="" />
+                    <p className='hover:text-twitterBlue'>Membership Area</p> <img src={arrow} alt="" />
                   </div>
                   {showMembers ? (
                     <div className="absolute top-[115px] bg-black pl-2 pr-10 py-3 rounded border-t">
                       <p className="pb-4">
-                        <Link to="/members">See Our Members</Link>
+                        <Link className='hover:text-twitterBlue' to="/members">See Our Members</Link>
                       </p>
                       <p>
-                        <Link to="/joinUs">Become a Member</Link>
+                        <Link className='hover:text-twitterBlue' to="/joinUs">Become a Member</Link>
                       </p>
                     </div>
                   ) : (
@@ -96,12 +96,12 @@ const Header = ({ description, img, back }) => {
               <li onClick={showProgramsMenu} className="cursor-pointer">
                 <div>
                   <div className="flex items-center gap-5">
-                    <p>Programmes and Events</p> <img src={arrow} alt="" />
+                    <p className='hover:text-twitterBlue'>Programmes and Events</p> <img src={arrow} alt="" />
                   </div>
                   {showPrograms ? (
                     <div className="absolute top-[115px] bg-black pl-2 pr-10 py-3 rounded border-t">
                       {/* <p className="pb-4">Programmes</p> */}
-                      <p><Link to="/events">Events</Link></p>
+                      <p><Link className='hover:text-twitterBlue' to="/events">Events</Link></p>
                     </div>
                   ) : (
                     ""
@@ -111,14 +111,14 @@ const Header = ({ description, img, back }) => {
               <li onClick={showPartnersMenu} className="cursor-pointer">
                 <div>
                   <div className="flex items-center gap-5">
-                    <p>Partner with Us</p> <img src={arrow} alt="" />
+                    <p className='hover:text-twitterBlue'>Partner with Us</p> <img src={arrow} alt="" />
                   </div>
                   {showPartners ? (
                     <div className="absolute top-[115px] bg-black pl-2 pr-10 py-3 rounded border-t">
-                      <Link to="/currentPartners">
-                        <p className="pb-4">See Our Partners</p>
+                      <Link className='hover:text-twitterBlue' to="/currentPartners">
+                        <p className="pb-4 hover:text-twitterBlue">See Our Partners</p>
                       </Link>
-                      <Link to="/partner">
+                      <Link className='hover:text-twitterBlue' to="/partner">
                         <p>Become a Partner</p>
                       </Link>
                     </div>
@@ -128,7 +128,7 @@ const Header = ({ description, img, back }) => {
                 </div>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link className='hover:text-twitterBlue' to="/contact">Contact</Link>
               </li>
             </ul>
           </div>

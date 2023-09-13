@@ -1,5 +1,5 @@
 import path from '../assets/Path.png'
-import logo from '../assets/Group 3586.svg'
+import logo from '../assets/nnia logo.png'
 import insta from '../assets/Instagramw.png'
 import facebook from '../assets/Facebookw.png'
 import twitter from '../assets/Twitterw.png'
@@ -43,7 +43,7 @@ const Footer = () => {
             </div>
 
             <div className='flex items-center justify-between'>
-                <div> <img src={logo} className='hidden md:block' alt='' /> </div>
+                <div> <img src={logo} className='hidden md:block w-[10%]' alt='' /> </div>
                 <div className='hidden md:flex items-center gap-[59px] text-[14px] font-montserrat text-white'>
                     <p className='opacity-75 cursor-pointer'>Terms</p>
                     <p className='opacity-75 cursor-pointer'>Privacy</p>

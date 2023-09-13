@@ -7,7 +7,7 @@ const Events = () => {
 
         <div className="text-center px-10">
           <h1 className=" font-[700] text-twitterBlue text-[30px] mt-[48px] mb-[25px]">
-            NIA Events
+            NNIA Events
           </h1>
 
           <p>You can sponsor our thought-provoking programs and events; technology innovation & market research; help provide an enabling environment for hubs and startups on the Plateau; help facilitate linkages with corporate and ESO support organizations; support our operational and overhead costs.</p>

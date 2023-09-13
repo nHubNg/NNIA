@@ -4,7 +4,7 @@ import linkedin from "../../../assets/linkedin-black.svg";
 
 const BoardMembers = ({memberImage, memberName, memberPosition, memberOrganisation, department, facebookPage, linkedinPage, twitterPage}) => {
     return (
-      <div className=" border-[5px] border-black w-[240px]">
+      <div className=" border-[5px] border-twitterBlue w-[240px]">
         <img src={memberImage} alt="" />
         <div className="grid place-items-center gap-[3px] text-center">
           <p>{memberName}</p>

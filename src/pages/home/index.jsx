@@ -96,7 +96,7 @@ const Home = () => {
           Meet Us
         </h1>
         <div className="flex flex-col md:flex-row justify-start items-start gap-10 w-full">
-          <div className="md:w-1/2  my-auto text-[13px] flex flex-col justify-center items-center">
+          <div className="md:w-1/2 my-auto text-[13px] md:text-[18px] flex flex-col justify-center items-center">
             <p>
               Network on a mission to create an environment in which all players
               in the Jos startup ecosystem can work together in harmony and
@@ -299,7 +299,7 @@ const Home = () => {
           </h1>
 
           <div>
-            <p className="text-[18px] text-center md:text-left">
+            <p className="text-[14px] md:text-[18px] text-center md:text-left">
               Capacity building is an essential component in the growth and sustainability of any organization. It involves the development of skills, knowledge, and systems that enable organizations to achieve their goals effectively. As a network of innovation hubs, we provide capacity building as a service to support the growth of startups, small and medium enterprises, and other organizations in the ecosystem. 
             </p>
 

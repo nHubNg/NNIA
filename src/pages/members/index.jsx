@@ -26,7 +26,7 @@ const Members = () => {
             hub is located in Jos, Plateau State, and it provides a variety of
             services to its members, including: Coworking space, Mentorship and training programs, Access to funding and resources, Advocacy for the tech industry. nHub Nigeria is committed to building a strong and vibrant tech
             ecosystem in Nigeria, and it is working to create a more conducive
-            environment for tech startups and businesses to thrive.' link='nhubnigeria.ng' />
+            environment for tech startups and businesses to thrive.' link={'https://nhubnigeria.ng'} />
             <Card img={axia} text='Axia Hub is a value and solution driven technology and innovation hub that aids individuals, businesses, organizations, systems and governments, become knowledgeable, valuable, productive & efficient, by the creation, application and use of cutting edge innovative tools, products, services, initiatives and processes aimed at improving the society, in Africa and beyond.'/>
             <Card img={mainstream} text='We are a modern space, an idea la that encourages creativity,self development, growth and high end skill acquisition. We nurture minds to brilliance, we mentor young minds to understand the formidability of passion, consistency and diligence' />
             {/* <Card img={Image} /> */}

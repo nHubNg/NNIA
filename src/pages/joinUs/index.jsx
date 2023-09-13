@@ -13,14 +13,14 @@ const JoinUs = () => {
       <main className="pt-[30px] lg:pt-[71px]">
         <section className="w-[92%] mx-auto">
           <h2 className="punchLine text-twitterBlue text-[30px]">
-            Become NIA Community Member
+            Become NNIA Community Member
           </h2>
           <dl className="mt-[20px]">
             <dt className="lg:mx-[160px] mb-[20px] text-center">Hi There!</dt>
             <dd className="lg:mx-[160px] text-center">
-              We are glad that you are interested in being a part of the NIA
+              We are glad that you are interested in being a part of the NNIA
               network. As an ever-growing network of tech and innovation hubs
-              across Africa, NIA continually provides her members with a
+              across Africa, NNIA continually provides her members with a
               platform to connect, collaborate, and network with other African
               innovators, entrepreneurs, developers, educators, and stakeholders
               in order to create viable solutions that would enable the
