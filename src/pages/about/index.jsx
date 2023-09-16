@@ -22,7 +22,7 @@ import nnamdi from "../../assets/nnamdi.png";
 import khamis from "../../assets/khamis.png";
 import joey from "../../assets/joey.png";
 import axia from "../../assets/axia-logo.svg";
-import mainstream from "../../assets/mainstream.jpeg";
+import mainstream from "../../assets/mainstream.png";
 import { Link } from "react-router-dom";
 
 
@@ -125,7 +125,7 @@ const About = () => {
               }
               
             />
-            <HubCard />
+            {/* <HubCard /> */}
 
           </div>
 

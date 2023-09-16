@@ -4,11 +4,11 @@ const Card = ({ img, link, text }) => {
   return (
     <>
       <div className="max-w-[400px] h-[475px] relative group cursor-pointer overflow-y-hidden hover: group">
-        <div className="absolute top-0 left-0 right-0 h-full flex items-center justify-center bg-white border-[6px] border-twitterBlue z-10 group-hover:translate-y-[120%] translate-y-[0%] transition duration-500 ease-linear">
+        <div className="absolute top-0 left-0 right-0 h-full flex items-center justify-center bg-white border-[6px] border-twitterBlue z-10 group-hover:translate-y-[120%] translate-y-[0%] transition duration-500 ease-linear rounded-[10px]">
           <img src={img} alt="" />
         </div>
 
-        <div className="absolute top-0 left-0 right-0 lg:text-[13px] text-[12px] text-center bg-twitterBlue text-white px-[23px] py-[23px] translate-y-[120%] group-hover:translate-y-[0%] transition duration-500 ease-linear">
+        <div className="absolute top-0 left-0 right-0 lg:text-[13px] text-[12px] text-center bg-twitterBlue text-white px-[23px] py-[23px] translate-y-[120%] group-hover:translate-y-[0%] transition duration-500 ease-linear rounded-[10px]">
           <p className="mb-4">
             {text}
           </p>
