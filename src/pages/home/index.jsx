@@ -87,7 +87,7 @@ const Home = () => {
   return (
     <div className="font-montserrat bg-background">
       <Header
-        description={"The Largest Community of Tech Innovators in West Africa"}
+        description={"The Largest Network of Incubators, Accelerators, Innovators, and Startups in Northern Nigeria."}
         img={"hero"}
       />
 
@@ -185,7 +185,7 @@ const Home = () => {
               <div className="flex justify-center items-center flex-col bg-white h-[280px] rounded-[10px] gap-10">
                 <img src={makerspace} alt="" />
                 <p className="font-[700] text-[22px] text-twitterBlue">
-                  Marker Space
+                  Innovators
                 </p>
               </div>
             </SwiperSlide>

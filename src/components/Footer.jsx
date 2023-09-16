@@ -4,6 +4,7 @@ import insta from '../assets/Instagramw.png'
 import facebook from '../assets/Facebookw.png'
 import twitter from '../assets/Twitterw.png'
 import linkedin from '../assets/Linkedinw.png'
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (<>
@@ -12,10 +13,18 @@ const Footer = () => {
                 <div className='flex flex-col  text-center  md:flex-row md:gap-[90px] pb-[20px]'>
                     <div className='text-[14px] text-white'>
                         <p className='font-[700] '>Company</p>
+                        <Link to='/members'>
                         <p className='opacity-75 pt-[15px]'>Members</p>
-                        <p className='opacity-75 pt-[15px]'>Join Us</p>
-                        <p className='opacity-75 pt-[15px]'>Events</p>
-                        <p className='opacity-75 pt-[15px]'>Partners</p>
+                        </Link>
+                        <Link to='/joinuUs'>
+                            <p className='opacity-75 pt-[15px]'>Join Us</p>
+                            </Link>
+                        <Link to='/events'>
+                            <p className='opacity-75 pt-[15px]'>Events</p>
+                            </Link>
+                        <Link to='/partner'>
+                            <p className='opacity-75 pt-[15px]'>Partners</p>
+                            </Link>
                     </div>
                     <div className='text-[14px] text-white'>
                         <p className='font-[700] '>Information</p>
