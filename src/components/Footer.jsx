@@ -13,18 +13,18 @@ const Footer = () => {
                 <div className='flex flex-col  text-center  md:flex-row md:gap-[90px] pb-[20px]'>
                     <div className='text-[14px] text-white'>
                         <p className='font-[700] '>Company</p>
-                        <Link to='/members'>
+                        {/* <Link to='/members'> */}
                         <p className='opacity-75 pt-[15px]'>Members</p>
-                        </Link>
-                        <Link to='/joinuUs'>
+                        {/* </Link> */}
+                        {/* <Link to='/joinuUs'> */}
                             <p className='opacity-75 pt-[15px]'>Join Us</p>
-                            </Link>
-                        <Link to='/events'>
+                            {/* </Link> */}
+                        {/* <Link to='/events'> */}
                             <p className='opacity-75 pt-[15px]'>Events</p>
-                            </Link>
-                        <Link to='/partner'>
+                            {/* </Link> */}
+                        {/* <Link to='/partner'> */}
                             <p className='opacity-75 pt-[15px]'>Partners</p>
-                            </Link>
+                            {/* </Link> */}
                     </div>
                     <div className='text-[14px] text-white'>
                         <p className='font-[700] '>Information</p>
