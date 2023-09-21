@@ -16,24 +16,20 @@ const Benefit = ({ img, alt, text, paddingB, flexRow }) => {
             {text}
           </h3>
           <ul className="mt-[30px] lg:mt-[5rem] px-[20px] lg:px-[4rem] list-disc marker:text-[13px] marker:text-gray-500 space-y-5">
-            <li>Access to all AfriLabs programmes and interventions.</li>
-            <li>Unrestricted access to AfriPass.</li>
+            <li>Access to all NNIA programmes and interventions.</li>
             <li>Unlimited access to training resources from our workshops.</li>
             <li>
-              Eligibility to access grants under different programmes like the
-              AfriLabs Capacity Building Programme.
+              Eligibility to access grants and capacity building.
             </li>
-            <li>Unrestricted entry to the Catalytic Africa Programme.</li>
             <li>
-              AfriLabs endorsement and support in scaling your programmes.
+              NNIA endorsement and support in scaling your programmes.
             </li>
-            <li>Access to all-expense-paid ecosystem events.</li>
-            <li>Priority access at the AfriLabs Annual Gathering.</li>
+            <li>Priority access at the NNIA annual gatherings and programmes.</li>
             <li>
-              Opportunity to be an AfriLabs subcontractor/implementation
+              Opportunity to be an NNIA subcontractor/implementation
               partner.
             </li>
-            <li>Access to other community members across Africa.</li>
+            <li>Access to other community members across Northern Nigeria.</li>
           </ul>
         </article>
       </section>

@@ -98,10 +98,10 @@ const Home = () => {
         <div className="flex flex-col md:flex-row justify-start items-start gap-10 w-full">
           <div className="md:w-1/2 my-auto text-[13px] md:text-[18px] flex flex-col justify-center items-center">
             <p>
-              Network on a mission to create an environment in which all players
-              in the Jos startup ecosystem can work together in harmony and
-              cooperation, with the ultimate goal of supporting and accelerating
-              the growth of startups.
+              A network on a mission to create an environment in which all players
+              in the Northern startup ecosystem can work together in harmony and
+              cooperation and also serve as a pressure group to bring meaningful opportunities to member hubs and startups, with the ultimate goal of supporting and accelerating
+              the growth of member hubs and startups.
             </p>
             <br />
             <p>
@@ -113,8 +113,8 @@ const Home = () => {
             <p>
               By fostering a culture of collaboration and open communication, we
               hope to create a vibrant and dynamic community that attracts
-              talent and investment, and helps to position Jos as a hub for
-              innovation and entrepreneurship
+              talent and investment, and helps to position Northern NIgeria as a hub for
+              innovation and entrepreneurship.
             </p>
 
             <div className=" mx-auto my-5">
@@ -219,13 +219,12 @@ const Home = () => {
       <div className=" bg-twitterBlue md:p-8 flex gap-16 py-8 ">
         <div className="md:w-1/2 md:py-7">
           <p className="text-[28px] font-[700] flex justify-center text-white h-[10%] text-center md:text-start mb-5">
-            Meet our community
+            Meet our growing economy
           </p>
           <div className="flex justify-center items-center flex-col border-white border-[1px] px-7 py-7 md:0  m-5 md:0  rounded md:h-[90%]">
             <div className="text-center flex justify-center items-center lg:pt-30 lg:px-10  text-white text-[30px] md:text-[40px]">
               <p>
-                We are a <span className="font-[700]">459 Member</span> Hubs in
-                100 Cities & still growing!
+                We are a fast rising community, which is still growing!
               </p>
             </div>
             <div>
@@ -258,7 +257,7 @@ const Home = () => {
               backgroundColor="twitterBlue"
             />
             <Specialty
-              text="Education"
+              text="Acceleration"
               image={education}
               textColor="twitterBlue"
               backgroundColor="white"
@@ -267,7 +266,7 @@ const Home = () => {
 
           <div className="flex flex-col items-center gap-10">
             <Specialty
-              text="Enterpreneur"
+              text="Enterpreneurship"
               image={enterpreneur}
               textColor="twitterBlue"
               backgroundColor="white"
@@ -321,7 +320,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="hidden mb-20 md:flex justify-center items-center flex-col mx-16">
+      {/* <div className="hidden mb-20 md:flex justify-center items-center flex-col mx-16">
         <h1 className="font-[700] text-twitterBlue text-[30px] mb-8">
           Members Say
         </h1>
@@ -343,14 +342,14 @@ const Home = () => {
             description="Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria"
           />
         </div>
-      </div>
+      </div> */}
 
       <div className="px-10 mb-28">
-        <h1 className="font-[700] text-twitterBlue text-[26px] text-center md:text-[30px] mb-8">
+        {/* <h1 className="font-[700] text-twitterBlue text-[26px] text-center md:text-[30px] mb-8">
           Our Latest Article
-        </h1>
+        </h1> */}
 
-        <div>
+        {/* <div>
           <div className="flex justify-center flex-wrap gap-14">
             <Article
               heading={"Five ways to Understand Blockchain"}
@@ -372,7 +371,7 @@ const Home = () => {
                 "Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria"
               }
               image={articleImg}
-            />
+            /> */}
             {/* <Article
               heading={"Five ways to Understand Blockchain"}
               description={
@@ -394,7 +393,7 @@ const Home = () => {
               }
               image={articleImg}
             /> */}
-          </div>
+          {/* </div>
 
           <div className="flex justify-center  mt-6">
             <Link to='/blog'>
@@ -407,7 +406,7 @@ const Home = () => {
               </button>
             </Link>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

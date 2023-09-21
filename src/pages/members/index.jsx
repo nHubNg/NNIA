@@ -8,6 +8,9 @@ import akclogo from "../../assets/akclogo.png";
 import stl from "../../assets/stl.jpg";
 import thrive from "../../assets/thrive.png";
 import annikedel from "../../assets/annikedel.png";
+import jostgreen from "../../assets/jostgreen.png";
+import nhubfoundation from "../../assets/nhubfoundation.png";
+import innovations from "../../assets/innovations.jpeg";
 import { Link } from "react-router-dom";
 
 const Members = () => {
@@ -16,15 +19,11 @@ const Members = () => {
       <Header back={'memberss'} />
       <h1 className="sr-only">members page</h1>
       <main>
-        <section className="w-[93%] mx-auto mt-[68px]">
-          <h2 className="punchLine text-twitterBlue">See Our Hubs</h2>
-          <p className="mt-[20px] text-center">
-            We are made up of great and wonderful hubs and that forms the the
-            backbone of every success we have recorded.
-          </p>
+        <section className="mx-auto mt-[68px]">
+          <h2 className="punchLine text-twitterBlue">Info About Partner Hubs</h2>
         </section>
 
-        <section className="py-[200px]">
+        <section className="pt-[50px] pb-[100px]">
           <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[4rem] ">
             <Card img={Image} text='nHub Nigeria is a non-profit organization that was founded in 2013
             to promote the growth of the technology ecosystem in Nigeria. The
@@ -33,12 +32,15 @@ const Members = () => {
             ecosystem in Nigeria, and it is working to create a more conducive
             environment for tech startups and businesses to thrive.' link={'https://nhubnigeria.ng'} />
             <Card img={axia} text='Axia Hub is a value and solution driven technology and innovation hub that aids individuals, businesses, organizations, systems and governments, become knowledgeable, valuable, productive & efficient, by the creation, application and use of cutting edge innovative tools, products, services, initiatives and processes aimed at improving the society, in Africa and beyond.' />
+            <Card img={nhubfoundation} text='nHub Foundation is a non-governmental and not-for-profit organization that leverages on emerging technologies, works to enhance policy advocacy, gender inclusiveness, Technology for all, infrastructure/capacity building as regards Employability and Entrepreneurship, innovation and every aspect of social impact. The hub is modelled around the SDG goals.' link={'https://nhubfoundation.org/'} />
             <Card img={mainstream} text='We are a modern space, an idea la that encourages creativity,self development, growth and high end skill acquisition. We nurture minds to brilliance, we mentor young minds to understand the formidability of passion, consistency and diligence' link='https://mehubnigeria.com.ng' />
+            <Card img={jostgreen} text='Jost Greens Services Limited is a collective of experts, with the aim of ensuring impact investment is accessible to businesses that traditionally encounter insurmountable barriers to accessing and managing credit and other financing options. We are primarily focused on the underserved geographic demographic of Northern Nigeria, with the intent to scale nationwide. We serve as a business accelerator, providing; investment training, Investment matching, and post-investment support.' link='https://www.colemanparkes.com/' />
             <Card img={annikedel} text='Boluwatife Oluwafemi, a seasoned Principal Consultant at Annikedel Company, has guided 30+ startups to success. As a Steel DAO VC Scout for Bessemer Ventures and a Venture Scout for Ajim Capital, he&apos;s a master at identifying innovation. In year 2021 & 2022, he joined an elite panel of judges for the $1m Global Edtech Cup Competition alongside experts from Microsoft Ventures, Google Ventures, Sequoia, and more.
 Boluwatife&apos;s tech recruiting journey began at Chuuse Inc, where he climbed from Venture Builder to Chief of Staff, spearheading partnerships yielding $10k+ in revenue, expanding the talent pool to 5120+ engineering teams, and co-leading Chuuse&apos;s Launch-into-Tech Program, attracting 1,000+ applicants.' link={'https://annikedelcompany.com'} />
             <Card img={skyhub} text='SKYHub Nigeria is a creative digital media agency and training hub that helps individuals and organizations achieve their goals through the use of digital tools and platforms.' link={'http://skyhubnigeria.com/'} />
             <Card img={thrive} text='Thrive Media Africa is a digital marketing hub that helps businesses thrive online. We are a team of experienced professionals who are passionate about helping businesses grow their online presence, increase sales and reach their target audience.' link='https://thrivemediaafrica.com' />
             <Card img={akclogo} link='https://akconnecthub.com.ng' text='AKCONNECTHUB is reducing digital illiteracy among young individuals and vulnerable groups (disabled individuals) in North Central Nigeria by making learning fun to them and promoting inclusion. We&apos;re breaking language barrier in learning tech.' />
+            <Card img={innovations} link='https://www.02innovationslab.com/' text='02 Innovations Lab is a technology innovation hub dedicated to providing innovative solutions tailored to meet the needs of SMEs, startups, and various organizations.' />
             <Card img={stl} link='https://sunnahtechlab.com' text='Sunnah Tech Lab is a dynamic and forward-thinking tech hub committed to cultivating talent and narrowing the digital divide, with a special focus on underserved communities. Our mission revolves around incubating and accelerating innovative ideas, empowering individuals to turn their tech dreams into reality. Through cutting-edge resources, mentorship, and a vibrant community, we strive to foster a culture of innovation and inclusivity' />
 
           </div>

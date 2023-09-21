@@ -1,5 +1,6 @@
 import Header from "../../components/Header";
 import Benefit from "./components/Benefit";
+import Criteria from "./components/Criteria";
 import chairsPic from "../../assets/chairs.jpg";
 import techGirl from "../../assets/tech-lady.jpg";
 import path from "../../assets/path.svg";
@@ -20,17 +21,14 @@ const JoinUs = () => {
             <dd className="lg:mx-[160px] text-center">
               We are glad that you are interested in being a part of the NNIA
               network. As an ever-growing network of tech and innovation hubs
-              across Africa, NNIA continually provides her members with a
-              platform to connect, collaborate, and network with other African
-              innovators, entrepreneurs, developers, educators, and stakeholders
-              in order to create viable solutions that would enable the
-              development of the African ecosystem.
+              across Northern NIgeria, NNIA continually provides her members with a
+              platform to connect, collaborate, and network with other sister ecosystem stakeholders around Nigeria and beyond.
             </dd>
           </dl>
         </section>
 
         <Benefit img={chairsPic} alt="Cropped chairs" text="Members&apos; Benefit" />
-        <Benefit
+        <Criteria
           img={techGirl}
           alt="Tech girl"
           text="Membership Criteria"

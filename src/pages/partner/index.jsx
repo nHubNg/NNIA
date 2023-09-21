@@ -16,10 +16,12 @@ const Partner = () => {
             <div className=" text-center ">
                 <h1 className="font-[700] text-twitterBlue text-[30px] mt-[48px] mb-[25px]">
                     Why Partner with Us?
+                    <br /><span className="text-[20px]">Here&apos;s a little secret</span>
                 </h1>
+                
 
                 <p className="mx-[30px] md:mx-[90px] lg:mx-[140px]">
-                    By joining forces with us, you unlock the gateway to our extensive network of  cutting-edge technology Innovation Hubs in Jos, Plateau State, Nigeria. These hubs serve as the ultimate catalysts for entrepreneurs and startups in the tech industry, propelling them towards boundless possibilities. We provide unparalleled opportunities to tap into markets and resources that would otherwise remain elusive, empowering you to transcend limitations and drive Plateau State and ultimately the Nigerian economy to new heights of prosperity and progress.
+                    By joining forces with us, you unlock the gateway to our extensive network of  cutting-edge technology Innovation Hubs in Northern Nigeria. These hubs serve as the ultimate catalysts for entrepreneurs and startups in the tech industry, propelling them towards boundless possibilities. We provide unparalleled opportunities to tap into markets and resources that would otherwise remain elusive, empowering you to transcend limitations and drive Northern region and ultimately embrace the digital economy.
                 </p>
             </div>
 

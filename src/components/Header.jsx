@@ -71,9 +71,9 @@ const Header = ({ description, img, back }) => {
               <li>
                 <Link className='hover:text-twitterBlue' to="/about">About</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link className='hover:text-twitterBlue' to="/blog">Blog</Link>
-              </li>
+              </li> */}
               <li onClick={showMemberMenu} className="cursor-pointer">
                 <div>
                   <div className="flex items-center gap-5">
@@ -115,9 +115,9 @@ const Header = ({ description, img, back }) => {
                   </div>
                   {showPartners ? (
                     <div className="absolute top-[115px] bg-black pl-2 pr-10 py-3 rounded border-t">
-                      <Link className='hover:text-twitterBlue' to="/currentPartners">
+                      {/* <Link className='hover:text-twitterBlue' to="/currentPartners">
                         <p className="pb-4 hover:text-twitterBlue">See Our Partners</p>
-                      </Link>
+                      </Link> */}
                       <Link className='hover:text-twitterBlue' to="/partner">
                         <p>Become a Partner</p>
                       </Link>
@@ -170,7 +170,7 @@ const Header = ({ description, img, back }) => {
                   </div>
                   {showPrograms ? (
                     <div className="absolute top-[115px] bg-black pl-2 pr-10 py-3 rounded border-t">
-                      <p className="pb-4">Programmes</p>
+                      {/* <p className="pb-4">Programmes</p> */}
                       <p><Link to="/events">Events</Link></p>
                     </div>
                   ) : (
@@ -185,9 +185,9 @@ const Header = ({ description, img, back }) => {
                   </div>
                   {showPartners ? (
                     <div className="absolute top-[115px] bg-black pl-2 pr-10 py-3 rounded border-t">
-                      <Link to="/currentPartners">
+                      {/* <Link to="/currentPartners">
                         <p className="pb-4">See Our Partners</p>
-                      </Link>
+                      </Link> */}
                       <Link to="/partner">
                         <p>Become a Partner</p>
                       </Link>

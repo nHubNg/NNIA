@@ -34,7 +34,7 @@ const Footer = () => {
                     </div>
                     <div className='text-[14px] text-white mb-6'>
                         <p className='font-[700] '>Visit Us</p>
-                        <p className='opacity-75 pt-[15px]'>123 Main Street off the unknown <br /> houses, Jos, Nigeria</p>
+                        <p className='opacity-75 pt-[15px]'>2nd floor, TAEN Business Complex,<br /> Jos Plateau State, Nigeria</p>
                     </div>
                 </div>
                 <div className='md:w-[310px] h-[240px] bg-footerBackground pt-[30px] px-6 md:px-[25px] text-white text-[14px]'>

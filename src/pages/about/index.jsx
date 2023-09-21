@@ -39,7 +39,10 @@ const About = () => {
           </h1>
 
           <p className="md:mx-[140px]">
-          Network on a mission to create an environment in which all players in the Jos startup ecosystem can work together in harmony and cooperation, with the ultimate goal of supporting and accelerating the growth of startups. 
+            A network on a mission to create an environment in which all players
+            in the Northern startup ecosystem can work together in harmony and
+            cooperation and also serve as a pressure group to bring meaningful opportunities to member hubs and startups, with the ultimate goal of supporting and accelerating
+            the growth of member hubs and startups.
           </p>
           <p className="md:mx-[140px]">
           Through collaboration and mutual support, we believe that we can create a thriving startup ecosystem that benefits everyone involved, from entrepreneurs and investors to service providers and government agencies. By fostering a culture of collaboration and open communication, we hope to create a vibrant and dynamic community that attracts talent and investment, and helps to position Jos as a hub for innovation and entrepreneurship
