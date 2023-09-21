@@ -219,12 +219,12 @@ const Home = () => {
       <div className=" bg-twitterBlue md:p-8 flex gap-16 py-8 ">
         <div className="md:w-1/2 md:py-7">
           <p className="text-[28px] font-[700] flex justify-center text-white h-[10%] text-center md:text-start mb-5">
-            Meet our growing economy
+            Meet our growing community
           </p>
           <div className="flex justify-center items-center flex-col border-white border-[1px] px-7 py-7 md:0  m-5 md:0  rounded md:h-[90%]">
             <div className="text-center flex justify-center items-center lg:pt-30 lg:px-10  text-white text-[30px] md:text-[40px]">
               <p>
-                We are a fast rising community, which is still growing!
+                We believe that collaboration will drive sustainable growth!
               </p>
             </div>
             <div>
@@ -258,7 +258,7 @@ const Home = () => {
             />
             <Specialty
               text="Acceleration"
-              image={education}
+              image={accelerator}
               textColor="twitterBlue"
               backgroundColor="white"
             />

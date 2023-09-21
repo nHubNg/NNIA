@@ -13,11 +13,11 @@ import BoardMembers from "./component/board";
 // import pam from "../../assets/pam.png";
 // import musa from "../../assets/musa.png";
 // import silas from "../../assets/silas.png";
-import precious from "../../assets/precious.png";
-import miriam from "../../assets/miriam.png";
-import samaila from "../../assets/samaila.png";
-import pamDung from "../../assets/pamDung.png";
-import theodore from "../../assets/theodore.png";
+// import precious from "../../assets/precious.png";
+// import miriam from "../../assets/miriam.png";
+// import samaila from "../../assets/samaila.png";
+// import pamDung from "../../assets/pamDung.png";
+// import theodore from "../../assets/theodore.png";
 import nnamdi from "../../assets/nnamdi.png";
 import khamis from "../../assets/khamis.png";
 import joey from "../../assets/joey.png";
@@ -174,10 +174,10 @@ const About = () => {
 
           <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-[45px]">
             <BoardMembers
-              memberImage={theodore}
-              memberName={"Theodore Longji"}
+              memberImage={"https://res.cloudinary.com/nhubnacademy/image/upload/v1682900757/nHubFoundation/bash_efr3k8.jpg"}
+              memberName={"Bashir Shaidu"}
               memberPosition={"Chairman"}
-              department={"CEO"}
+              department={"COO"}
               memberOrganisation={"nHub"}
               twitterPage={"https://twitter.com"}
               facebookPage={"https://facebook.com"}
@@ -192,7 +192,17 @@ const About = () => {
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
-            />
+              />
+              <BoardMembers
+                memberImage={"https://res.cloudinary.com/nhubnacademy/image/upload/v1682954565/nHubFoundation/eric-nanle_1_l5boss.png"}
+                memberName={"Eric Nanle"}
+                memberPosition={"Treasurer"}
+                department={"CEO"}
+                memberOrganisation={"nHub Foundation"}
+                twitterPage={"https://google.com"}
+                facebookPage={"https://google.com"}
+                linkedinPage={"https://google.com"}
+              />
             <BoardMembers
               memberImage={khamis}
               memberName={"Khamis Malami,"}
@@ -212,37 +222,27 @@ const About = () => {
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
-            />
+              />
             <BoardMembers
-              memberImage={precious}
-              memberName={"Precious Ade"}
-              memberPosition={"Secretary"}
-              department={"General"}
+              memberImage={"https://res.cloudinary.com/nhubnacademy/image/upload/v1678914784/nhubNigeria/sam_mffar3.jpg"}
+              memberName={"Samuel Adebayo"}
+              memberPosition={"PRO"}
+              department={"Head of Partnership"}
               memberOrganisation={"nHub"}
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
             />
-            <BoardMembers
-              memberImage={miriam}
-              memberName={"Miriam Chris"}
-              memberPosition={"Director"}
-              department={"Media"}
-              memberOrganisation={"nHub"}
-              twitterPage={"https://google.com"}
-              facebookPage={"https://google.com"}
-              linkedinPage={"https://google.com"}
-            />
-            <BoardMembers
-              memberImage={samaila}
-              memberName={"Samaila Isa"}
-              memberPosition={"Director"}
-              department={"Ecosystem"}
-              memberOrganisation={"nHub"}
-              twitterPage={"https://google.com"}
-              facebookPage={"https://google.com"}
-              linkedinPage={"https://google.com"}
-            />
+              {/* <BoardMembers
+                memberImage={miriam}
+                memberName={"Miriam Chris"}
+                memberPosition={"Director"}
+                department={"Media"}
+                memberOrganisation={"nHub"}
+                twitterPage={"https://google.com"}
+                facebookPage={"https://google.com"}
+                linkedinPage={"https://google.com"}
+              />
             <BoardMembers
               memberImage={pamDung}
               memberName={"Pam Dung Badung"}
@@ -252,7 +252,7 @@ const About = () => {
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
-            />
+            /> */}
           </div>
         </div>
       </div>
