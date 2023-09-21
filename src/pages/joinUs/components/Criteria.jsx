@@ -16,19 +16,18 @@ const Criteria = ({ img, alt, text, paddingB, flexRow }) => {
                         {text}
                     </h3>
                     <ul className="mt-[30px] lg:mt-[5rem] px-[20px] lg:px-[4rem] list-disc marker:text-[13px] marker:text-gray-500 space-y-5">
-                        <li>CAC registration as an incubation hub, accelerator, or startup.</li>
-                        <li>Physical address.</li>
-                        <li>Technical team (must have a track record of incubation and accelerator).
+                        <li>CAC registration.</li>
+                        <li>Must be an Incubator, Accelerator or Startup.</li>
+                        <li>Incubation or Acceleration track record.
                         </li>
-                        {/* <li>Regitration f.</li> */}
-                        {/* <li>
-                            NNIA endorsement and support in scaling your programmes.
+                        <li>Membership of ISN</li>
+                        <li>
+                            Technology companies willing to upgrade into an Incubator or Accelerator.
                         </li>
                         <li>
-                            Opportunity to be an NNIA subcontractor/implementation
-                            partner.
+                            Operations in any of the Northern states.
                         </li>
-                        <li>Access to other community members across Northern Nigeria.</li> */}
+                        <li>Have a referee hub.</li>
                     </ul>
                 </article>
 
