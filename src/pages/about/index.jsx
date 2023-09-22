@@ -177,8 +177,8 @@ const About = () => {
               memberImage={"https://res.cloudinary.com/nhubnacademy/image/upload/v1682900757/nHubFoundation/bash_efr3k8.jpg"}
               memberName={"Bashir Shaidu"}
               memberPosition={"Chairman"}
-              department={"COO"}
-              memberOrganisation={"nHub"}
+              // department={"COO"}
+              // memberOrganisation={"nHub"}
               twitterPage={"https://twitter.com"}
               facebookPage={"https://facebook.com"}
               linkedinPage={"https://linkedin.com"}
@@ -197,8 +197,8 @@ const About = () => {
                 memberImage={"https://res.cloudinary.com/nhubnacademy/image/upload/v1682954565/nHubFoundation/eric-nanle_1_l5boss.png"}
                 memberName={"Eric Nanle"}
                 memberPosition={"Treasurer"}
-                department={"CEO"}
-                memberOrganisation={"nHub Foundation"}
+                // department={"CEO"}
+                // memberOrganisation={"nHub Foundation"}
                 twitterPage={"https://google.com"}
                 facebookPage={"https://google.com"}
                 linkedinPage={"https://google.com"}
@@ -207,38 +207,38 @@ const About = () => {
               memberImage={khamis}
               memberName={"Khamis Malami,"}
               memberPosition={"Coordinator"}
-              department={"CEO"}
-              memberOrganisation={"meHub"}
+              // department={"CEO"}
+              // memberOrganisation={"meHub"}
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
             />
+              <BoardMembers
+                memberImage={"https://res.cloudinary.com/nhubnacademy/image/upload/v1678914784/nhubNigeria/sam_mffar3.jpg"}
+                memberName={"Samuel Adebayo"}
+                memberPosition={"PRO"}
+                // department={"Head of Partnership"}
+                // memberOrganisation={"nHub"}
+                twitterPage={"https://google.com"}
+                facebookPage={"https://google.com"}
+                linkedinPage={"https://google.com"}
+              />
             <BoardMembers
               memberImage={joey}
               memberName={"Joey Shekwonuzhibo"}
               memberPosition={"Coordinator"}
-              department={"Media"}
-              memberOrganisation={"nHub"}
+              // department={"Media"}
+              // memberOrganisation={"nHub"}
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
               />
-            <BoardMembers
-              memberImage={"https://res.cloudinary.com/nhubnacademy/image/upload/v1678914784/nhubNigeria/sam_mffar3.jpg"}
-              memberName={"Samuel Adebayo"}
-              memberPosition={"PRO"}
-              department={"Head of Partnership"}
-              memberOrganisation={"nHub"}
-              twitterPage={"https://google.com"}
-              facebookPage={"https://google.com"}
-              linkedinPage={"https://google.com"}
-            />
               {/* <BoardMembers
                 memberImage={miriam}
                 memberName={"Miriam Chris"}
                 memberPosition={"Director"}
-                department={"Media"}
-                memberOrganisation={"nHub"}
+                // department={"Media"}
+                // memberOrganisation={"nHub"}
                 twitterPage={"https://google.com"}
                 facebookPage={"https://google.com"}
                 linkedinPage={"https://google.com"}

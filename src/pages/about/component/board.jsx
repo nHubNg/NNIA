@@ -9,9 +9,9 @@ const BoardMembers = ({memberImage, memberName, memberPosition, memberOrganisati
         <div className="grid place-items-center gap-[3px] text-center">
           <p>{memberName}</p>
           <p>{memberPosition}</p>
-          <p>
+          {/* <p>
             {department}, {memberOrganisation}
-          </p>
+          </p> */}
 
           <div className="flex gap-[17px] items-center justify-center">
             <a href={facebookPage} target="blank">
