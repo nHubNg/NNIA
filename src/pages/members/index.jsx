@@ -11,6 +11,7 @@ import annikedel from "../../assets/annikedel.png";
 import jostgreen from "../../assets/jostgreen.png";
 import nhubfoundation from "../../assets/nhubfoundation.png";
 import innovations from "../../assets/innovations.jpeg";
+import loveTech from "../../assets/loveTech.jpeg"
 import { Link } from "react-router-dom";
 
 const Members = () => {
@@ -39,6 +40,7 @@ const Members = () => {
 Boluwatife&apos;s tech recruiting journey began at Chuuse Inc, where he climbed from Venture Builder to Chief of Staff, spearheading partnerships yielding $10k+ in revenue, expanding the talent pool to 5120+ engineering teams, and co-leading Chuuse&apos;s Launch-into-Tech Program, attracting 1,000+ applicants.' link={'https://annikedelcompany.com'} />
             <Card img={skyhub} text='SKYHub Nigeria is a creative digital media agency and training hub that helps individuals and organizations achieve their goals through the use of digital tools and platforms.' link={'http://skyhubnigeria.com/'} />
             <Card img={thrive} text='Thrive Media Africa is a digital marketing hub that helps businesses thrive online. We are a team of experienced professionals who are passionate about helping businesses grow their online presence, increase sales and reach their target audience.' link='https://thrivemediaafrica.com' />
+            <Card img={loveTech} text='At LoveTech, we are passionate about the endless possibilities that technology offers to shape a better, more connected, and sustainable world. We are a dynamic and diverse team of experts dedicated to harnessing the power of technology across a wide spectrum of fields, including web, mobile, desktop apps, VR apps, AR apps, renewable energy, IoT, and hardware solutions. Our journey is fueled by a deep love for technology and a commitment to making a positive impact on the world we share.' link='https://lovetechnigeria.com.ng/' />
             <Card img={akclogo} link='https://akconnecthub.com.ng' text='AKCONNECTHUB is reducing digital illiteracy among young individuals and vulnerable groups (disabled individuals) in North Central Nigeria by making learning fun to them and promoting inclusion. We&apos;re breaking language barrier in learning tech.' />
             <Card img={innovations} link='https://www.02innovationslab.com/' text='02 Innovations Lab is a technology innovation hub dedicated to providing innovative solutions tailored to meet the needs of SMEs, startups, and various organizations.' />
             <Card img={stl} link='https://sunnahtechlab.com' text='Sunnah Tech Lab is a dynamic and forward-thinking tech hub committed to cultivating talent and narrowing the digital divide, with a special focus on underserved communities. Our mission revolves around incubating and accelerating innovative ideas, empowering individuals to turn their tech dreams into reality. Through cutting-edge resources, mentorship, and a vibrant community, we strive to foster a culture of innovation and inclusivity' />
