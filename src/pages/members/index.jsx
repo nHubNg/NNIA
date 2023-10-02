@@ -26,7 +26,7 @@ const Members = () => {
 
         <section className="pt-[50px] pb-[100px]">
           <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[4rem] ">
-            <Card img={Image} text='nHub Nigeria is a non-profit organization that was founded in 2013
+            <Card img={Image} text='nHub Nigeria is an organization that was founded in 2013
             to promote the growth of the technology ecosystem in Nigeria. The
             hub is located in Jos, Plateau State, and it provides a variety of
             services to its members, including: Coworking space, Mentorship and training programs, Access to funding and resources, Advocacy for the tech industry. nHub Nigeria is committed to building a strong and vibrant tech

@@ -97,7 +97,7 @@ const About = () => {
               point2={"Innovation"}
               point3={"Community"}
               description={
-                " nHub Nigeria is a non-profit organization that was founded in 2013 to promote the growth of the technology ecosystem in Nigeria. The hub is located in Jos, Plateau State, and it provides a variety of services to its members, including:"
+                " nHub Nigeria is an organization that was founded in 2013 to promote the growth of the technology ecosystem in Nigeria. The hub is located in Jos, Plateau State, and it provides a variety of services to its members, including:"
               }
               hubList={
                 <ul className=" mx-[20px]">
