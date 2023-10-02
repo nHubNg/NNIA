@@ -11,10 +11,10 @@ import pathh from "../../assets/Path.png";
 import innovation from "../../assets/innovation.png";
 import technology from "../../assets/technology.png";
 import enterpreneur from "../../assets/enterpreneur.png";
-import education from "../../assets/education.png";
+// import education from "../../assets/education.png";
 import woman from "../../assets/woman.png";
-import bg from "../../assets/bg.png";
-import articleImg from "../../assets/article-img-1.png";
+// import bg from "../../assets/bg.png";
+// import articleImg from "../../assets/article-img-1.png";
 import { Link } from "react-router-dom";
 
 
@@ -36,9 +36,9 @@ import { Scrollbar, A11y, Autoplay } from "swiper";
 import { Navigation } from "swiper";
 import { Pagination } from "swiper";
 
-import Testimonial from "./component/testimonial";
+// import Testimonial from "./component/testimonial";
 import Specialty from "./component/specialty";
-import Article from "./component/article";
+// import Article from "./component/article";
 import { useEffect, useState } from "react";
 
 const Home = () => {

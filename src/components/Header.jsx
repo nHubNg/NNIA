@@ -10,16 +10,16 @@ import { useState } from "react";
 
 const Header = ({ description, img, back }) => {
   const [showMembers, setShowMembers] = useState(false);
-  const [showPrograms, setShowPrograms] = useState(false);
+  // const [showPrograms, setShowPrograms] = useState(false);
   const [showPartners, setShowPartners] = useState(false);
   const [showNav, setShowNav] = useState(false)
 
   const showMemberMenu = () => {
     setShowMembers(!showMembers);
   };
-  const showProgramsMenu = () => {
-    setShowPrograms(!showPrograms);
-  };
+  // const showProgramsMenu = () => {
+  //   setShowPrograms(!showPrograms);
+  // };
   const showPartnersMenu = () => {
     setShowPartners(!showPartners);
   };
@@ -93,20 +93,8 @@ const Header = ({ description, img, back }) => {
                   )}
                 </div>
               </li>
-              <li onClick={showProgramsMenu} className="cursor-pointer">
-                <div>
-                  <div className="flex items-center gap-5">
-                    <p className='hover:text-twitterBlue'>Programmes and Events</p> <img src={arrow} alt="" />
-                  </div>
-                  {showPrograms ? (
-                    <div className="absolute top-[115px] bg-black pl-2 pr-10 py-3 rounded border-t">
-                      {/* <p className="pb-4">Programmes</p> */}
-                      <p><Link className='hover:text-twitterBlue' to="/events">Events</Link></p>
-                    </div>
-                  ) : (
-                    ""
-                  )}
-                </div>
+              <li>
+                <p><Link to="/events">Programmes</Link></p>
               </li>
               <li onClick={showPartnersMenu} className="cursor-pointer">
                 <div>
@@ -163,20 +151,8 @@ const Header = ({ description, img, back }) => {
                   )}
                 </div>
               </li>
-              <li onClick={showProgramsMenu} className="cursor-pointer">
-                <div>
-                  <div className="flex items-center gap-5">
-                    <p>Programmes and Events</p> <img src={arrow} alt="" />
-                  </div>
-                  {showPrograms ? (
-                    <div className="absolute top-[115px] bg-black pl-2 pr-10 py-3 rounded border-t">
-                      {/* <p className="pb-4">Programmes</p> */}
-                      <p><Link to="/events">Events</Link></p>
-                    </div>
-                  ) : (
-                    ""
-                  )}
-                </div>
+              <li>
+                    <p><Link to="/events">Programmes</Link></p>                 
               </li>
               <li onClick={showPartnersMenu} className="cursor-pointer">
                 <div>
