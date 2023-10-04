@@ -62,8 +62,10 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue mt-10 font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group
+                    <a href="mailto:info@nnia.ng">
+                        <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue mt-10 font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group
                     ">Send Message <img src={pathh} alt="" className="hidden group-hover:block" /></button>
+                    </a>
 
                 </div>
             </div>

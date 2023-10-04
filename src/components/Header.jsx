@@ -94,7 +94,7 @@ const Header = ({ description, img, back }) => {
                 </div>
               </li>
               <li>
-                <p><Link to="/events">Programmes</Link></p>
+                <p><Link className='hover:text-twitterBlue' to="/events">Programmes</Link></p>
               </li>
               <li onClick={showPartnersMenu} className="cursor-pointer">
                 <div>

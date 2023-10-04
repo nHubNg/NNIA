@@ -10,8 +10,7 @@ const Events = () => {
             NNIA Events
           </h1>
 
-          <p>Sign up for our thought-provoking programs and events; technology innovation & market research; help provide an enabling environment for hubs and startups on the Northern Nigeria; help facilitate linkages with corporate and ESO support organizations
-            s.</p>
+          <p>Sign up for our thought-provoking programs and events; technology innovation & market research; help provide an enabling environment for hubs and startups in Northern Nigeria; help facilitate linkages with corporate and ESO support organizations.</p>
         </div>
 
         {/* <div className='py-[120px] px-[30px] lg:px-[50px] text-[18px] font-[500]'>
@@ -19,7 +18,7 @@ const Events = () => {
         </div> */}
 
         <div className='py-[120px] px-[30px] lg:px-[50px] text-[18px] font-[500]'>
-          <div className="mx-[75px] h-[530px] w-[350px] lg:w-[400px] border-2 bg-white p-[20px] rounded-[5px] grid place-items-center">
+          <div className="h-[430px] w-[350px] lg:w-[400px] border-2 bg-white p-[20px] rounded-[5px] flex flex-col gap-8">
             <p>
               NNIA Hubs Management Capacity Series
             </p>
