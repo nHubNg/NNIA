@@ -210,7 +210,7 @@ const About = () => {
               /> */}
             <BoardMembers
               memberImage={khamis}
-              memberName={"Khamis Malami,"}
+              memberName={"Khamis Malami"}
               memberPosition={"Director Public Sector Engagement"}
               // department={"CEO"}
               // memberOrganisation={"meHub"}
@@ -220,7 +220,7 @@ const About = () => {
             />
             <BoardMembers
               memberImage={juliana}
-              memberName={"Juliana Alu,"}
+              memberName={"Juliana Alu"}
               memberPosition={"Director Communications"}
               // department={"CEO"}
               // memberOrganisation={"meHub"}
@@ -230,7 +230,7 @@ const About = () => {
             />
             <BoardMembers
               memberImage={aisha}
-              memberName={"Aisha Abubakar,"}
+              memberName={"Aisha Abubakar"}
               memberPosition={"Director Finance"}
               // department={"CEO"}
               // memberOrganisation={"meHub"}
