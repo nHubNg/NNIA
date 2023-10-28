@@ -2,10 +2,10 @@ import twitter from "../../../assets/twitter-black.svg";
 import facebook from "../../../assets/facebook-black.svg";
 import linkedin from "../../../assets/linkedin-black.svg";
 
-const BoardMembers = ({memberImage, memberName, memberPosition, memberOrganisation, department, facebookPage, linkedinPage, twitterPage}) => {
+const BoardMembers = ({memberImage, memberName, memberPosition, facebookPage, linkedinPage, twitterPage}) => {
     return (
       <div className=" border-[5px] border-twitterBlue w-[240px]">
-        <img src={memberImage} alt="" />
+        <img src={memberImage} alt="" className='h-[250px] w-full object-fit' />
         <div className="grid place-items-center gap-[3px] text-center">
           <p>{memberName}</p>
           <p>{memberPosition}</p>

@@ -18,9 +18,11 @@ import BoardMembers from "./component/board";
 // import samaila from "../../assets/samaila.png";
 // import pamDung from "../../assets/pamDung.png";
 // import theodore from "../../assets/theodore.png";
-import nnamdi from "../../assets/nnamdi.png";
+// import nnamdi from "../../assets/nnamdi.png";
 import khamis from "../../assets/khamis.png";
-import joey from "../../assets/joey.png";
+import aisha from "../../assets/aisha.jpeg";
+import juliana from "../../assets/juliana.jpeg";
+// import joey from "../../assets/joey.png";
 import axia from "../../assets/axia-logo.svg";
 import mainstream from "../../assets/mainstream.png";
 import { Link } from "react-router-dom";
@@ -186,7 +188,7 @@ const About = () => {
               facebookPage={"https://facebook.com"}
               linkedinPage={"https://linkedin.com"}
             />
-            <BoardMembers
+            {/* <BoardMembers
               memberImage={nnamdi}
               memberName={"Nnamdi Ibe"}
               memberPosition={"Secretary"}
@@ -195,8 +197,8 @@ const About = () => {
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
-              />
-              <BoardMembers
+              /> */}
+              {/* <BoardMembers
                 memberImage={"https://res.cloudinary.com/nhubnacademy/image/upload/v1682954565/nHubFoundation/eric-nanle_1_l5boss.png"}
                 memberName={"Eric Nanle"}
                 memberPosition={"Treasurer"}
@@ -205,11 +207,31 @@ const About = () => {
                 twitterPage={"https://google.com"}
                 facebookPage={"https://google.com"}
                 linkedinPage={"https://google.com"}
-              />
+              /> */}
             <BoardMembers
               memberImage={khamis}
               memberName={"Khamis Malami,"}
-              memberPosition={"Coordinator"}
+              memberPosition={"Director Public Sector Engagement"}
+              // department={"CEO"}
+              // memberOrganisation={"meHub"}
+              twitterPage={"https://google.com"}
+              facebookPage={"https://google.com"}
+              linkedinPage={"https://google.com"}
+            />
+            <BoardMembers
+              memberImage={juliana}
+              memberName={"Juliana Alu,"}
+              memberPosition={"Director Communications"}
+              // department={"CEO"}
+              // memberOrganisation={"meHub"}
+              twitterPage={"https://google.com"}
+              facebookPage={"https://google.com"}
+              linkedinPage={"https://google.com"}
+            />
+            <BoardMembers
+              memberImage={aisha}
+              memberName={"Aisha Abubakar,"}
+              memberPosition={"Director Finance"}
               // department={"CEO"}
               // memberOrganisation={"meHub"}
               twitterPage={"https://google.com"}
@@ -219,14 +241,14 @@ const About = () => {
               <BoardMembers
                 memberImage={"https://res.cloudinary.com/nhubnacademy/image/upload/v1678914784/nhubNigeria/sam_mffar3.jpg"}
                 memberName={"Samuel Adebayo"}
-                memberPosition={"PRO"}
+              memberPosition={"Ecosystem Director"}
                 // department={"Head of Partnership"}
                 // memberOrganisation={"nHub"}
                 twitterPage={"https://google.com"}
                 facebookPage={"https://google.com"}
                 linkedinPage={"https://google.com"}
               />
-            <BoardMembers
+            {/* <BoardMembers
               memberImage={joey}
               memberName={"Joey Shekwonuzhibo"}
               memberPosition={"Coordinator"}
@@ -235,7 +257,7 @@ const About = () => {
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
-              />
+              /> */}
               {/* <BoardMembers
                 memberImage={miriam}
                 memberName={"Miriam Chris"}
