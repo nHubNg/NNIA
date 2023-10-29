@@ -21,6 +21,7 @@ import BoardMembers from "./component/board";
 // import nnamdi from "../../assets/nnamdi.png";
 import khamis from "../../assets/khamis.png";
 import aisha from "../../assets/aisha.jpeg";
+import taisu from "../../assets/taisu.jpeg";
 import juliana from "../../assets/juliana.jpeg";
 // import joey from "../../assets/joey.png";
 import axia from "../../assets/axia-logo.svg";
@@ -248,16 +249,16 @@ const About = () => {
                 facebookPage={"https://google.com"}
                 linkedinPage={"https://google.com"}
               />
-            {/* <BoardMembers
-              memberImage={joey}
-              memberName={"Joey Shekwonuzhibo"}
-              memberPosition={"Coordinator"}
+            <BoardMembers
+              memberImage={taisu}
+              memberName={"Tasiu Kwaplong Saeed"}
+              memberPosition={"Director Public Sector Engagement"}
               // department={"Media"}
               // memberOrganisation={"nHub"}
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
-              /> */}
+              />
               {/* <BoardMembers
                 memberImage={miriam}
                 memberName={"Miriam Chris"}
