@@ -116,9 +116,9 @@ const About = () => {
             />
             <HubCard
               hubLogo={axia}
-              point1={"Startups"}
-              point2={"Innovation"}
-              point3={"Community"}
+              point1={"Knowledge"}
+              point2={"Value"}
+              point3={"Productivity"}
               description={
                 "Axia Hub is a value and solution driven technology and innovation hub that aids individuals, businesses, organizations, systems and governments, become knowledgeable, valuable, productive & efficient, by the creation, application and use of cutting edge innovative tools, products, services, initiatives and processes aimed at improving the society, in Africa and beyond."
               }
@@ -126,9 +126,9 @@ const About = () => {
             />
             <HubCard
               hubLogo={mainstream}
-              point1={"Startups"}
-              point2={"Innovation"}
-              point3={"Community"}
+              point1={"Creativity"}
+              point2={"Development"}
+              point3={"Growth"}
               description={
                 "We are a modern space, an idea la that encourages creativity,self development, growth and high end skill acquisition. We nurture minds to brilliance, we mentor young minds to understand the formidability of passion, consistency and diligence"
               }
@@ -209,9 +209,19 @@ const About = () => {
                 facebookPage={"https://google.com"}
                 linkedinPage={"https://google.com"}
               /> */}
+              <BoardMembers
+                memberImage={"https://res.cloudinary.com/nhubnacademy/image/upload/v1678914784/nhubNigeria/sam_mffar3.jpg"}
+                memberName={"Samuel Adebayo"}
+              memberPosition={"Ecosystem Director"}
+                // department={"Head of Partnership"}
+                // memberOrganisation={"nHub"}
+                twitterPage={"https://google.com"}
+                facebookPage={"https://google.com"}
+                linkedinPage={"https://google.com"}
+              />
             <BoardMembers
-              memberImage={khamis}
-              memberName={"Khamis Malami"}
+              memberImage={juliana}
+              memberName={"Juliana Alu"}
               memberPosition={"Director Public Sector Engagement"}
               // department={"CEO"}
               // memberOrganisation={"meHub"}
@@ -220,9 +230,9 @@ const About = () => {
               linkedinPage={"https://google.com"}
             />
             <BoardMembers
-              memberImage={juliana}
-              memberName={"Juliana Alu"}
-              memberPosition={"Director Communications"}
+              memberImage={khamis}
+              memberName={"Khamis Malami"}
+              memberPosition={"Director Public Sector Engagement"}
               // department={"CEO"}
               // memberOrganisation={"meHub"}
               twitterPage={"https://google.com"}
@@ -239,20 +249,10 @@ const About = () => {
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
             />
-              <BoardMembers
-                memberImage={"https://res.cloudinary.com/nhubnacademy/image/upload/v1678914784/nhubNigeria/sam_mffar3.jpg"}
-                memberName={"Samuel Adebayo"}
-              memberPosition={"Ecosystem Director"}
-                // department={"Head of Partnership"}
-                // memberOrganisation={"nHub"}
-                twitterPage={"https://google.com"}
-                facebookPage={"https://google.com"}
-                linkedinPage={"https://google.com"}
-              />
             <BoardMembers
               memberImage={taisu}
               memberName={"Tasiu Kwaplong Saeed"}
-              memberPosition={"Director Public Sector Engagement"}
+              memberPosition={"Director Communications/Marketing"}
               // department={"Media"}
               // memberOrganisation={"nHub"}
               twitterPage={"https://google.com"}
