@@ -105,7 +105,7 @@ const Home = () => {
             </p>
             <br />
             <p>
-              Through collaboration and mutual support, we believe that we can
+              Through research and development and mutual support, we believe that we can
               create a thriving startup ecosystem that benefits everyone
               involved, from entrepreneurs and investors to service providers
               and government agencies.
