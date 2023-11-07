@@ -156,11 +156,11 @@ const About = () => {
           <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[35px]">
             <Services
               serviceImage={service1}
-              serviceName={"Engaging Stakeholders"}
+              serviceName={"Research and Development"}
             />
             <Services
               serviceImage={service2}
-              serviceName={"Setting Standards"}
+              serviceName={"Engaging Stakeholders"}
             />
             <Services
               serviceImage={service3}
