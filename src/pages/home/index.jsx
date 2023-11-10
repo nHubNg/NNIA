@@ -11,10 +11,7 @@ import pathh from "../../assets/Path.png";
 import innovation from "../../assets/innovation.png";
 import technology from "../../assets/technology.png";
 import enterpreneur from "../../assets/enterpreneur.png";
-// import education from "../../assets/education.png";
 import woman from "../../assets/woman.png";
-// import bg from "../../assets/bg.png";
-// import articleImg from "../../assets/article-img-1.png";
 import { Link } from "react-router-dom";
 
 
@@ -36,16 +33,12 @@ import { Scrollbar, A11y, Autoplay } from "swiper";
 import { Navigation } from "swiper";
 import { Pagination } from "swiper";
 
-// import Testimonial from "./component/testimonial";
 import Specialty from "./component/specialty";
-// import Article from "./component/article";
 import { useEffect, useState } from "react";
 
 const Home = () => {
   const [revPerPage, setRevPerPage] = useState(false);
-  // const handleSwiper = () => {
-  //   setRevPerPage(!revPerPage);
-  // };
+
 
   useEffect(() => {
     const handleResize = () => {
@@ -105,7 +98,7 @@ const Home = () => {
             </p>
             <br />
             <p>
-              Through research, development, mutual support and co-creation, we believe that we can
+              Through research and development and mutual support and co-creation, we believe that we can
               create a thriving startup ecosystem that benefits everyone
               involved, from entrepreneurs and investors to service providers
               and government agencies.

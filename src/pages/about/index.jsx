@@ -48,7 +48,7 @@ const About = () => {
             the growth of member hubs and startups.
           </p>
           <p className="md:mx-[140px]">
-            Through research, development, mutual support and co-creation, we believe that we can create a thriving startup ecosystem that benefits everyone involved, from entrepreneurs and investors to service providers and government agencies.  By fostering a culture of collaboration and open communication, we
+            Through research and development and mutual support and co-creation, we believe that we can create a thriving startup ecosystem that benefits everyone involved, from entrepreneurs and investors to service providers and government agencies.  By fostering a culture of collaboration and open communication, we
             hope to create a vibrant and dynamic community that attracts
             talent and investment, and helps to position Northern NIgeria as a hub for
             innovation and entrepreneurship.
