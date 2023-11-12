@@ -35,8 +35,8 @@ function App() {
           <Route path="/partnerDetails" element={<PartnerDetails />} />
           <Route path = "/events" element = {<Events />} />
           <Route path="/partner" element={<Partner />} />
-          <Route path='/startups' element={<RedirectUrl url="https://forms.gle/hcYCA7vHSLJzu7wg6" />} />
-          <Route path='/hubs' element={<Hubs url="https://forms.gle/yxWUCoZKUft27D2J7" />} />
+          <Route path='/plateau/startups' element={<RedirectUrl url="https://forms.gle/hcYCA7vHSLJzu7wg6" />} />
+          <Route path='/plateau/hubs' element={<Hubs url="https://forms.gle/yxWUCoZKUft27D2J7" />} />
         </Routes>
       </BrowserRouter>
       <Footer />
