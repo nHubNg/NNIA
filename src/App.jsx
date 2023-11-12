@@ -14,6 +14,7 @@ import BlogDetails from "./pages/blogDetails";
 import Events from "./pages/events";
 import Partner from './pages/partner';
 import RedirectUrl from './pages/redirect';
+import Hubs from "./pages/hubs";
 // import Header from './components/Header';
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path = "/events" element = {<Events />} />
           <Route path="/partner" element={<Partner />} />
           <Route path='/startups' element={<RedirectUrl url="https://forms.gle/hcYCA7vHSLJzu7wg6" />} />
+          <Route path='/hubs' element={<Hubs url="https://forms.gle/yxWUCoZKUft27D2J7" />} />
         </Routes>
       </BrowserRouter>
       <Footer />
