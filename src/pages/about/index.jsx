@@ -222,7 +222,7 @@ const About = () => {
             <BoardMembers
               memberImage={juliana}
               memberName={"Juliana Alu"}
-              memberPosition={"Director Public Sector Engagement"}
+              memberPosition={"Director Private Sector Engagement"}
               // department={"CEO"}
               // memberOrganisation={"meHub"}
               twitterPage={"https://google.com"}
