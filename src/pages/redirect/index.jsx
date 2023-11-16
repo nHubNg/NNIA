@@ -7,9 +7,7 @@ const RedirectUrl = () => {
 
     useEffect(() => {
         const url = window.location.href;
-        const domain = "localhost:5173" || "nnia.ng";
         const path = url.substring(url.indexOf("/", 8) + 1);
-        console.log(path)
         const item = replaceSlashWithPercent2F(path)
         const header = {
             "Content-Type": "application/json",
