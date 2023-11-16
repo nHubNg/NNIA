@@ -15,6 +15,7 @@ import Events from "./pages/events";
 import Partner from './pages/partner';
 import RedirectUrl from './pages/redirect';
 import Hubs from "./pages/hubs";
+import Links from "./pages/links";
 // import Header from './components/Header';
 
 function App() {
@@ -35,7 +36,8 @@ function App() {
           <Route path="/partnerDetails" element={<PartnerDetails />} />
           <Route path = "/events" element = {<Events />} />
           <Route path="/partner" element={<Partner />} />
-          <Route path='/plateau/startups' element={<RedirectUrl url="https://forms.gle/hcYCA7vHSLJzu7wg6" />} />
+          <Route path='/links' element={<Links />} />
+          <Route path='/:plateau/:startups' element={<RedirectUrl/>} />
           <Route path='/plateau/hubs' element={<Hubs url="https://forms.gle/yxWUCoZKUft27D2J7" />} />
         </Routes>
       </BrowserRouter>
