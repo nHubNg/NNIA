@@ -6,6 +6,7 @@ import { useState } from "react";
 const Links = () => {
     const [path, setPath] = useState('')
     const [url, setUrl] = useState('')
+    const [load, setLoad] = useState('')
     const currentURL = window.location.href;
     const parts = currentURL.split("/");
     const newURL = parts[0] + "//" + parts[2];
@@ -13,6 +14,7 @@ const Links = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault()
+        setLoad('')
         console.log(path, url)
         const data = {
             "name": path,
@@ -29,12 +31,14 @@ const Links = () => {
         })
             .then((response) => response.json())
             .then((data) => {
-                console.log(data);
+                setLoad('Loading...')
                 if(data.success){
+                    setLoad('')
                     setPath('')
                     setUrl('')
                     setErr('Route created successfully')
                 }
+                setLoad('')
                 setErr(data.message)
             })
             .catch((error) => {
@@ -106,6 +110,7 @@ const Links = () => {
                 </div>
 
                 <p className="text-enter">{err}</p>
+                <p className="text-enter">{load}</p>
 
                 <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue mt-10 font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group
                     " onClick={handleSubmit}>Create Link<img src={pathh} alt="" className="hidden group-hover:block" /></button>
