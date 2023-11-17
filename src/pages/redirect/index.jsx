@@ -4,9 +4,9 @@ const RedirectUrl = () => {
     function replaceSlashWithPercent2F(text) {
         return text.replace("/", "%2F");
     }
+    const url = window.location.href;
 
     useEffect(() => {
-        const url = window.location.href;
         const path = url.substring(url.indexOf("/", 8) + 1);
         const item = replaceSlashWithPercent2F(path)
         console.log(path)
@@ -26,7 +26,7 @@ const RedirectUrl = () => {
                 console.log(error.message)
             });
 
-    }, []);
+    }, [url]);
 
     return <h5>Redirecting...</h5>;
 };
