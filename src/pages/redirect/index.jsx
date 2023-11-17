@@ -20,7 +20,21 @@ const RedirectUrl = () => {
         })
             .then((response) => response.json())
             .then((data) => {
+                console.log(data)
                 // window.location.href = data.url;
+            })
+            .catch((error) => {
+                console.log(error.message)
+            });
+
+        fetch(`https://nnia.onrender.com/routes`, {
+            method: "GET",
+            headers: header
+        })
+            .then((response) => response.json())
+            .then((data) => {
+                // window.location.href = data.url;
+                console.log(data)
             })
             .catch((error) => {
                 console.log(error.message)
