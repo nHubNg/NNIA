@@ -9,6 +9,7 @@ const RedirectUrl = () => {
         const url = window.location.href;
         const path = url.substring(url.indexOf("/", 8) + 1);
         const item = replaceSlashWithPercent2F(path)
+        console.log(path)
         const header = {
             "Content-Type": "application/json",
         };
