@@ -20,7 +20,7 @@ const RedirectUrl = () => {
         })
             .then((response) => response.json())
             .then((data) => {
-                window.location.href = data.url;
+                // window.location.href = data.url;
             })
             .catch((error) => {
                 console.log(error.message)
