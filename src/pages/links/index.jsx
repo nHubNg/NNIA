@@ -14,7 +14,7 @@ const Links = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault()
-        setLoad('')
+        setLoad('Loading....')
         console.log(path, url)
         const data = {
             "name": path,
