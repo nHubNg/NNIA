@@ -4,7 +4,7 @@ import insta from '../assets/Instagramw.png'
 import facebook from '../assets/Facebookw.png'
 import twitter from '../assets/Twitterw.png'
 import linkedin from '../assets/Linkedinw.png'
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (<>
