@@ -40,7 +40,7 @@ const navigate = useNavigate()
                          <p className=' w-full  lg:block'> Links</p>
                     </div>
                 </NavLink>
-                <NavLink style={navLinkStyle} to='/admin/blogs'>
+                <NavLink style={navLinkStyle} to='/admin/blogs/allBlogs'>
                     <div className='flex items-center gap-[15px] w-full'>
                          <p className=' w-full  lg:block'>Blogs</p>
                     </div>

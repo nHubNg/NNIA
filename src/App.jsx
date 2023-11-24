@@ -25,6 +25,9 @@ import Links from "./pages/admin/links";
 import Create from "./pages/admin/links/Create";
 import AllLinks from "./pages/admin/links/AllLinks";
 import EditLink from "./pages/admin/links/EditLink";
+import CreateBlog from "./pages/admin/blogs/CreateBlog";
+import AllBlogs from "./pages/admin/blogs/AllBlogs";
+import EditBlog from "./pages/admin/blogs/EditBlog";
 // import Header from './components/Header';
 
 function App() {
@@ -52,7 +55,11 @@ function App() {
 
             <Route path="/admin" element={<Admin />}>
               <Route path='overview' element={<Overview />} />
-              <Route path='blogs' element={<Blogs />} />
+              <Route path='blogs' element={<Blogs />}>
+                <Route path='createBlog' element={<CreateBlog />} />
+                <Route path='allBlogs' element={<AllBlogs />} />
+                <Route path="editBlog" element={<EditBlog />} />
+              </Route>
               <Route path='links' element={<Links />}>
                 <Route path='allLinks' element={<AllLinks />} />
                 <Route path='create' element={<Create />} />

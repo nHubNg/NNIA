@@ -15,15 +15,15 @@ const Links = () => {
 
                 <div className='flex justify-between items-center w-full pb-2'>
                     <NavLink to='/admin/links/allLinks' style={navLinkStyle} className="flex items-center gap-1 py-2 mt-2 hover:bg-transparent rounded-md px-3  hover:rounded-xl transition">
-                        <p className={` text-black md:text-white md:text-[15px] `}>All Links</p>
+                        <p className={` text-white md:text-[15px] `}>All Links</p>
                     </NavLink>
 
                     <NavLink to='/admin/links/create' style={navLinkStyle} className="flex items-center gap-1 py-2 mt-2 hover:bg-transparent rounded-md px-3  hover:rounded-xl transition">
-                        <p className={` text-black md:text-white md:text-[15px] `}>Create Link</p>
+                        <p className={` text-white md:text-[15px] `}>Create Link</p>
                     </NavLink>
 
                     <NavLink to='/admin/links/editLink' style={navLinkStyle} className="flex items-center gap-1 py-2 mt-2 hover:bg-transparent rounded-md px-3  hover:rounded-xl transition">
-                        <p className={` text-black md:text-white md:text-[15px] `}>Edit Link</p>
+                        <p className={` text-white md:text-[15px] `}>Edit Link</p>
                     </NavLink>
                 </div>
             </div>

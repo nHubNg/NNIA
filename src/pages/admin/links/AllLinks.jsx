@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 
 const AllLinks = () => {
     const [links, setLinks] = useState([])
+    const [refresh, setRefresh] = useState(false)
 
     useEffect(() => {
         const header = {
@@ -21,7 +22,7 @@ const AllLinks = () => {
                 console.log(error.message)
             });
 
-    }, []);
+    }, [refresh]);
 
     const handleDelete = (id) => {
         console.log(id)
@@ -29,14 +30,14 @@ const AllLinks = () => {
             "Content-Type": "application/json",
         };
 
-        fetch(`https://nnia.onrender.com/routes/${id}`, {
+        fetch(`https://nnia.onrender.com/routes/route/${id}`, {
             method: "DELETE",
             headers: header
         })
             .then((response) => response.json())
             .then((data) => {
-                console.log(data)
-               console.log('success')
+                setRefresh(!refresh)
+                // window.location.reload(false)
             })
             .catch((error) => {
                 console.log(error.message)
@@ -50,7 +51,7 @@ const AllLinks = () => {
                 All Links
             </h1>
 
-            <div className="overflow-x-auto hidden md:block pb-20">
+            <div className="overflow-x-auto pb-20">
                 <table className="table-auto mx-auto mt-10 w-[95%] overflow-auto ">
                     <thead>
                         <tr>
