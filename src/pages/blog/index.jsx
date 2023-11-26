@@ -1,7 +1,5 @@
 import Article from "./component/articles";
-import articleImg from "../../assets/article-img-1.png";
 import Header from "../../components/Header";
-// import heroImg3 from "../../assets/heroImg3.png";
 
 const Blog = () => {
   return (
@@ -22,70 +20,8 @@ const Blog = () => {
         </div>
 
         {/* container for articles */}
-        <div className="grid gap-[60px] md:grid-cols-2 lg:grid-cols-3 place-items-center">
-          <Article
-            heading={"Five ways to Understand Blockchain"}
-            description={
-              "Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria"
-            }
-            image={articleImg}
-          />
-          <Article
-            heading={"Five ways to Understand Blockchain"}
-            description={
-              "Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria"
-            }
-            image={articleImg}
-          />
-          <Article
-            heading={"Five ways to Understand Blockchain"}
-            description={
-              "Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria"
-            }
-            image={articleImg}
-          />
-          <Article
-            heading={"Five ways to Understand Blockchain"}
-            description={
-              "Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria"
-            }
-            image={articleImg}
-          />
-          <Article
-            heading={"Five ways to Understand Blockchain"}
-            description={
-              "Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria"
-            }
-            image={articleImg}
-          />
-          <Article
-            heading={"Five ways to Understand Blockchain"}
-            description={
-              "Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria"
-            }
-            image={articleImg}
-          />
-          <Article
-            heading={"Five ways to Understand Blockchain"}
-            description={
-              "Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria"
-            }
-            image={articleImg}
-          />
-          <Article
-            heading={"Five ways to Understand Blockchain"}
-            description={
-              "Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria"
-            }
-            image={articleImg}
-          />
-          <Article
-            heading={"Five ways to Understand Blockchain"}
-            description={
-              "Pam of a Hub, jos Speaks on the impact of the ISN on the who tech ecosystem in Nigeria"
-            }
-            image={articleImg}
-          />
+        <div className="">
+          <Article />
         </div>
       </div>
     </>

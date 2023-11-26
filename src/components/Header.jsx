@@ -71,9 +71,6 @@ const Header = ({ description, img, back }) => {
               <li>
                 <Link className='hover:text-twitterBlue' to="/about">About</Link>
               </li>
-              {/* <li>
-                <Link className='hover:text-twitterBlue' to="/blog">Blog</Link>
-              </li> */}
               <li onClick={showMemberMenu} className="cursor-pointer">
                 <div>
                   <div className="flex items-center gap-5">
@@ -114,6 +111,9 @@ const Header = ({ description, img, back }) => {
                     ""
                   )}
                 </div>
+              </li>
+              <li>
+                <Link className='hover:text-twitterBlue' to="/blog">Blog</Link>
               </li>
               <li>
                 <Link className='hover:text-twitterBlue' to="/contact">Contact</Link>

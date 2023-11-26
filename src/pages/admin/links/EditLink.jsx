@@ -15,7 +15,6 @@ const EditLink = () => {
         })
             .then((response) => response.json())
             .then((data) => {
-                console.log(data)
                 setRoute(data)
                 return
             })
@@ -84,6 +83,7 @@ const EditLink = () => {
                 throw new Error("Failed to fetch TEST");
             }
             const data = await response.json();
+            return data
             // window.location.reload(false)
         } catch (error) {
             // Handle the error
@@ -124,12 +124,12 @@ const EditLink = () => {
                                             onChange={(event) => editLink(link._id, event)}
                                         />
                                     </div>
-                                    <button className='border-black border-[1px] rounded-[5px] px-[4px]' onClick={() => handleEdit(link._id)} >Edit</button>
+                                    <button className='border-black border-[1px] rounded-[5px] px-[4px] hover:bg-twitterBlue hover:text-white hover:border-white' onClick={() => handleEdit(link._id)} >Edit</button>
                                 </div>
                             </div>
                         )
                     }) : <div className='mt-16 w-full'>
-                        <div className="hidden md:block lg:flex justify-center items-center">
+                        <div className="block lg:flex justify-center items-center">
                             <div className="flex justify-center items-center py-5 w-[100%] mx-auto md:mt-[-40px] bg-white shadow-lg rounded-md gap-10">
                                 <div className=" py-2 w-[100%] flex justify-between px-4 rounded-md">
                                     <p>No Available Links</p>

@@ -15,7 +15,6 @@ const AllLinks = () => {
         })
             .then((response) => response.json())
             .then((data) => {
-                console.log(data)
                 return setLinks(data)
             })
             .catch((error) => {
@@ -37,6 +36,7 @@ const AllLinks = () => {
             .then((response) => response.json())
             .then((data) => {
                 setRefresh(!refresh)
+                return data
                 // window.location.reload(false)
             })
             .catch((error) => {
@@ -69,16 +69,16 @@ const AllLinks = () => {
                                         {pend.name}
                                     </td>
                                     <td className="py-3 text-center">{pend.url}</td>
-                                    <td className="py-3 text-center"><button className='border-black border-[1px] rounded-[5px] px-[4px]' onClick={()=> handleDelete(pend._id)}>Delete</button></td>
+                                    <td className="py-3 text-center"><button className='border-black border-[1px] rounded-[5px] px-[4px]  hover:bg-twitterBlue hover:text-white hover:border-white' onClick={()=> handleDelete(pend._id)}>Delete</button></td>
                                     
                                    
                                 </tr>
                             )
-                        }) : <div className='mt-16 w-full'>
-                            <div className="hidden md:block lg:flex justify-center items-center">
+                        }) : <div className='mt-16 w-full flex justify-center items-center'>
+                            <div className="block lg:flex justify-center items-center">
                                 <div className="flex justify-center items-center py-5 w-[100%] mx-auto md:mt-[-40px] bg-white shadow-lg rounded-md gap-10">
                                     <div className=" py-2 w-[100%] flex justify-between px-4 rounded-md">
-                                        <p>No Available Links</p>
+                                        <p className='text-center'>No Available Links</p>
                                     </div>
                                 </div>
                             </div>

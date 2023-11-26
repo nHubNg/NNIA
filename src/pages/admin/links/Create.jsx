@@ -15,7 +15,6 @@ const Create = () => {
     const handleSubmit = async (e) => {
         e.preventDefault()
         setLoad('Loading....')
-        // console.log(path, url)
         const data = {
             "name": path,
             "url": url
@@ -31,7 +30,7 @@ const Create = () => {
         })
             .then((response) => response.json())
             .then((data) => {
-                setLoad('Loading...')
+                setLoad('')
                 if (data.success) {
                     setLoad('')
                     setPath('')
@@ -105,8 +104,8 @@ const Create = () => {
                     </div>
                 </div>
 
-                <p className="text-enter">{err}</p>
-                <p className="text-enter">{load}</p>
+                <p className="text-center">{err}</p>
+                <p className="text-center">{load}</p>
 
                 <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue mt-10 font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group
                     " onClick={handleSubmit}>Create Link<img src={pathh} alt="" className="hidden group-hover:block" /></button>
