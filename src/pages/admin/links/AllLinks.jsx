@@ -24,7 +24,6 @@ const AllLinks = () => {
     }, [refresh]);
 
     const handleDelete = (id) => {
-        console.log(id)
         const header = {
             "Content-Type": "application/json",
         };

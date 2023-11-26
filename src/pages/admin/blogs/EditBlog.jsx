@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 const EditBlog = () => {
     const [blog, setBlog] = useState([])
-
+    const [refresh, setRefresh] = useState(false)
 
     useEffect(() => {
         const header = {
@@ -15,7 +15,6 @@ const EditBlog = () => {
         })
             .then((response) => response.json())
             .then((data) => {
-                console.log(data)
                 setBlog(data.blog)
                 return
             })
@@ -23,7 +22,7 @@ const EditBlog = () => {
                 console.log(error.message)
             });
 
-    }, []);
+    }, [refresh]);
 
 
     const editBlogTitle = (questionId, event) => {
@@ -52,23 +51,6 @@ const EditBlog = () => {
         setBlog(updatedQuestionTexts);
     };
 
-    const editBlogImage = (questionId, event) => {
-        const updatedQuestionTexts = blog.map((text) => {
-            if (text._id === questionId) {
-                return {
-                    ...text,
-                    imageUrl: [
-                        {
-                            url: event.target.files[0]
-                        }
-                    ]
-                };
-            }
-            return text;
-        });
-        setBlog(updatedQuestionTexts);
-    };
-
     function findObjectById(objects, id) {
         for (let i = 0; i < objects.length; i++) {
             if (objects[i]._id === id) {
@@ -79,21 +61,16 @@ const EditBlog = () => {
     }
 
     const handleEdit = async (id) => {
-        console.log(blog)
         const data = findObjectById(blog, id)
 
-        const formData = new FormData();
-        formData.append("title", data.title);
-        formData.append("content", data.content);
-        formData.append("imageUrl", data.imageUrl[0].url);
-
-        console.log(data.title, data.content, data.imageUrl[0].url)
+        // const formData = new FormData();
+        // formData.append("title", data.title);
+        // formData.append("content", data.content);
+        // formData.append("imageUrl", data.imageUrl[0].url);
 
         const item = {
             "title": data.title,
             "content": data.content,
-            "imageUrl": data.imageUrl[0].url
-
         }
 
         try {
@@ -102,7 +79,7 @@ const EditBlog = () => {
                 {
                     method: "PATCH",
                     headers: {
-                        "Content-Type": "multipart/form-data",
+                        "Content-Type": "application/json",
                     },
                     body: JSON.stringify(item),
                 }
@@ -111,6 +88,7 @@ const EditBlog = () => {
                 throw new Error("Failed to fetch TEST");
             }
             const data = await response.json();
+            setRefresh(!refresh)
             return data
             // window.location.reload(false)
         } catch (error) {
@@ -131,15 +109,6 @@ const EditBlog = () => {
                         return (
                             <div key={i} className="flex justify-between items-center gap-5 flex-col">
                                 <div className="flex justify-between items-center gap-5 w-full px-5">
-                                        <div className="w-[30%]">
-                                            <input
-                                                type="file"
-                                                className=""
-                                                onChange={(e) =>
-                                                    editBlogImage(blog._id, e)
-                                                }
-                                            />
-                                        </div>
                                     <div className='flex justify-center items-center'>
                                         <img src={blog.imageUrl[0].url} className='object-cover h-[100px] w-[100px] rounded-[5px]' alt='blog image' />
                                     </div>
