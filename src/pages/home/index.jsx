@@ -81,7 +81,7 @@ const Home = () => {
     <div className="font-montserrat bg-background">
       <Header
         description={"The Largest Network of Incubators, Accelerators, Innovators, and Startups in Northern Nigeria."}
-        back={"home"}
+        img={"hero"}
       />
 
       <div className=" md:my-20 flex justify-center items-center flex-col mx-5 text-center md:text-left md:mx-16">
@@ -195,7 +195,7 @@ const Home = () => {
       </div>
 
       <div
-        className={`bg-hero bg-no-repeat bg-center bg-cover h-72 md:h-[513px] font-montserrat font-[700] text-center flex justify-center items-center md:pt-30 md:mb-16 md:px-[270px] text-white flex-col`}
+        className={`home bg-no-repeat bg-center bg-cover h-72 md:h-[513px] font-montserrat font-[700] text-center flex justify-center items-center md:pt-30 md:mb-16 md:px-[270px] text-white flex-col`}
       >
         <h1 className=" text-[23px] md:text-[30px] px-5">
           We champion policies, drive collaboration, innovation, employability
