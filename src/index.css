@@ -17,6 +17,10 @@
   background-image: url('../src/assets/nnia3.jpg');
 }
 
+.home{
+  background-image: url('../src/assets/home.jpg'); 
+}
+
 .aboutt{
   background-image: url('../src/assets/about.png');
 }

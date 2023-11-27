@@ -81,7 +81,7 @@ const Home = () => {
     <div className="font-montserrat bg-background">
       <Header
         description={"The Largest Network of Incubators, Accelerators, Innovators, and Startups in Northern Nigeria."}
-        img={"hero"}
+        back={"home"}
       />
 
       <div className=" md:my-20 flex justify-center items-center flex-col mx-5 text-center md:text-left md:mx-16">
