@@ -25,6 +25,10 @@
   background-image: url('../src/assets/about.png');
 }
 
+.hero{
+  background-image: url('../src/assets/bgg.png');
+}
+
 .eventt{
   background-image: url('../src/assets/events.png');
 }
