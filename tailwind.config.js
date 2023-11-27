@@ -17,6 +17,7 @@ export default {
       },
       backgroundImage: {
         hero: "url('/src/assets/bgg.png')",
+        contact: "url('/src/assets/nnia3.jpg')",
         big: "url('/src/assets/blog.png')",
         about: "url('/src/assets/about.png')",
         events: "url('/src/assets/events.png')",

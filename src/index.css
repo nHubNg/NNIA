@@ -14,7 +14,7 @@
 }
 
 .blogg{
-  background-image: url('../src/assets/blog.png');
+  background-image: url('../src/assets/nnia3.jpg');
 }
 
 .aboutt{
@@ -31,4 +31,8 @@
 
 .partner{
   background-image: url('../src/assets/partner.png');
+}
+
+.contact{
+  background-image: url('../src/assets/nnia2.jpg');
 }

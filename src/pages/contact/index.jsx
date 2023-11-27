@@ -1,12 +1,11 @@
 import Header from "../../components/Header";
 import Input from "./components/Inputs";
-
 import pathh from '../../assets/Path.png'
 
 const Contact = () => {
     return (<>
         <div className="font-montserrat bg-background">
-            <Header img={'hero'} />
+            <Header back={'contact'} />
 
             <div className=" text-center mb-20">
                 <h1 className="font-[700] text-twitterBlue text-[30px] mt-[48px] mb-[25px]">
