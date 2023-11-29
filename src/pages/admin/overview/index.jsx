@@ -52,7 +52,7 @@ const Overview = () => {
             <div className="flex flex-col gap-y-5 w-full md:w-[50%]">
                 <div className="w-full">
                     <h5 className="px-3">Full name</h5>
-                    <p className="border border-adminBorder w-[95%] md:w-[100%] mx-auto  rounded-md outline-none px-3 py-2 mt-2">Bashir Shiedu</p>
+                    <p className="border border-adminBorder w-[95%] md:w-[100%] mx-auto  rounded-md outline-none px-3 py-2 mt-2">NNIA</p>
 
                 </div>
                 <div>
