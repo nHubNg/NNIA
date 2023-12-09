@@ -12,6 +12,9 @@ import jostgreen from "../../assets/jostgreen.png";
 import nhubfoundation from "../../assets/nhubfoundation.png";
 import innovations from "../../assets/innovations.jpeg";
 import loveTech from "../../assets/loveTech.jpeg"
+import startupBauchi from '../../assets/startupBauchi.jpg'
+import startupArewa from '../../assets/startupArewa.jpg'
+import pictda from '../../assets/pictda.jpg'
 import { Link } from "react-router-dom";
 
 const Members = () => {
@@ -43,6 +46,9 @@ const Members = () => {
             <Card img={akclogo} link='https://akconnecthub.com.ng' text='AKCONNECTHUB is reducing digital illiteracy among young individuals and vulnerable groups (disabled individuals) in North Central Nigeria by making learning fun to them and promoting inclusion. We&apos;re breaking language barrier in learning tech.' />
             <Card img={innovations} link='https://www.02innovationslab.com/' text='02 Innovations Lab is a technology innovation hub dedicated to providing innovative solutions tailored to meet the needs of SMEs, startups, and various organizations.' />
             <Card img={stl} link='https://sunnahtechlab.com' text='Sunnah Tech Lab is a dynamic and forward-thinking tech hub committed to cultivating talent and narrowing the digital divide, with a special focus on underserved communities. Our mission revolves around incubating and accelerating innovative ideas, empowering individuals to turn their tech dreams into reality. Through cutting-edge resources, mentorship, and a vibrant community, we strive to foster a culture of innovation and inclusivity' />
+            <Card img={pictda} />
+            <Card img={startupArewa} />
+            <Card img={startupBauchi} />
 
           </div>
 
