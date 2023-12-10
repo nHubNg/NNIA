@@ -17,10 +17,6 @@ const CurrentPartners = () => {
           <h2 className="punchLine text-[30px] text-twitterBlue">
             See Our Current Partners
           </h2>
-          <p className="mt-[45px] text-center">
-            We partner with the best in the industry to bring you the best in
-            tech
-          </p>
         </section>
 
         {/* <section className="w-[85%] mx-auto space-y-[10rem]"> */}
