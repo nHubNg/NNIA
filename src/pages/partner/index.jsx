@@ -41,7 +41,7 @@ const Partner = () => {
                 </form>
             </div>
             <div className="flex justify-center items-center mb-20">
-                <Link to='currentPartners'>
+                <Link to='/currentPartners'>
                     <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group
                         ">See Partners<img src={pathh} alt="" className="hidden group-hover:block" /></button>
                 </Link>
