@@ -22,7 +22,7 @@ const Members = () => {
       <h1 className="sr-only">members page</h1>
       <main>
         <section className="mx-auto mt-[68px]">
-          <h2 className="punchLine text-twitterBlue">Info About Partner Hubs</h2>
+          <h2 className="punchLine text-twitterBlue">Info About Member Hubs</h2>
         </section>
 
         <section className="pt-[50px] pb-[100px]">
