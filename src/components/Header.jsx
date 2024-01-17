@@ -41,7 +41,7 @@ const Header = ({ description, img, back }) => {
             <p className=" cursor-pointer">Privacy</p>
             <p className=" cursor-pointer">Cookies</p>
           </div>
-          <div className="flex">
+          <div className="flex justify-center items-center gap-1">
             <a href="/">
               <img src={facebook} alt="" />
             </a>
