@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import startupBauchi from '../../assets/startupBauchi.jpg'
 import startupArewa from '../../assets/startupArewa.jpg'
 import pictda from '../../assets/pictda.jpg'
+import ymi from '../../assets/ymi.png'
 
 const CurrentPartners = () => {
   return (
@@ -20,7 +21,7 @@ const CurrentPartners = () => {
         </section>
 
         {/* <section className="w-[85%] mx-auto space-y-[10rem]"> */}
-          {/* <PartnersCaption
+        {/* <PartnersCaption
             flexDir={"md:flex-row"}
             img={Image}
             pathh={pathh}
@@ -40,18 +41,24 @@ const CurrentPartners = () => {
               <div className="absolute top-0 left-0 right-0 h-full flex items-center justify-center bg-white border-[6px] border-twitterBlue z-10 rounded-[10px]">
                 <img src={startupBauchi} alt="" />
               </div>
-          </div>
+            </div>
             <div className="max-w-[400px] h-[375px] relative group cursor-pointer overflow-y-hidden hover: group">
               <div className="absolute top-0 left-0 right-0 h-full flex items-center justify-center bg-white border-[6px] border-twitterBlue z-10 rounded-[10px]">
                 <img src={startupArewa} alt="" />
               </div>
-            </div><div className="max-w-[400px] h-[375px] relative group cursor-pointer overflow-y-hidden hover: group">
+            </div>
+            <div className="max-w-[400px] h-[375px] relative group cursor-pointer overflow-y-hidden hover: group">
               <div className="absolute top-0 left-0 right-0 h-full flex items-center justify-center bg-white border-[6px] border-twitterBlue z-10 rounded-[10px]">
                 <img src={pictda} alt="" />
               </div>
             </div>
+            <div className="max-w-[400px] h-[375px] relative group cursor-pointer overflow-y-hidden hover: group">
+              <div className="absolute top-0 left-0 right-0 h-full flex items-center justify-center bg-white border-[6px] border-twitterBlue z-10 rounded-[10px]">
+                <img src={ymi} alt="" />
+              </div>
+            </div>
           </div>
-          </section>
+        </section>
 
         <Link to='/partner'>
           <button className="px-5 py-2 mt-[218px] mx-auto border-twitterBlue border-[1px] text-twitterBlue font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group">
