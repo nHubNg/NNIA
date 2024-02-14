@@ -2,7 +2,7 @@ import Header from "../../components/Header";
 import Card from "./components/Card";
 import Image from "../../assets/nHub-logo.png";
 import axia from "../../assets/axia-logo.svg";
-import mainstream from "../../assets/mainstream.png";
+import mainstream from "../../assets/mainstream.jpeg";
 import skyhub from "../../assets/skyhub.png";
 import akclogo from "../../assets/akclogo.png";
 import stl from "../../assets/stl.jpg";
