@@ -20,8 +20,9 @@ import BoardMembers from "./component/board";
 // import theodore from "../../assets/theodore.png";
 // import nnamdi from "../../assets/nnamdi.png";
 import khamis from "../../assets/khamis.png";
-import aisha from "../../assets/aisha.jpeg";
+import yusuf from "../../assets/yusuf.jpeg";
 import taisu from "../../assets/taisu.jpeg";
+import solomon from "../../assets/solomon.jpeg";
 import juliana from "../../assets/juliana.jpeg";
 // import joey from "../../assets/joey.png";
 import axia from "../../assets/axia-logo.svg";
@@ -232,7 +233,7 @@ const About = () => {
             <BoardMembers
               memberImage={khamis}
               memberName={"Khamis Malami"}
-              memberPosition={"Director Public Sector Engagement"}
+              memberPosition={"Communications/Marketing Lead"}
               // department={"CEO"}
               // memberOrganisation={"meHub"}
               twitterPage={"https://google.com"}
@@ -240,35 +241,36 @@ const About = () => {
               linkedinPage={"https://google.com"}
             />
             <BoardMembers
-              memberImage={aisha}
-              memberName={"Aisha Abubakar"}
-              memberPosition={"Director Finance"}
+              memberImage={yusuf}
+              memberName={"Yusuf Ahmed"}
+              memberPosition={"Zonal Lead North West"}
               // department={"CEO"}
               // memberOrganisation={"meHub"}
-              twitterPage={"https://google.com"}
-              facebookPage={"https://google.com"}
-              linkedinPage={"https://google.com"}
+              twitterPage={"https://twitter.com/yusufahmedng"}
+              facebookPage={"https://www.facebook.com/monsieurdahab"}
+              linkedinPage={"https://linkedin.com/in/yusufahmedng"}
             />
             <BoardMembers
               memberImage={taisu}
               memberName={"Tasiu Kwaplong Saeed"}
-              memberPosition={"Director Communications/Marketing"}
+              memberPosition={"Zonal Partnership Lead North West"}
               // department={"Media"}
               // memberOrganisation={"nHub"}
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
               />
-              {/* <BoardMembers
-                memberImage={miriam}
-                memberName={"Miriam Chris"}
-                memberPosition={"Director"}
-                // department={"Media"}
-                // memberOrganisation={"nHub"}
-                twitterPage={"https://google.com"}
-                facebookPage={"https://google.com"}
-                linkedinPage={"https://google.com"}
-              />
+            <BoardMembers
+              memberImage={solomon}
+              memberName={"Solomon Kershima Yateghtegh"}
+              memberPosition={"Lead North Central"}
+              // department={"Media"}
+              // memberOrganisation={"nHub"}
+              twitterPage={"https://twitter.com/yateghteghsky"}
+              facebookPage={"https://instagram.com/yateghteghsky"}
+              linkedinPage={"https://linkedin.com/in/yateghteghsky"}
+            />
+              {/* 
             <BoardMembers
               memberImage={pamDung}
               memberName={"Pam Dung Badung"}
