@@ -9,22 +9,11 @@ import service2 from "../../assets/service2.png";
 import service3 from "../../assets/service3.png";
 import service4 from "../../assets/service4.png"
 import BoardMembers from "./component/board";
-// import bashir from "../../assets/bashir.png";
-// import pam from "../../assets/pam.png";
-// import musa from "../../assets/musa.png";
-// import silas from "../../assets/silas.png";
-// import precious from "../../assets/precious.png";
-// import miriam from "../../assets/miriam.png";
-// import samaila from "../../assets/samaila.png";
-// import pamDung from "../../assets/pamDung.png";
-// import theodore from "../../assets/theodore.png";
-// import nnamdi from "../../assets/nnamdi.png";
 import khamis from "../../assets/khamis.png";
 import yusuf from "../../assets/yusuf.jpeg";
 import taisu from "../../assets/taisu.jpeg";
 import solomon from "../../assets/solomon.jpeg";
 import juliana from "../../assets/juliana.jpeg";
-// import joey from "../../assets/joey.png";
 import axia from "../../assets/axia-logo.svg";
 import mainstream from "../../assets/mainstream.png";
 import { Link } from "react-router-dom";
@@ -133,7 +122,7 @@ const About = () => {
               description={
                 "We are a modern space, an idea la that encourages creativity,self development, growth and high end skill acquisition. We nurture minds to brilliance, we mentor young minds to understand the formidability of passion, consistency and diligence"
               }
-              
+
             />
             {/* <HubCard /> */}
 
@@ -182,50 +171,25 @@ const About = () => {
           <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-[45px]">
             <BoardMembers
               memberImage={"https://res.cloudinary.com/nhubnacademy/image/upload/v1682900757/nHubFoundation/bash_efr3k8.jpg"}
-              memberName={"Bashir Shaidu"}
+              memberName={"Bashir Sheidu"}
               memberPosition={"Chairman"}
-              // department={"COO"}
-              // memberOrganisation={"nHub"}
               twitterPage={"https://twitter.com"}
               facebookPage={"https://facebook.com"}
               linkedinPage={"https://linkedin.com"}
             />
-            {/* <BoardMembers
-              memberImage={nnamdi}
-              memberName={"Nnamdi Ibe"}
-              memberPosition={"Secretary"}
-              // department={""}
-              // memberOrganisation={"nHub"}
+
+            <BoardMembers
+              memberImage={"https://res.cloudinary.com/nhubnacademy/image/upload/v1678914784/nhubNigeria/sam_mffar3.jpg"}
+              memberName={"Samuel Adebayo"}
+              memberPosition={"Ecosystem Director"}
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
-              /> */}
-              {/* <BoardMembers
-                memberImage={"https://res.cloudinary.com/nhubnacademy/image/upload/v1682954565/nHubFoundation/eric-nanle_1_l5boss.png"}
-                memberName={"Eric Nanle"}
-                memberPosition={"Treasurer"}
-                // department={"CEO"}
-                // memberOrganisation={"nHub Foundation"}
-                twitterPage={"https://google.com"}
-                facebookPage={"https://google.com"}
-                linkedinPage={"https://google.com"}
-              /> */}
-              <BoardMembers
-                memberImage={"https://res.cloudinary.com/nhubnacademy/image/upload/v1678914784/nhubNigeria/sam_mffar3.jpg"}
-                memberName={"Samuel Adebayo"}
-              memberPosition={"Ecosystem Director"}
-                // department={"Head of Partnership"}
-                // memberOrganisation={"nHub"}
-                twitterPage={"https://google.com"}
-                facebookPage={"https://google.com"}
-                linkedinPage={"https://google.com"}
-              />
+            />
             <BoardMembers
               memberImage={juliana}
               memberName={"Juliana Alu"}
-              memberPosition={"Director Private Sector Engagement"}
-              // department={"CEO"}
-              // memberOrganisation={"meHub"}
+              memberPosition={"Lead Global Partnership"}
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
@@ -234,8 +198,6 @@ const About = () => {
               memberImage={khamis}
               memberName={"Khamis Malami"}
               memberPosition={"Communications/Marketing Lead"}
-              // department={"CEO"}
-              // memberOrganisation={"meHub"}
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
@@ -243,9 +205,7 @@ const About = () => {
             <BoardMembers
               memberImage={yusuf}
               memberName={"Yusuf Ahmed"}
-              memberPosition={"Zonal Lead North West"}
-              // department={"CEO"}
-              // memberOrganisation={"meHub"}
+              memberPosition={"Zonal Partnership Lead North East"}
               twitterPage={"https://twitter.com/yusufahmedng"}
               facebookPage={"https://www.facebook.com/monsieurdahab"}
               linkedinPage={"https://linkedin.com/in/yusufahmedng"}
@@ -254,33 +214,19 @@ const About = () => {
               memberImage={taisu}
               memberName={"Tasiu Kwaplong Saeed"}
               memberPosition={"Zonal Partnership Lead North West"}
-              // department={"Media"}
-              // memberOrganisation={"nHub"}
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
-              />
+            />
             <BoardMembers
               memberImage={solomon}
               memberName={"Solomon Kershima Yateghtegh"}
-              memberPosition={"Lead North Central"}
-              // department={"Media"}
-              // memberOrganisation={"nHub"}
+              memberPosition={"Zonal Partnership Lead North Central"}
               twitterPage={"https://twitter.com/yateghteghsky"}
               facebookPage={"https://instagram.com/yateghteghsky"}
               linkedinPage={"https://linkedin.com/in/yateghteghsky"}
             />
-              {/* 
-            <BoardMembers
-              memberImage={pamDung}
-              memberName={"Pam Dung Badung"}
-              memberPosition={"Director"}
-              department={"Corporate"}
-              memberOrganisation={"nHub"}
-              twitterPage={"https://google.com"}
-              facebookPage={"https://google.com"}
-              linkedinPage={"https://google.com"}
-            /> */}
+
           </div>
         </div>
       </div>
