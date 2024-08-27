@@ -80,7 +80,7 @@ const Home = () => {
   return (
     <div className="font-montserrat bg-background">
       <Header
-        description={"The Largest Network of Incubators, Accelerators, Innovators, and Startups in Northern Nigeria."}
+        description={"The Largest Network of Incubators, Accelerators, Innovators, Creatives, and Startups in Northern Nigeria."}
         back={"hero"}
       />
 
