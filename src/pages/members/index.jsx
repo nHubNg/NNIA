@@ -117,7 +117,7 @@ const Members = () => {
             />
             <Card img={avo} link="http://avoorigin.com" text="" />
             <Card img={oo} link="http://opologlobal.com" text="" />
-            <Card img={inifi} link="#" text="" />
+            {/* <Card img={inifi} link="#" text="" /> */}
           </div>
 
           <Link to="/joinUs">
