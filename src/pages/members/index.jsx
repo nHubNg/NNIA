@@ -108,7 +108,7 @@ const Members = () => {
             />
             <Card
               img={mamotech}
-              text="Thinkhub provides young people with a platform to bring their creative ideas to life assuming constraints. Serving the city of Jos, Thinkhub aims to broaden the perspective of talented youth in Jos and help them create content transcending their locality to the world."
+              text=""
             />
             <Card
               img={NASCOMSOFT}
@@ -117,7 +117,7 @@ const Members = () => {
             />
             <Card img={avo} link="http://avoorigin.com" text="" />
             <Card img={oo} link="http://opologlobal.com" text="" />
-            <Card img={oo} link="http://opologlobal.com" text="" />
+            <Card img={inifi} link="#" text="" />
           </div>
 
           <Link to="/joinUs">

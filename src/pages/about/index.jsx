@@ -7,22 +7,23 @@ import Services from "./component/services";
 import service1 from "../../assets/service1.png";
 import service2 from "../../assets/service2.png";
 import service3 from "../../assets/service3.png";
-import service4 from "../../assets/service4.png"
+import service4 from "../../assets/service4.png";
 import BoardMembers from "./component/board";
 import khamis from "../../assets/khamis.png";
 import yusuf from "../../assets/yusuf.jpeg";
 import taisu from "../../assets/taisu.jpeg";
 import solomon from "../../assets/solomon.jpeg";
-import juliana from "../../assets/juliana.jpeg";
+import nathan from "../../assets/nathan.jpg";
+import amina from "../../assets/amin.jpg";
+import ojile from "../../assets/Ojile.jpg";
 import axia from "../../assets/axia-logo.svg";
 import mainstream from "../../assets/mainstream.png";
 import { Link } from "react-router-dom";
 
-
 const About = () => {
   return (
     <div className="w-[100%] overflow-x-hidden bg-background">
-      <Header back={'aboutt'} />
+      <Header back={"aboutt"} />
 
       <div className="font-montserrat bg-background items-center justify-center mx-[24px] mb-36">
         {/* heading container */}
@@ -34,14 +35,19 @@ const About = () => {
           <p className="md:mx-[140px]">
             A network on a mission to create an environment in which all players
             in the Northern startup ecosystem can work together in harmony and
-            cooperation and also serve as a pressure group to bring meaningful opportunities to member hubs and startups, with the ultimate goal of supporting and accelerating
-            the growth of member hubs and startups.
+            cooperation and also serve as a pressure group to bring meaningful
+            opportunities to member hubs and startups, with the ultimate goal of
+            supporting and accelerating the growth of member hubs and startups.
           </p>
           <p className="md:mx-[140px]">
-            Through research and development and mutual support and co-creation, we believe that we can create a thriving startup ecosystem that benefits everyone involved, from entrepreneurs and investors to service providers and government agencies.  By fostering a culture of collaboration and open communication, we
-            hope to create a vibrant and dynamic community that attracts
-            talent and investment, and helps to position Northern NIgeria as a hub for
-            innovation and entrepreneurship.
+            Through research and development and mutual support and co-creation,
+            we believe that we can create a thriving startup ecosystem that
+            benefits everyone involved, from entrepreneurs and investors to
+            service providers and government agencies. By fostering a culture of
+            collaboration and open communication, we hope to create a vibrant
+            and dynamic community that attracts talent and investment, and helps
+            to position Northern NIgeria as a hub for innovation and
+            entrepreneurship.
           </p>
         </div>
 
@@ -112,7 +118,6 @@ const About = () => {
               description={
                 "Axia Hub is a value and solution driven technology and innovation hub that aids individuals, businesses, organizations, systems and governments, become knowledgeable, valuable, productive & efficient, by the creation, application and use of cutting edge innovative tools, products, services, initiatives and processes aimed at improving the society, in Africa and beyond."
               }
-
             />
             <HubCard
               hubLogo={mainstream}
@@ -122,14 +127,12 @@ const About = () => {
               description={
                 "We are a modern space, an idea la that encourages creativity,self development, growth and high end skill acquisition. We nurture minds to brilliance, we mentor young minds to understand the formidability of passion, consistency and diligence"
               }
-
             />
             {/* <HubCard /> */}
-
           </div>
 
           <div className="flex justify-center items-center">
-            <Link to='/members'>
+            <Link to="/members">
               <button className="px-5 py-2 border-twitterBlue border-[1px] text-twitterBlue mt-[35px] font-[700] rounded hover:bg-twitterBlue hover:text-white flex items-center gap-3 group">
                 See all Members
                 <img src={pathh} alt="" className="hidden group-hover:block" />
@@ -170,7 +173,9 @@ const About = () => {
 
           <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-[45px]">
             <BoardMembers
-              memberImage={"https://res.cloudinary.com/nhubnacademy/image/upload/v1682900757/nHubFoundation/bash_efr3k8.jpg"}
+              memberImage={
+                "https://res.cloudinary.com/nhubnacademy/image/upload/v1682900757/nHubFoundation/bash_efr3k8.jpg"
+              }
               memberName={"Bashir Sheidu"}
               memberPosition={"Chairman"}
               twitterPage={"https://twitter.com"}
@@ -179,7 +184,9 @@ const About = () => {
             />
 
             <BoardMembers
-              memberImage={"https://res.cloudinary.com/nhubnacademy/image/upload/v1678914784/nhubNigeria/sam_mffar3.jpg"}
+              memberImage={
+                "https://res.cloudinary.com/nhubnacademy/image/upload/v1678914784/nhubNigeria/sam_mffar3.jpg"
+              }
               memberName={"Samuel Adebayo"}
               memberPosition={"Ecosystem Director"}
               twitterPage={"https://google.com"}
@@ -187,20 +194,26 @@ const About = () => {
               linkedinPage={"https://google.com"}
             />
             <BoardMembers
-              memberImage={juliana}
-              memberName={"Juliana Alu"}
+              memberImage={amina}
+              memberName={"Amina Ibrahim"}
               memberPosition={"Lead Global Partnership"}
-              twitterPage={"https://google.com"}
-              facebookPage={"https://google.com"}
-              linkedinPage={"https://google.com"}
+              twitterPage={
+                "https://x.com/meeiynalicious/status/1054011062461366272?s=46&t=0kHuBtfBie5WZbSvXto_7w"
+              }
+              facebookPage={
+                "https://www.facebook.com/amina.ibrahim.9847?mibextid=LQQJ4d"
+              }
+              linkedinPage={
+                "http://www.linkedin.com/in/amina-ibrahim-72527b160"
+              }
             />
             <BoardMembers
-              memberImage={khamis}
-              memberName={"Khamis Malami"}
+              memberImage={ojile}
+              memberName={"Tryphena Ene Ojile"}
               memberPosition={"Communications/Marketing Lead"}
-              twitterPage={"https://google.com"}
-              facebookPage={"https://google.com"}
-              linkedinPage={"https://google.com"}
+              twitterPage={""}
+              facebookPage={"https://m.facebook.com/tryphena.ojile.5/"}
+              linkedinPage={"https://ng.linkedin.com/in/tryphena-ojile"}
             />
             <BoardMembers
               memberImage={yusuf}
@@ -226,7 +239,18 @@ const About = () => {
               facebookPage={"https://instagram.com/yateghteghsky"}
               linkedinPage={"https://linkedin.com/in/yateghteghsky"}
             />
-
+            <BoardMembers
+              memberImage={nathan}
+              memberName={"Nathan Pankyes H."}
+              memberPosition={"Legal"}
+              twitterPage={
+                "https://x.com/PkNathan2?t=pM_MUY8LubEBjaSft_wjjw&s=08"
+              }
+              facebookPage={
+                "https://www.facebook.com/share/Hwgnwad2FpToz81K/?mibextid=qi2Omg"
+              }
+              // linkedinPage={"https://linkedin.com/in/yateghteghsky"}
+            />
           </div>
         </div>
       </div>
