@@ -20,6 +20,7 @@ import NASCOMSOFT from "../../assets/NASCOMSOFT LOGO.png";
 import avo from "../../assets/avo.jpg";
 import oo from "../../assets/oo.jpg";
 import inifi from "../../assets/inifi.jpg";
+import technorth from "../../assets/technorth.jpg";
 import { Link } from "react-router-dom";
 
 const Members = () => {
@@ -117,7 +118,7 @@ const Members = () => {
             />
             <Card img={avo} link="http://avoorigin.com" text="" />
             <Card img={oo} link="http://opologlobal.com" text="" />
-            {/* <Card img={inifi} link="#" text="" /> */}
+            <Card img={technorth} link="http://www.tnhub.com.ng" text="The Tech North Hub is a social innovative community birthed with the vision to revolutionize the tech space of the northernregion of Nigeria and promote innovation by empowering young minds from the north with digital skills, and connecting them to global opportunities; thereby preparing them for the future of jobs, and brooding potentials that will produce global digital solutions from the corridors of the north." />
           </div>
 
           <Link to="/joinUs">
