@@ -9,7 +9,7 @@ import service2 from "../../assets/service2.png";
 import service3 from "../../assets/service3.png";
 import service4 from "../../assets/service4.png";
 import BoardMembers from "./component/board";
-import khamis from "../../assets/khamis.png";
+import juliana from "../../assets/juliana.jpeg";
 import yusuf from "../../assets/yusuf.jpeg";
 import taisu from "../../assets/taisu.jpeg";
 import solomon from "../../assets/solomon.jpeg";
@@ -184,10 +184,8 @@ const About = () => {
             />
 
             <BoardMembers
-              memberImage={
-                "https://res.cloudinary.com/nhubnacademy/image/upload/v1678914784/nhubNigeria/sam_mffar3.jpg"
-              }
-              memberName={"Samuel Adebayo"}
+              memberImage={juliana}
+              memberName={"Alu Juliana"}
               memberPosition={"Ecosystem Director"}
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
