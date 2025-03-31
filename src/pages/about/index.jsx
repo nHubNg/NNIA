@@ -183,14 +183,14 @@ const About = () => {
               linkedinPage={"https://linkedin.com"}
             />
 
-            <BoardMembers
+{/*             <BoardMembers
               memberImage={juliana}
               memberName={"Alu Juliana"}
               memberPosition={"Ecosystem Director"}
               twitterPage={"https://google.com"}
               facebookPage={"https://google.com"}
               linkedinPage={"https://google.com"}
-            />
+            /> */}
             <BoardMembers
               memberImage={amina}
               memberName={"Amina Ibrahim"}
